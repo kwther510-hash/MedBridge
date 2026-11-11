@@ -1,0 +1,1707 @@
+{
+  "project": "MedBridge",
+  "module": "Musculoskeletal System",
+  "region": "Upper Limb",
+  "week": 1,
+  "version": "1.0",
+  "content_status": {
+    "university_material": "Reviewed for the five listed source files",
+    "lecture_mcqs": "Extracted",
+    "quick_recall": "Generated",
+    "clinical_case_mcqs": "Deferred until end of unit as requested",
+    "osce": "Framework drafted; procedural details limited by source material",
+    "final_case_json": "Structured draft based on currently reviewed Week 1 sources"
+  },
+  "source_files": [
+    {
+      "file": "The Axilla",
+      "pages": 17
+    },
+    {
+      "file": "Muscles of Shoulder Region",
+      "pages": 15
+    },
+    {
+      "file": "Applied Anatomy – Shoulder Joint",
+      "pages": 74
+    },
+    {
+      "file": "Brachial Plexus",
+      "pages": 33
+    },
+    {
+      "file": "PBL 1: A Painful Shoulder",
+      "pages": 3
+    }
+  ],
+  "lecture_mcqs": [
+    {
+      "id": "ULW1-LMCQ-01",
+      "type": "lecture_mcq",
+      "section": "Anterior Shoulder Dislocation",
+      "source_question_number": "Q1",
+      "question": "Which ligament is the PRIMARY restraint to anterior dislocation in abduction?",
+      "options": [
+        "A. Superior glenohumeral ligament (SGHL)",
+        "B. Middle glenohumeral ligament (MGHL)",
+        "C. Inferior glenohumeral ligament (IGHL)",
+        "D. Coracohumeral ligament"
+      ],
+      "correct_answer": "C. Inferior glenohumeral ligament (IGHL)",
+      "answer_basis": "Derived from the explanation printed on the same lecture slide; explicitly marked Correct where indicated.",
+      "explanation_from_source": "IGHL's anterior band tightens in abduction/external rotation.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "page": 34
+      }
+    },
+    {
+      "id": "ULW1-LMCQ-02",
+      "type": "lecture_mcq",
+      "section": "Anterior Shoulder Dislocation",
+      "source_question_number": "Q2",
+      "question": "What structure is avulsed in a \"bony Bankart\" lesion?",
+      "options": [
+        "A. Greater tuberosity",
+        "B. Anteroinferior glenoid rim",
+        "C. Coracoid process",
+        "D. Lesser tuberosity"
+      ],
+      "correct_answer": "B. Anteroinferior glenoid rim",
+      "answer_basis": "Derived from the explanation printed on the same lecture slide; explicitly marked Correct where indicated.",
+      "explanation_from_source": "Fracture involves anterior-inferior glenoid (critical for stability).",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "page": 35
+      }
+    },
+    {
+      "id": "ULW1-LMCQ-03",
+      "type": "lecture_mcq",
+      "section": "Anterior Shoulder Dislocation",
+      "source_question_number": "Q3",
+      "question": "Which nerve is MOST commonly injured?",
+      "options": [
+        "A. Musculocutaneous",
+        "B. Axillary",
+        "C. Suprascapular",
+        "D. Radial"
+      ],
+      "correct_answer": "B. Axillary",
+      "answer_basis": "Derived from the explanation printed on the same lecture slide; explicitly marked Correct where indicated.",
+      "explanation_from_source": "Axillary nerve wraps around surgical neck; stretches during dislocation.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "page": 36
+      }
+    },
+    {
+      "id": "ULW1-LMCQ-04",
+      "type": "lecture_mcq",
+      "section": "Anterior Shoulder Dislocation",
+      "source_question_number": "Q4",
+      "question": "The Hill-Sachs lesion results from impaction against what structure?",
+      "options": [
+        "A. Coracoid process",
+        "B. Anterior glenoid rim",
+        "C. Acromion",
+        "D. Clavicle"
+      ],
+      "correct_answer": "B. Anterior glenoid rim",
+      "answer_basis": "Derived from the explanation printed on the same lecture slide; explicitly marked Correct where indicated.",
+      "explanation_from_source": "Humeral head impacts anterior glenoid during dislocation.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "page": 38
+      }
+    },
+    {
+      "id": "ULW1-LMCQ-05",
+      "type": "lecture_mcq",
+      "section": "Anterior Shoulder Dislocation",
+      "source_question_number": "Q5",
+      "question": "What percentage of stability does the glenoid labrum contribute?",
+      "options": [
+        "A. 10%",
+        "B. 20%",
+        "C. 50%",
+        "D. 75%"
+      ],
+      "correct_answer": "C. 50%",
+      "answer_basis": "Derived from the explanation printed on the same lecture slide; explicitly marked Correct where indicated.",
+      "explanation_from_source": "Labrum doubles glenoid depth and increases concavity-compression.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "page": 39
+      }
+    },
+    {
+      "id": "ULW1-LMCQ-06",
+      "type": "lecture_mcq",
+      "section": "Anterior Shoulder Dislocation",
+      "source_question_number": "Q6",
+      "question": "Which position MOST predisposes to anterior dislocation?",
+      "options": [
+        "A. Adduction + internal rotation",
+        "B. Abduction + external rotation",
+        "C. Flexion + pronation",
+        "D. Extension + radial deviation"
+      ],
+      "correct_answer": "B. Abduction + external rotation",
+      "answer_basis": "Derived from the explanation printed on the same lecture slide; explicitly marked Correct where indicated.",
+      "explanation_from_source": "\"Apprehension position\" stresses the IGHL.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "page": 40
+      }
+    },
+    {
+      "id": "ULW1-LMCQ-07",
+      "type": "lecture_mcq",
+      "section": "Shoulder Impingement Syndrome",
+      "source_question_number": "Q1",
+      "question": "Which tendon is MOST commonly compressed in impingement syndrome?",
+      "options": [
+        "A. Subscapularis",
+        "B. Supraspinatus",
+        "C. Biceps brachii",
+        "D. Teres minor"
+      ],
+      "correct_answer": "B. Supraspinatus",
+      "answer_basis": "Derived from the explanation printed on the same lecture slide; explicitly marked Correct where indicated.",
+      "explanation_from_source": "Supraspinatus passes beneath the acromion; vulnerable to compression.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "page": 47
+      }
+    },
+    {
+      "id": "ULW1-LMCQ-08",
+      "type": "lecture_mcq",
+      "section": "Shoulder Impingement Syndrome",
+      "source_question_number": "Q2",
+      "question": "Which acromion type has the HIGHEST impingement risk?",
+      "options": [
+        "A. Type I (Flat)",
+        "B. Type II (Curved)",
+        "C. Type III (Hooked)",
+        "D. Type IV (Convex)"
+      ],
+      "correct_answer": "C. Type III (Hooked)",
+      "answer_basis": "Derived from the explanation printed on the same lecture slide; explicitly marked Correct where indicated.",
+      "explanation_from_source": "Hooked acromion narrows the subacromial space.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "page": 48
+      }
+    },
+    {
+      "id": "ULW1-LMCQ-09",
+      "type": "lecture_mcq",
+      "section": "Shoulder Impingement Syndrome",
+      "source_question_number": "Q3",
+      "question": "Which muscle's weakness contributes to SECONDARY impingement?",
+      "options": [
+        "A. Pectoralis major",
+        "B. Serratus anterior (Correct)",
+        "C. Latissimus dorsi",
+        "D. Teres major"
+      ],
+      "correct_answer": "B. Serratus anterior",
+      "answer_basis": "Derived from the explanation printed on the same lecture slide; explicitly marked Correct where indicated.",
+      "explanation_from_source": "Serratus anterior weakness → scapular dyskinesia → abnormal acromial positioning.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "page": 49
+      }
+    },
+    {
+      "id": "ULW1-LMCQ-10",
+      "type": "lecture_mcq",
+      "section": "Shoulder Impingement Syndrome",
+      "source_question_number": "Q4",
+      "question": "What does a positive Hawkins test indicate?",
+      "options": [
+        "A. AC joint pathology",
+        "B. Subacromial impingement",
+        "C. Biceps tendinopathy",
+        "D. Glenohumeral instability"
+      ],
+      "correct_answer": "B. Subacromial impingement",
+      "answer_basis": "Derived from the explanation printed on the same lecture slide; explicitly marked Correct where indicated.",
+      "explanation_from_source": "Forced internal rotation compresses the cuff against the coracoacromial ligament.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "page": 50
+      }
+    },
+    {
+      "id": "ULW1-LMCQ-11",
+      "type": "lecture_mcq",
+      "section": "Shoulder Impingement Syndrome",
+      "source_question_number": "Q6",
+      "question": "Which test BEST isolates supraspinatus impingement?",
+      "options": [
+        "A. Neer test",
+        "B. Hawkins test",
+        "C. Empty can test",
+        "D. Lift-off test"
+      ],
+      "correct_answer": "C. Empty can test",
+      "answer_basis": "Derived from the explanation printed on the same lecture slide; explicitly marked Correct where indicated.",
+      "explanation_from_source": "Empty can (arm abducted to 90°, internally rotated) stresses supraspinatus.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "page": 51
+      }
+    },
+    {
+      "id": "ULW1-LMCQ-12",
+      "type": "lecture_mcq",
+      "section": "Frozen Shoulder (Adhesive Capsulitis)",
+      "source_question_number": "Q1",
+      "question": "Which ligament’s contracture is MOST responsible for restricted external rotation in frozen shoulder?",
+      "options": [
+        "A. Coracoacromial ligament",
+        "B. Coracohumeral ligament",
+        "C. Transverse humeral ligament",
+        "D. Glenohumeral ligament"
+      ],
+      "correct_answer": "B. Coracohumeral ligament",
+      "answer_basis": "Derived from the explanation printed on the same lecture slide; explicitly marked Correct where indicated.",
+      "explanation_from_source": "The coracohumeral ligament tightens, limiting external rotation and abduction.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "page": 57
+      }
+    },
+    {
+      "id": "ULW1-LMCQ-13",
+      "type": "lecture_mcq",
+      "section": "Frozen Shoulder (Adhesive Capsulitis)",
+      "source_question_number": "Q2",
+      "question": "Which anatomical space is characteristically obliterated in frozen shoulder?",
+      "options": [
+        "A. Subacromial space",
+        "B. Axillary recess",
+        "C. Quadrilateral space",
+        "D. Supraspinatus fossa"
+      ],
+      "correct_answer": "B. Axillary recess",
+      "answer_basis": "Derived from the explanation printed on the same lecture slide; explicitly marked Correct where indicated.",
+      "explanation_from_source": "The axillary recess (inferior capsular pouch) shrinks, reducing abduction.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "page": 58
+      }
+    },
+    {
+      "id": "ULW1-LMCQ-14",
+      "type": "lecture_mcq",
+      "section": "Frozen Shoulder (Adhesive Capsulitis)",
+      "source_question_number": "Q3",
+      "question": "What is the histological hallmark of frozen shoulder?",
+      "options": [
+        "A. Cartilage erosion",
+        "B. Synovial inflammation + capsular fibrosis",
+        "C. Tendon calcification",
+        "D. Bone spurs"
+      ],
+      "correct_answer": "B. Synovial inflammation + capsular fibrosis",
+      "answer_basis": "Derived from the explanation printed on the same lecture slide; explicitly marked Correct where indicated.",
+      "explanation_from_source": "Fibroblastic proliferation and collagen deposition thicken the capsule.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "page": 59
+      }
+    },
+    {
+      "id": "ULW1-LMCQ-15",
+      "type": "lecture_mcq",
+      "section": "Frozen Shoulder (Adhesive Capsulitis)",
+      "source_question_number": "Q7",
+      "question": "Which patient is at HIGHEST risk for frozen shoulder?",
+      "options": [
+        "A. 25-year-old athlete",
+        "B. 50-year-old diabetic woman",
+        "C. 30-year-old manual laborer",
+        "D. 70-year-old with osteoporosis"
+      ],
+      "correct_answer": "B. 50-year-old diabetic woman",
+      "answer_basis": "Derived from the explanation printed on the same lecture slide; explicitly marked Correct where indicated.",
+      "explanation_from_source": "The slide states diabetes increases risk 4-fold; women > men.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "page": 60
+      }
+    },
+    {
+      "id": "ULW1-LMCQ-16",
+      "type": "lecture_mcq",
+      "section": "Frozen Shoulder (Adhesive Capsulitis)",
+      "source_question_number": "Q6",
+      "question": "Which condition is a key DIFFERENTIAL diagnosis for frozen shoulder?",
+      "options": [
+        "A. Rotator cuff tear",
+        "B. Biceps tendinitis",
+        "C. AC joint arthritis",
+        "D. Pectoralis major strain"
+      ],
+      "correct_answer": "A. Rotator cuff tear",
+      "answer_basis": "Derived from the explanation printed on the same lecture slide; explicitly marked Correct where indicated.",
+      "explanation_from_source": "Cuff tears also cause stiffness but typically have preserved passive ROM.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "page": 61
+      }
+    },
+    {
+      "id": "ULW1-LMCQ-17",
+      "type": "lecture_mcq",
+      "section": "Clavicular Fractures",
+      "source_question_number": "Q1",
+      "question": "Which muscle displaces the proximal fragment SUPERIORLY in midshaft fractures?",
+      "options": [
+        "A. Pectoralis major",
+        "B. Trapezius",
+        "C. Sternocleidomastoid",
+        "D. Deltoid"
+      ],
+      "correct_answer": "C. Sternocleidomastoid",
+      "answer_basis": "Derived from the explanation printed on the same lecture slide; explicitly marked Correct where indicated.",
+      "explanation_from_source": "SCM elevates the medial fragment; pectoralis/trapezius pull lateral fragment downward.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "page": 70
+      }
+    },
+    {
+      "id": "ULW1-LMCQ-18",
+      "type": "lecture_mcq",
+      "section": "Clavicular Fractures",
+      "source_question_number": "Q2",
+      "question": "What is the primary concern with clavicle fractures?",
+      "options": [
+        "A. Nonunion",
+        "B. Injury to subclavian vessels/brachial plexus",
+        "C. Rotator cuff tear",
+        "D. Glenohumeral instability"
+      ],
+      "correct_answer": "B. Injury to subclavian vessels/brachial plexus",
+      "answer_basis": "Derived from the explanation printed on the same lecture slide; explicitly marked Correct where indicated.",
+      "explanation_from_source": "Medial fractures risk vascular/neurologic injury due to proximity to mediastinum.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "page": 71
+      }
+    },
+    {
+      "id": "ULW1-LMCQ-19",
+      "type": "lecture_mcq",
+      "section": "Clavicular Fractures",
+      "source_question_number": "Q3",
+      "question": "Which ligament stabilizes the lateral clavicle?",
+      "options": [
+        "A. Coracoclavicular ligaments",
+        "B. Acromioclavicular ligament",
+        "C. Coracoacromial ligament",
+        "D. Transverse scapular ligament"
+      ],
+      "correct_answer": "A. Coracoclavicular ligaments",
+      "answer_basis": "Derived from the explanation printed on the same lecture slide; explicitly marked Correct where indicated.",
+      "explanation_from_source": "Conoid + Trapezoid prevent superior displacement of lateral clavicle.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "page": 72
+      }
+    },
+    {
+      "id": "ULW1-LMCQ-20",
+      "type": "lecture_mcq",
+      "section": "Clavicular Fractures",
+      "source_question_number": "Q4",
+      "question": "Which finding suggests brachial plexus injury?",
+      "options": [
+        "A. Shoulder droop",
+        "B. Paresthesia in ulnar distribution",
+        "C. Weakness in hand intrinsics (Correct)",
+        "D. Supraclavicular bruising"
+      ],
+      "correct_answer": "C. Weakness in hand intrinsics",
+      "answer_basis": "Derived from the explanation printed on the same lecture slide; explicitly marked Correct where indicated.",
+      "explanation_from_source": "T1/C8 injury affects hand intrinsics (e.g., grip weakness).",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "page": 73
+      }
+    },
+    {
+      "id": "ULW1-LMCQ-21",
+      "type": "lecture_mcq",
+      "section": "Clavicular Fractures",
+      "source_question_number": "Q5",
+      "question": "Which fracture type has the HIGHEST nonunion risk?",
+      "options": [
+        "A. Midshaft",
+        "B. Lateral",
+        "C. Medial",
+        "D. Comminuted midshaft"
+      ],
+      "correct_answer": "B. Lateral",
+      "answer_basis": "Derived from the explanation printed on the same lecture slide; explicitly marked Correct where indicated.",
+      "explanation_from_source": "Lateral fractures lack ligamentous stability.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "page": 74
+      }
+    }
+  ],
+  "lecture_short_questions": [
+    {
+      "id": "ULW1-BP-Q1",
+      "type": "lecture_short_question",
+      "question": "What structure separates the upper trunk from the subclavian artery?",
+      "options": null,
+      "answer": null,
+      "source": {
+        "file": "Brachial Plexus",
+        "page": null,
+        "location_note": "Quiz slide; exact PDF page could not be confirmed from readable page extraction."
+      },
+      "status": "Question appears in the lecture quiz; no answer is supplied in the extracted slide content."
+    },
+    {
+      "id": "ULW1-BP-Q2",
+      "type": "lecture_short_question",
+      "question": "Which root contributes to ALL terminal branches of the plexus?",
+      "options": null,
+      "answer": null,
+      "source": {
+        "file": "Brachial Plexus",
+        "page": null,
+        "location_note": "Quiz slide; exact PDF page could not be confirmed from readable page extraction."
+      },
+      "status": "Question appears in the lecture quiz; no answer is supplied in the extracted slide content."
+    },
+    {
+      "id": "ULW1-BP-Q3",
+      "type": "lecture_short_question",
+      "question": "What finding indicates T1 root avulsion?",
+      "options": null,
+      "answer": null,
+      "source": {
+        "file": "Brachial Plexus",
+        "page": null,
+        "location_note": "Quiz slide; exact PDF page could not be confirmed from readable page extraction."
+      },
+      "status": "Question appears in the lecture quiz; no answer is supplied in the extracted slide content."
+    }
+  ],
+  "quick_recall": [
+    {
+      "id": "ULW1-QR-01",
+      "type": "generated_quick_recall",
+      "category": "Muscle → Nerve",
+      "question": "What is the nerve supply of supraspinatus?",
+      "answer": "Suprascapular nerve.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Muscles of Shoulder Region",
+        "pages": [
+          15
+        ]
+      },
+      "tags": [
+        "supraspinatus",
+        "nerve"
+      ]
+    },
+    {
+      "id": "ULW1-QR-02",
+      "type": "generated_quick_recall",
+      "category": "Muscle → Action",
+      "question": "Which muscle initiates the first 0–15° of shoulder abduction?",
+      "answer": "Supraspinatus.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Muscles of Shoulder Region",
+        "pages": [
+          15
+        ]
+      },
+      "tags": [
+        "abduction",
+        "supraspinatus"
+      ]
+    },
+    {
+      "id": "ULW1-QR-03",
+      "type": "generated_quick_recall",
+      "category": "Muscle → Nerve",
+      "question": "Which nerve supplies deltoid?",
+      "answer": "Axillary (circumflex) nerve.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Muscles of Shoulder Region",
+        "pages": [
+          15
+        ]
+      },
+      "tags": [
+        "deltoid",
+        "axillary nerve"
+      ]
+    },
+    {
+      "id": "ULW1-QR-04",
+      "type": "generated_quick_recall",
+      "category": "Muscle → Action",
+      "question": "Which deltoid fibres are primarily responsible for shoulder abduction from 15–90°?",
+      "answer": "Middle fibres of deltoid.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Muscles of Shoulder Region",
+        "pages": [
+          15
+        ]
+      },
+      "tags": [
+        "deltoid",
+        "abduction"
+      ]
+    },
+    {
+      "id": "ULW1-QR-05",
+      "type": "generated_quick_recall",
+      "category": "Muscle → Action",
+      "question": "What are the actions of the posterior fibres of deltoid?",
+      "answer": "Shoulder extension and lateral rotation.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Muscles of Shoulder Region",
+        "pages": [
+          15
+        ]
+      },
+      "tags": [
+        "deltoid",
+        "extension",
+        "lateral rotation"
+      ]
+    },
+    {
+      "id": "ULW1-QR-06",
+      "type": "generated_quick_recall",
+      "category": "Muscle → Nerve",
+      "question": "Which nerve supplies infraspinatus?",
+      "answer": "Suprascapular nerve.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Muscles of Shoulder Region",
+        "pages": [
+          15
+        ]
+      },
+      "tags": [
+        "infraspinatus",
+        "nerve"
+      ]
+    },
+    {
+      "id": "ULW1-QR-07",
+      "type": "generated_quick_recall",
+      "category": "Muscle → Action",
+      "question": "What is the main action of infraspinatus at the shoulder joint?",
+      "answer": "Lateral rotation.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Muscles of Shoulder Region",
+        "pages": [
+          15
+        ]
+      },
+      "tags": [
+        "infraspinatus",
+        "rotation"
+      ]
+    },
+    {
+      "id": "ULW1-QR-08",
+      "type": "generated_quick_recall",
+      "category": "Muscle → Nerve",
+      "question": "Which nerve supplies teres minor?",
+      "answer": "Axillary (circumflex) nerve.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Muscles of Shoulder Region",
+        "pages": [
+          15
+        ]
+      },
+      "tags": [
+        "teres minor",
+        "nerve"
+      ]
+    },
+    {
+      "id": "ULW1-QR-09",
+      "type": "generated_quick_recall",
+      "category": "Muscle → Action",
+      "question": "What are the actions of teres minor according to the lecture table?",
+      "answer": "Adduction and lateral rotation of the shoulder.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Muscles of Shoulder Region",
+        "pages": [
+          15
+        ]
+      },
+      "tags": [
+        "teres minor",
+        "action"
+      ]
+    },
+    {
+      "id": "ULW1-QR-10",
+      "type": "generated_quick_recall",
+      "category": "Muscle → Nerve",
+      "question": "Which nerves supply subscapularis?",
+      "answer": "Upper and lower subscapular nerves.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Muscles of Shoulder Region",
+        "pages": [
+          15
+        ]
+      },
+      "tags": [
+        "subscapularis",
+        "nerve"
+      ]
+    },
+    {
+      "id": "ULW1-QR-11",
+      "type": "generated_quick_recall",
+      "category": "Muscle → Action",
+      "question": "What are the actions of subscapularis?",
+      "answer": "Adduction and medial rotation of the shoulder.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Muscles of Shoulder Region",
+        "pages": [
+          15
+        ]
+      },
+      "tags": [
+        "subscapularis",
+        "action"
+      ]
+    },
+    {
+      "id": "ULW1-QR-12",
+      "type": "generated_quick_recall",
+      "category": "Muscle → Nerve",
+      "question": "Which nerve supplies serratus anterior?",
+      "answer": "Long thoracic nerve (C5, C6, C7).",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Muscles of Shoulder Region",
+        "pages": [
+          4
+        ]
+      },
+      "tags": [
+        "serratus anterior",
+        "long thoracic"
+      ]
+    },
+    {
+      "id": "ULW1-QR-13",
+      "type": "generated_quick_recall",
+      "category": "Injury → Finding",
+      "question": "What is the characteristic scapular finding after long thoracic nerve injury?",
+      "answer": "Winged scapula, with weakness of protraction and difficulty with overhead abduction.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Brachial Plexus",
+        "pages": [
+          31
+        ]
+      },
+      "tags": [
+        "long thoracic",
+        "winged scapula"
+      ]
+    },
+    {
+      "id": "ULW1-QR-14",
+      "type": "generated_quick_recall",
+      "category": "Muscle → Action",
+      "question": "Which muscle keeps the scapula against the chest wall?",
+      "answer": "Serratus anterior.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Muscles of Shoulder Region",
+        "pages": [
+          4
+        ]
+      },
+      "tags": [
+        "serratus anterior",
+        "scapula"
+      ]
+    },
+    {
+      "id": "ULW1-QR-15",
+      "type": "generated_quick_recall",
+      "category": "Muscle → Nerve",
+      "question": "What is the nerve supply of trapezius?",
+      "answer": "Spinal accessory nerve.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Muscles of Shoulder Region",
+        "pages": [
+          3
+        ]
+      },
+      "tags": [
+        "trapezius",
+        "nerve"
+      ]
+    },
+    {
+      "id": "ULW1-QR-16",
+      "type": "generated_quick_recall",
+      "category": "Muscle → Action",
+      "question": "Which trapezius fibres retract the scapula?",
+      "answer": "Middle fibres.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Muscles of Shoulder Region",
+        "pages": [
+          3
+        ]
+      },
+      "tags": [
+        "trapezius",
+        "retraction"
+      ]
+    },
+    {
+      "id": "ULW1-QR-17",
+      "type": "generated_quick_recall",
+      "category": "Muscle → Action",
+      "question": "Which muscle forms the anterior axillary fold?",
+      "answer": "Pectoralis major.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Muscles of Shoulder Region",
+        "pages": [
+          3
+        ]
+      },
+      "tags": [
+        "axilla",
+        "pectoralis major"
+      ]
+    },
+    {
+      "id": "ULW1-QR-18",
+      "type": "generated_quick_recall",
+      "category": "Muscle → Action",
+      "question": "Which two muscles form the posterior axillary fold?",
+      "answer": "Teres major and latissimus dorsi.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Muscles of Shoulder Region",
+        "pages": [
+          3
+        ]
+      },
+      "tags": [
+        "axilla",
+        "posterior fold"
+      ]
+    },
+    {
+      "id": "ULW1-QR-19",
+      "type": "generated_quick_recall",
+      "category": "Axilla → Boundary",
+      "question": "What forms the anterior wall of the axilla?",
+      "answer": "Clavicle, pectoralis major, pectoralis minor, subclavius, and clavipectoral fascia.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "The Axilla",
+        "pages": [
+          7
+        ]
+      },
+      "tags": [
+        "axilla",
+        "anterior wall"
+      ]
+    },
+    {
+      "id": "ULW1-QR-20",
+      "type": "generated_quick_recall",
+      "category": "Axilla → Boundary",
+      "question": "What forms the medial wall of the axilla?",
+      "answer": "Upper ribs and intercostal muscles covered by serratus anterior.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "The Axilla",
+        "pages": [
+          9
+        ]
+      },
+      "tags": [
+        "axilla",
+        "medial wall"
+      ]
+    },
+    {
+      "id": "ULW1-QR-21",
+      "type": "generated_quick_recall",
+      "category": "Axilla → Boundary",
+      "question": "What forms the lateral wall of the axilla?",
+      "answer": "The floor of the intertubercular groove of the humerus; the long head of biceps tendon runs in it.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "The Axilla",
+        "pages": [
+          10
+        ]
+      },
+      "tags": [
+        "axilla",
+        "lateral wall"
+      ]
+    },
+    {
+      "id": "ULW1-QR-22",
+      "type": "generated_quick_recall",
+      "category": "Axilla → Contents",
+      "question": "Name the main contents of the axilla listed in the lecture.",
+      "answer": "Fat, axillary artery, axillary vein, brachial plexus, and axillary lymph nodes.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "The Axilla",
+        "pages": [
+          13
+        ]
+      },
+      "tags": [
+        "axilla",
+        "contents"
+      ]
+    },
+    {
+      "id": "ULW1-QR-23",
+      "type": "generated_quick_recall",
+      "category": "Anatomical Space → Contents",
+      "question": "What passes through the quadrangular space?",
+      "answer": "Axillary nerve and posterior circumflex humeral vessels.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "The Axilla",
+        "pages": [
+          15
+        ]
+      },
+      "tags": [
+        "quadrangular space",
+        "axillary nerve"
+      ]
+    },
+    {
+      "id": "ULW1-QR-24",
+      "type": "generated_quick_recall",
+      "category": "Anatomical Space → Contents",
+      "question": "What passes through the upper triangular space?",
+      "answer": "Circumflex scapular artery.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "The Axilla",
+        "pages": [
+          16
+        ]
+      },
+      "tags": [
+        "triangular space",
+        "circumflex scapular artery"
+      ]
+    },
+    {
+      "id": "ULW1-QR-25",
+      "type": "generated_quick_recall",
+      "category": "Anatomical Space → Contents",
+      "question": "What passes through the lower triangular space?",
+      "answer": "Radial nerve and profunda brachii vessels.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "The Axilla",
+        "pages": [
+          17
+        ]
+      },
+      "tags": [
+        "triangular space",
+        "radial nerve"
+      ]
+    },
+    {
+      "id": "ULW1-QR-26",
+      "type": "generated_quick_recall",
+      "category": "Anatomical Space → Boundary",
+      "question": "What forms the lateral boundary of the quadrangular space?",
+      "answer": "Surgical neck of the humerus.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "The Axilla",
+        "pages": [
+          15
+        ]
+      },
+      "tags": [
+        "quadrangular space",
+        "boundary"
+      ]
+    },
+    {
+      "id": "ULW1-QR-27",
+      "type": "generated_quick_recall",
+      "category": "Nerve → Roots",
+      "question": "What are the root values of the axillary nerve?",
+      "answer": "C5–C6.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Brachial Plexus",
+        "pages": [
+          28
+        ]
+      },
+      "tags": [
+        "axillary nerve",
+        "roots"
+      ]
+    },
+    {
+      "id": "ULW1-QR-28",
+      "type": "generated_quick_recall",
+      "category": "Nerve → Muscles",
+      "question": "Which muscles are supplied by the axillary nerve in the lecture?",
+      "answer": "Deltoid and teres minor.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Brachial Plexus",
+        "pages": [
+          28
+        ]
+      },
+      "tags": [
+        "axillary nerve",
+        "muscles"
+      ]
+    },
+    {
+      "id": "ULW1-QR-29",
+      "type": "generated_quick_recall",
+      "category": "Nerve → Sensory Distribution",
+      "question": "Where is sensory loss expected after axillary nerve injury?",
+      "answer": "Skin over the cap of the shoulder (regimental-badge area).",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Brachial Plexus",
+        "pages": [
+          28
+        ]
+      },
+      "tags": [
+        "axillary nerve",
+        "sensory"
+      ]
+    },
+    {
+      "id": "ULW1-QR-30",
+      "type": "generated_quick_recall",
+      "category": "Injury → Clinical Finding",
+      "question": "A patient has deltoid atrophy, loss of rounded shoulder contour, and weak abduction. Which nerve is likely injured?",
+      "answer": "Axillary nerve.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Brachial Plexus",
+        "pages": [
+          28
+        ]
+      },
+      "tags": [
+        "axillary nerve",
+        "deltoid"
+      ]
+    },
+    {
+      "id": "ULW1-QR-31",
+      "type": "generated_quick_recall",
+      "category": "Nerve → Roots",
+      "question": "What are the root values of the suprascapular nerve in the lecture?",
+      "answer": "C5–C6.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Brachial Plexus",
+        "pages": [
+          30
+        ]
+      },
+      "tags": [
+        "suprascapular nerve",
+        "roots"
+      ]
+    },
+    {
+      "id": "ULW1-QR-32",
+      "type": "generated_quick_recall",
+      "category": "Injury → Clinical Finding",
+      "question": "Weak initiation of the first 15° of abduction with weak external rotation but no sensory loss suggests injury to which nerve?",
+      "answer": "Suprascapular nerve.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Brachial Plexus",
+        "pages": [
+          30
+        ]
+      },
+      "tags": [
+        "suprascapular nerve",
+        "abduction"
+      ]
+    },
+    {
+      "id": "ULW1-QR-33",
+      "type": "generated_quick_recall",
+      "category": "Nerve → Roots",
+      "question": "Which roots contribute to the long thoracic nerve?",
+      "answer": "C5, C6, and C7.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Brachial Plexus",
+        "pages": [
+          31
+        ]
+      },
+      "tags": [
+        "long thoracic",
+        "roots"
+      ]
+    },
+    {
+      "id": "ULW1-QR-34",
+      "type": "generated_quick_recall",
+      "category": "Injury → Clinical Finding",
+      "question": "Which brachial plexus trunk injury causes Erb-Duchenne palsy?",
+      "answer": "Upper trunk injury involving C5–C6.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Brachial Plexus",
+        "pages": [
+          15
+        ]
+      },
+      "tags": [
+        "Erb palsy",
+        "upper trunk"
+      ]
+    },
+    {
+      "id": "ULW1-QR-35",
+      "type": "generated_quick_recall",
+      "category": "Injury → Clinical Finding",
+      "question": "Which brachial plexus trunk injury causes Klumpke palsy?",
+      "answer": "Lower trunk injury involving C8–T1.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Brachial Plexus",
+        "pages": [
+          15
+        ]
+      },
+      "tags": [
+        "Klumpke palsy",
+        "lower trunk"
+      ]
+    },
+    {
+      "id": "ULW1-QR-36",
+      "type": "generated_quick_recall",
+      "category": "Injury → Clinical Finding",
+      "question": "Which nerve injury is associated with wrist drop?",
+      "answer": "Radial nerve injury.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Brachial Plexus",
+        "pages": [
+          33
+        ]
+      },
+      "tags": [
+        "radial nerve",
+        "wrist drop"
+      ]
+    },
+    {
+      "id": "ULW1-QR-37",
+      "type": "generated_quick_recall",
+      "category": "Injury → Clinical Finding",
+      "question": "Which nerve injury is associated with a Benediction hand?",
+      "answer": "Median nerve injury.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Brachial Plexus",
+        "pages": [
+          33
+        ]
+      },
+      "tags": [
+        "median nerve",
+        "Benediction"
+      ]
+    },
+    {
+      "id": "ULW1-QR-38",
+      "type": "generated_quick_recall",
+      "category": "Injury → Clinical Finding",
+      "question": "Which nerve injury is associated with a partial claw hand?",
+      "answer": "Ulnar nerve injury.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Brachial Plexus",
+        "pages": [
+          33
+        ]
+      },
+      "tags": [
+        "ulnar nerve",
+        "claw hand"
+      ]
+    },
+    {
+      "id": "ULW1-QR-39",
+      "type": "generated_quick_recall",
+      "category": "Joint → Movement",
+      "question": "During what range of abduction is the painful arc classically described in the lecture?",
+      "answer": "60°–120° (mid-abduction).",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "pages": [
+          44,
+          45
+        ]
+      },
+      "tags": [
+        "impingement",
+        "painful arc"
+      ]
+    },
+    {
+      "id": "ULW1-QR-40",
+      "type": "generated_quick_recall",
+      "category": "Clinical Anatomy",
+      "question": "Which tendon is most commonly impinged in shoulder impingement syndrome?",
+      "answer": "Supraspinatus tendon.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "pages": [
+          44,
+          46
+        ]
+      },
+      "tags": [
+        "impingement",
+        "supraspinatus"
+      ]
+    },
+    {
+      "id": "ULW1-QR-41",
+      "type": "generated_quick_recall",
+      "category": "Clinical Anatomy",
+      "question": "Which bursa may become inflamed in subacromial impingement?",
+      "answer": "Subacromial bursa.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "pages": [
+          44,
+          46
+        ]
+      },
+      "tags": [
+        "bursitis",
+        "subacromial"
+      ]
+    },
+    {
+      "id": "ULW1-QR-42",
+      "type": "generated_quick_recall",
+      "category": "Clinical Anatomy",
+      "question": "Which acromion type carries the highest impingement risk in the lecture?",
+      "answer": "Type III (hooked) acromion.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "pages": [
+          46
+        ]
+      },
+      "tags": [
+        "acromion",
+        "impingement"
+      ]
+    },
+    {
+      "id": "ULW1-QR-43",
+      "type": "generated_quick_recall",
+      "category": "Joint → Stabilizer",
+      "question": "Which ligament is the primary restraint to anterior dislocation in abduction?",
+      "answer": "The anterior band of the inferior glenohumeral ligament (IGHL).",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "pages": [
+          34
+        ]
+      },
+      "tags": [
+        "IGHL",
+        "anterior dislocation"
+      ]
+    },
+    {
+      "id": "ULW1-QR-44",
+      "type": "generated_quick_recall",
+      "category": "Injury → Clinical Finding",
+      "question": "What is a Hill-Sachs lesion?",
+      "answer": "A depression/impaction fracture of the posterolateral humeral head.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "pages": [
+          38
+        ]
+      },
+      "tags": [
+        "Hill-Sachs",
+        "dislocation"
+      ]
+    },
+    {
+      "id": "ULW1-QR-45",
+      "type": "generated_quick_recall",
+      "category": "Injury → Clinical Finding",
+      "question": "What structure is involved in a bony Bankart lesion?",
+      "answer": "The anteroinferior glenoid rim.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "pages": [
+          35
+        ]
+      },
+      "tags": [
+        "Bankart",
+        "glenoid"
+      ]
+    },
+    {
+      "id": "ULW1-QR-46",
+      "type": "generated_quick_recall",
+      "category": "Joint → Movement",
+      "question": "What shoulder position most predisposes to anterior dislocation?",
+      "answer": "Abduction with external rotation.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "pages": [
+          40
+        ]
+      },
+      "tags": [
+        "dislocation",
+        "mechanism"
+      ]
+    },
+    {
+      "id": "ULW1-QR-47",
+      "type": "generated_quick_recall",
+      "category": "Frozen Shoulder",
+      "question": "Which movement is especially restricted by coracohumeral ligament contracture in adhesive capsulitis?",
+      "answer": "External rotation (also abduction is limited).",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "pages": [
+          55,
+          57
+        ]
+      },
+      "tags": [
+        "adhesive capsulitis",
+        "external rotation"
+      ]
+    },
+    {
+      "id": "ULW1-QR-48",
+      "type": "generated_quick_recall",
+      "category": "Frozen Shoulder",
+      "question": "Which capsular recess is obliterated in frozen shoulder?",
+      "answer": "Axillary recess.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "pages": [
+          55,
+          58
+        ]
+      },
+      "tags": [
+        "adhesive capsulitis",
+        "axillary recess"
+      ]
+    },
+    {
+      "id": "ULW1-QR-49",
+      "type": "generated_quick_recall",
+      "category": "Bone → Landmark",
+      "question": "What is the most common site of clavicular fracture described in the lecture?",
+      "answer": "The junction between the medial two-thirds and lateral one-third (middle–lateral third junction).",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "pages": [
+          66,
+          67,
+          68
+        ]
+      },
+      "tags": [
+        "clavicle",
+        "fracture"
+      ]
+    },
+    {
+      "id": "ULW1-QR-50",
+      "type": "generated_quick_recall",
+      "category": "Bone → Landmark",
+      "question": "Which muscle elevates the medial/proximal fragment in a midshaft clavicle fracture?",
+      "answer": "Sternocleidomastoid (SCM).",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "pages": [
+          66,
+          70
+        ]
+      },
+      "tags": [
+        "clavicle",
+        "SCM"
+      ]
+    },
+    {
+      "id": "ULW1-QR-51",
+      "type": "generated_quick_recall",
+      "category": "Joint → Stabilizer",
+      "question": "Which two parts form the coracoclavicular ligament complex?",
+      "answer": "Conoid and trapezoid ligaments.",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "pages": [
+          72
+        ]
+      },
+      "tags": [
+        "clavicle",
+        "coracoclavicular"
+      ]
+    },
+    {
+      "id": "ULW1-QR-52",
+      "type": "generated_quick_recall",
+      "category": "Clinical Anatomy",
+      "question": "Which adjacent structures are at risk in clavicle fractures according to the lecture?",
+      "answer": "Subclavian vessels, brachial plexus, and pleura/lung (pneumothorax risk).",
+      "source_basis": "Generated from the listed university lecture material; not a verbatim lecture question.",
+      "source": {
+        "file": "Applied Anatomy – Shoulder Joint",
+        "pages": [
+          69,
+          71
+        ]
+      },
+      "tags": [
+        "clavicle",
+        "complications"
+      ]
+    }
+  ],
+  "case_mappings": [
+    {
+      "case": "Mazin",
+      "case_role": "Main PBL case",
+      "clinical_pattern": "Progressive shoulder pain in an overhead athlete; painful arc during active abduction, lateral subacromial/greater tuberosity tenderness, painful restricted abduction and external rotation, positive impingement test, night pain.",
+      "most_relevant_topic": "Shoulder impingement / painful arc syndrome",
+      "anatomy_links": [
+        {
+          "topic": "Subacromial space and coracoacromial arch",
+          "source_file": "Applied Anatomy – Shoulder Joint",
+          "pages": [
+            44,
+            45,
+            46
+          ]
+        },
+        {
+          "topic": "Supraspinatus and rotator cuff",
+          "source_file": "Muscles of Shoulder Region",
+          "pages": [
+            15
+          ]
+        },
+        {
+          "topic": "Serratus anterior and scapular mechanics",
+          "source_file": "Muscles of Shoulder Region",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "topic": "Deltoid and abduction",
+          "source_file": "Muscles of Shoulder Region",
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "clinical_correlation": [
+        "Painful arc is described at 60°–120° in the lecture.",
+        "Supraspinatus tendon and subacromial bursa are compressed beneath the coracoacromial arch.",
+        "The lecture identifies supraspinatus as the most commonly impinged tendon.",
+        "Serratus anterior weakness may contribute to secondary impingement through scapular dyskinesia."
+      ],
+      "case_source": {
+        "file": "PBL 1: A Painful Shoulder",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "case": "Salim",
+      "case_role": "Complementary PBL case",
+      "clinical_pattern": "Traction injury to the arm followed by shoulder pain, loss of rounded contour, depression below acromion, anteriorly palpable humeral head, and radiographic anterior dislocation with Hill-Sachs lesion.",
+      "most_relevant_topic": "Anterior glenohumeral dislocation",
+      "anatomy_links": [
+        {
+          "topic": "IGHL and anterior shoulder stability",
+          "source_file": "Applied Anatomy – Shoulder Joint",
+          "pages": [
+            34,
+            40
+          ]
+        },
+        {
+          "topic": "Bankart and Hill-Sachs lesions",
+          "source_file": "Applied Anatomy – Shoulder Joint",
+          "pages": [
+            35,
+            38
+          ]
+        },
+        {
+          "topic": "Axillary nerve and deltoid",
+          "source_file": "Brachial Plexus",
+          "pages": [
+            28
+          ]
+        },
+        {
+          "topic": "Quadrangular space and its contents",
+          "source_file": "The Axilla",
+          "pages": [
+            14,
+            15
+          ]
+        },
+        {
+          "topic": "Biceps and musculocutaneous-related clinical finding",
+          "source_file": "PBL 1: A Painful Shoulder",
+          "pages": [
+            3
+          ]
+        }
+      ],
+      "clinical_correlation": [
+        "The lecture identifies axillary nerve as the nerve most commonly injured in shoulder dislocation.",
+        "Axillary nerve injury can cause deltoid weakness/atrophy, loss of shoulder contour, and sensory loss over the shoulder cap.",
+        "The PBL reports numbness over the lateral forearm and biceps weakness after reduction; these findings do not match the classic isolated axillary nerve pattern in the lecture and should not be labelled as axillary nerve injury without qualification.",
+        "The PBL radiograph describes a Hill-Sachs lesion and anterior humeral head position relative to the glenoid."
+      ],
+      "case_source": {
+        "file": "PBL 1: A Painful Shoulder",
+        "pages": [
+          3
+        ]
+      }
+    },
+    {
+      "case": "Farhan",
+      "case_role": "Complementary PBL case",
+      "clinical_pattern": "Fall from height with clavicular pain, prominence/deformity at middle–lateral third junction, lower hanging arm, medial rotation, and X-ray-confirmed midshaft fracture with depressed lateral portion.",
+      "most_relevant_topic": "Midshaft clavicle fracture",
+      "anatomy_links": [
+        {
+          "topic": "Clavicle functions and fracture site",
+          "source_file": "Applied Anatomy – Shoulder Joint",
+          "pages": [
+            64,
+            65,
+            66,
+            67,
+            68
+          ]
+        },
+        {
+          "topic": "Muscular displacement of fracture fragments",
+          "source_file": "Applied Anatomy – Shoulder Joint",
+          "pages": [
+            66,
+            70
+          ]
+        },
+        {
+          "topic": "Coracoclavicular ligament complex",
+          "source_file": "Applied Anatomy – Shoulder Joint",
+          "pages": [
+            68,
+            72
+          ]
+        },
+        {
+          "topic": "Adjacent neurovascular and pleural structures",
+          "source_file": "Applied Anatomy – Shoulder Joint",
+          "pages": [
+            69,
+            71
+          ]
+        }
+      ],
+      "clinical_correlation": [
+        "The common fracture site in the lecture is the junction of the medial two-thirds and lateral one-third.",
+        "SCM elevates the medial fragment; the lecture describes downward displacement of the lateral fragment from arm weight and muscle pull.",
+        "Subclavian vessels, brachial plexus, and pleura/lung are important adjacent structures."
+      ],
+      "case_source": {
+        "file": "PBL 1: A Painful Shoulder",
+        "pages": [
+          3
+        ]
+      }
+    }
+  ],
+  "image_inventory": [
+    {
+      "case": "Salim",
+      "file": "Applied Anatomy – Shoulder Joint",
+      "page": 37,
+      "asset_description": "Axillary nerve relation to deltoid/teres minor, clinical loss of shoulder contour, and sensory territory over the shoulder cap.",
+      "site_use": "Clinical anatomy illustration for axillary nerve injury; retain labels and source attribution."
+    },
+    {
+      "case": "Mazin",
+      "file": "Applied Anatomy – Shoulder Joint",
+      "page": 44,
+      "asset_description": "Painful arc diagram showing pain during 60°–120° abduction.",
+      "site_use": "High-value explanatory image for painful arc syndrome."
+    },
+    {
+      "case": "Mazin",
+      "file": "Applied Anatomy – Shoulder Joint",
+      "page": 45,
+      "asset_description": "Subacromial impingement and rotator cuff lesion diagram with supraspinatus and biceps long head labels.",
+      "site_use": "Anatomy-pathology correlation image; verify image reuse permission before publication."
+    },
+    {
+      "case": "Mazin",
+      "file": "Applied Anatomy – Shoulder Joint",
+      "page": 46,
+      "asset_description": "Bigliani acromion types I, II, III and relative subacromial space.",
+      "site_use": "Useful comparison figure for acromial morphology."
+    },
+    {
+      "case": "Salim",
+      "file": "Applied Anatomy – Shoulder Joint",
+      "page": 38,
+      "asset_description": "Hill-Sachs lesion question and explanation referring to impaction against anterior glenoid.",
+      "site_use": "Use alongside the PBL X-ray description; do not present as an actual PBL radiograph."
+    },
+    {
+      "case": "Farhan",
+      "file": "Applied Anatomy – Shoulder Joint",
+      "page": 66,
+      "asset_description": "Clavicle fracture X-ray with displacement arrows and muscular forces.",
+      "site_use": "Useful image to explain fracture fragment displacement; inspect label visibility before crop."
+    },
+    {
+      "case": "Farhan",
+      "file": "Applied Anatomy – Shoulder Joint",
+      "page": 69,
+      "asset_description": "Clavicle relations to subclavian vessels, brachial plexus, pleura and lung.",
+      "site_use": "Clinical complication illustration."
+    },
+    {
+      "case": "Salim",
+      "file": "PBL 1: A Painful Shoulder",
+      "page": 3,
+      "asset_description": "Case text specifies Hill-Sachs lesion and axillary view showing humeral head anterior to glenoid; the supplied page text does not itself provide an embedded X-ray image.",
+      "site_use": "Case-specific imaging description; do not invent or substitute an unverified radiograph."
+    }
+  ],
+  "osce_framework": {
+    "type": "generated_osce_framework",
+    "station": "Focused shoulder examination for painful arc / suspected impingement",
+    "source_status": "Generated framework based on examination findings and named tests in the university PBL and Applied Anatomy lecture; the files do not provide a complete OSCE script.",
+    "checklist": [
+      "Introduce the focused shoulder examination and obtain consent (standard OSCE setup; not specified in the anatomy lecture).",
+      "Inspect both shoulders for deformity, scars, and loss of rounded contour; the Mazin PBL reports no deformity/scars.",
+      "Palpate the subacromial area laterally over the greater tuberosity; this is the tenderness site described in Mazin.",
+      "Assess shoulder movements, recording painful/restricted abduction and external rotation; compare with flexion, extension, adduction, and internal rotation.",
+      "Observe for a painful arc during active abduction; the lecture defines the classic painful range as 60°–120°.",
+      "Use the named impingement/supraspinatus tests only if appropriate: Hawkins test and Empty can test are described in the lecture; Empty can position is 90° abduction with internal rotation.",
+      "For suspected dislocation/axillary nerve injury, assess deltoid function and sensation over the shoulder cap, as described in the brachial plexus lecture.",
+      "Summarize the findings and relate them to the likely anatomical structures."
+    ],
+    "limitations": [
+      "The lecture does not provide a full standardized sequence or detailed technique for every shoulder test.",
+      "The PBL mentions an impingement test but does not name the exact test used.",
+      "Reduction techniques for shoulder dislocation are listed as a learning objective in the PBL, but procedural steps are not supplied in the reviewed files."
+    ]
+  },
+  "deferred_content": {
+    "clinical_case_mcqs": {
+      "status": "deferred",
+      "reason": "User requested to leave end-of-unit clinical case questions for later.",
+      "do_not_generate_now": true
+    }
+  },
+  "quality_notes": [
+    "There are 21 MCQs in Applied Anatomy – Shoulder Joint, not 20: 6 dislocation, 5 impingement, 5 frozen shoulder, and 5 clavicle questions.",
+    "The impingement MCQ numbering jumps from Q4 to Q6; no Q5 appears on pages 47–51.",
+    "The frozen shoulder questions retain their source numbering Q1, Q2, Q3, Q7, Q6.",
+    "The brachial plexus lecture contains three short quiz prompts without options or displayed answers; they are kept separate from MCQs and left unanswered.",
+    "The Salim PBL neurological findings (lateral forearm numbness and biceps weakness) should not be automatically labelled as isolated axillary nerve injury.",
+    "No clinical case MCQs have been generated.",
+    "The brachial plexus quiz slide's exact PDF page could not be confirmed from readable page extraction; no page number is assigned."
+  ]
+} 
