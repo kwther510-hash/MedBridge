@@ -14,8 +14,20 @@
       "related_type": "case",
       "related_id": "Mazin",
       "order": 1
+    
+    },
+    {
+      "file": "Week1/painful_arc.jpg",
+      "caption": "Painful Arc",
+      "description": "Pain between 60 and 120 degrees of abduction.",
+      "source_file": "Applied Anatomy",
+      "source_page": 44,
+      "related_type": "section",
+      "related_id": "cases",
+      "order": 2
     }
   ],
+  
   "week": 1,
   "content_status": {
     "university_material": "Reviewed for the five listed source files",
