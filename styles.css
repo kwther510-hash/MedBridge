@@ -1,4 +1,27 @@
-/* عرض الصور جنب بعض */
+/* Layout tweaks for tablets and phones.
+   Colors are NOT set here: they come from .streamlit/config.toml */
+
+.block-container {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.stButton > button {
+    min-height: 3rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+[data-testid="stMarkdownContainer"] {
+    overflow-wrap: anywhere;
+}
+
+/* --- الكود الجديد للصور --- */
+/* يخلي الصور تطلع جنب بعض بنسبة 48% لكل وحدة */
 [data-testid="stImage"] {
     display: inline-block !important;
     width: 48% !important;
@@ -6,8 +29,19 @@
     vertical-align: top !important;
 }
 
-/* إذا كانت الصورة وحيدة (بس وحدة بالقسم)، خليها تاخذ عرض الشاشة كامل */
+/* إذا كانت الصورة وحيدة، تاخذ عرض الشاشة كامل */
 [data-testid="stImage"]:only-child {
     width: 100% !important;
     margin-right: 0 !important;
 }
+
+@media (max-width: 640px) {
+    .stButton > button {
+        width: 100%;
+    }
+    /* على الموبايل نخلي الصور تنزل تحت بعض أفضل */
+    [data-testid="stImage"] {
+        width: 100% !important;
+        margin-right: 0 !important;
+    }
+} 
