@@ -4,6 +4,19 @@
   "region": "Upper Limb",
   "week": 1,
   "version": "1.0",
+  "images": [
+    {
+      "file": "Week1/shoulder_impingement.webp",
+      "caption": "Shoulder Impingement Syndrome",
+      "description": "Diagram showing inflamed bursa, pinched rotator cuff tendon, and narrowed subacromial space.",
+      "source_file": "Applied Anatomy",
+      "source_page": 1,
+      "related_type": "case",
+      "related_id": "Mazin",
+      "order": 1
+    }
+  ],
+  "week": 1,
   "content_status": {
     "university_material": "Reviewed for the five listed source files",
     "lecture_mcqs": "Extracted",
@@ -1531,7 +1544,7 @@
           "source_file": "The Axilla",
           "pages": [
             14,
-            15
+            15 
           ]
         },
         {
