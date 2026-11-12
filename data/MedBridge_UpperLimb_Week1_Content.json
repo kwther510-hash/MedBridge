@@ -5,7 +5,7 @@
   "week": 1,
   "version": "1.0",
   "images": [
-    {
+    { 
       "file": "Week1/shoulder_impingement.webp",
       "caption": "Shoulder Impingement Syndrome",
       "description": "Diagram showing inflamed bursa, pinched rotator cuff tendon, and narrowed subacromial space.",
@@ -27,8 +27,7 @@
       "order": 2
     }
   ],
-  
-  "week": 1,
+
   "content_status": {
     "university_material": "Reviewed for the five listed source files",
     "lecture_mcqs": "Extracted",
