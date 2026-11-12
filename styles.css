@@ -1,0 +1,27 @@
+/* Layout tweaks for tablets and phones.
+   Colors are NOT set here: they come from .streamlit/config.toml */
+
+.block-container {
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.stButton > button {
+    min-height: 3rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+[data-testid="stMarkdownContainer"] {
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 640px) {
+    .stButton > button {
+        width: 100%;
+    }
+}
