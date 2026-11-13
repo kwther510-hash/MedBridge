@@ -3,7 +3,7 @@
   "module": "Musculoskeletal System",
   "region": "Upper Limb",
   "week": 2,
-  "version": "1.2",
+  "version": "1.3",
   "source_files": [
     {
       "file": "Anatomy of the Arm",
@@ -23,17 +23,323 @@
     }
   ],
   "content_status": {
-    "lecture_mcqs": "No original MCQ-with-options identified in reviewed Week 2 lecture files.",
-    "lecture_short_questions": "3 extracted",
+    "university_material": "Reviewed for the four listed Week 2 source files",
+    "lecture_mcqs": "No original MCQs with options were identified; 12 generated practice MCQs added and clearly labelled",
     "quick_recall": "Generated",
-    "pbl_case_mapping": "3 cases mapped",
-    "applied_anatomy_cases": "2 catalogued",
-    "image_inventory": "Per-case image metadata added for all PBL and applied anatomy cases; assets not embedded.",
-    "osce": "Framework drafted",
-    "clinical_case_mcqs": "Deferred as requested",
-    "json": "Created"
+    "clinical_case_mcqs": "Deferred until end of unit as requested",
+    "osce": "Framework drafted; procedural details limited by source material",
+    "final_case_json": "Structured draft; case_mappings now follows the Week 1 key and field structure"
   },
-  "lecture_mcqs": [],
+  "lecture_mcqs": [
+    {
+      "id": "ULW2-GMCQ-01",
+      "type": "generated_mcq",
+      "section": "Arm compartments",
+      "source_question_number": null,
+      "question": "Which nerve supplies the muscles of the anterior compartment of the arm?",
+      "options": [
+        "A. Radial nerve",
+        "B. Musculocutaneous nerve",
+        "C. Ulnar nerve",
+        "D. Axillary nerve"
+      ],
+      "correct_answer": "B. Musculocutaneous nerve",
+      "answer_basis": "Generated for practice from the cited university lecture material; not an original lecture question.",
+      "explanation_from_source": "The musculocutaneous nerve supplies biceps brachii, brachialis and coracobrachialis.",
+      "source": {
+        "file": "Anatomy of the Arm",
+        "page": null,
+        "pages": [
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      "question_origin": "Generated practice question"
+    },
+    {
+      "id": "ULW2-GMCQ-02",
+      "type": "generated_mcq",
+      "section": "Elbow flexion",
+      "source_question_number": null,
+      "question": "Which muscle is the primary flexor of the elbow regardless of forearm position?",
+      "options": [
+        "A. Biceps brachii",
+        "B. Brachialis",
+        "C. Triceps brachii",
+        "D. Anconeus"
+      ],
+      "correct_answer": "B. Brachialis",
+      "answer_basis": "Generated for practice from the cited university lecture material; not an original lecture question.",
+      "explanation_from_source": "Brachialis is the main elbow flexor; biceps contribution is stronger when the forearm is supinated.",
+      "source": {
+        "file": "Anatomy of the Arm",
+        "page": null,
+        "pages": [
+          18,
+          19
+        ]
+      },
+      "question_origin": "Generated practice question"
+    },
+    {
+      "id": "ULW2-GMCQ-03",
+      "type": "generated_mcq",
+      "section": "Posterior arm",
+      "source_question_number": null,
+      "question": "Which nerve supplies the triceps brachii?",
+      "options": [
+        "A. Median nerve",
+        "B. Musculocutaneous nerve",
+        "C. Radial nerve",
+        "D. Ulnar nerve"
+      ],
+      "correct_answer": "C. Radial nerve",
+      "answer_basis": "Generated for practice from the cited university lecture material; not an original lecture question.",
+      "explanation_from_source": "The radial nerve supplies the posterior compartment muscles of the arm, including triceps.",
+      "source": {
+        "file": "Anatomy of the Arm",
+        "page": null,
+        "pages": [
+          35,
+          36,
+          39,
+          41
+        ]
+      },
+      "question_origin": "Generated practice question"
+    },
+    {
+      "id": "ULW2-GMCQ-04",
+      "type": "generated_mcq",
+      "section": "Humeral shaft fracture",
+      "source_question_number": null,
+      "question": "Which nerve is most closely related to the spiral (radial) groove of the humerus?",
+      "options": [
+        "A. Axillary nerve",
+        "B. Radial nerve",
+        "C. Median nerve",
+        "D. Musculocutaneous nerve"
+      ],
+      "correct_answer": "B. Radial nerve",
+      "answer_basis": "Generated for practice from the cited university lecture material; not an original lecture question.",
+      "explanation_from_source": "The radial nerve runs in the spiral groove and is vulnerable in midshaft humeral fractures.",
+      "source": {
+        "file": "Anatomy of the Arm",
+        "page": null,
+        "pages": [
+          40,
+          41,
+          70,
+          71
+        ]
+      },
+      "question_origin": "Generated practice question"
+    },
+    {
+      "id": "ULW2-GMCQ-05",
+      "type": "generated_mcq",
+      "section": "Surgical neck",
+      "source_question_number": null,
+      "question": "A fracture at the surgical neck of the humerus places which nerve at greatest risk?",
+      "options": [
+        "A. Radial nerve",
+        "B. Ulnar nerve",
+        "C. Axillary nerve",
+        "D. Median nerve"
+      ],
+      "correct_answer": "C. Axillary nerve",
+      "answer_basis": "Generated for practice from the cited university lecture material; not an original lecture question.",
+      "explanation_from_source": "The axillary nerve winds around the surgical neck with the posterior circumflex humeral artery.",
+      "source": {
+        "file": "Anatomy of the Arm",
+        "page": null,
+        "pages": [
+          68,
+          69,
+          81
+        ]
+      },
+      "question_origin": "Generated practice question"
+    },
+    {
+      "id": "ULW2-GMCQ-06",
+      "type": "generated_mcq",
+      "section": "Supracondylar fracture",
+      "source_question_number": null,
+      "question": "Which artery is particularly at risk in a supracondylar fracture of the humerus?",
+      "options": [
+        "A. Axillary artery",
+        "B. Brachial artery",
+        "C. Radial artery",
+        "D. Posterior circumflex humeral artery"
+      ],
+      "correct_answer": "B. Brachial artery",
+      "answer_basis": "Generated for practice from the cited university lecture material; not an original lecture question.",
+      "explanation_from_source": "The brachial artery lies anterior to the distal humerus and may be compromised in supracondylar fractures.",
+      "source": {
+        "file": "Anatomy of the Arm",
+        "page": null,
+        "pages": [
+          75,
+          76,
+          77,
+          78
+        ]
+      },
+      "question_origin": "Generated practice question"
+    },
+    {
+      "id": "ULW2-GMCQ-07",
+      "type": "generated_mcq",
+      "section": "Anterior interosseous nerve",
+      "source_question_number": null,
+      "question": "Which bedside action is commonly used to assess anterior interosseous nerve function?",
+      "options": [
+        "A. Finger abduction",
+        "B. Making an “OK” sign",
+        "C. Wrist extension",
+        "D. Thumb opposition"
+      ],
+      "correct_answer": "B. Making an “OK” sign",
+      "answer_basis": "Generated for practice from the cited university lecture material; not an original lecture question.",
+      "explanation_from_source": "The anterior interosseous nerve supplies flexor pollicis longus and the lateral part of flexor digitorum profundus; weakness impairs the tip-to-tip “OK” sign.",
+      "source": {
+        "file": "Anatomy of the Arm",
+        "page": null,
+        "pages": [
+          76,
+          77
+        ]
+      },
+      "question_origin": "Generated practice question"
+    },
+    {
+      "id": "ULW2-GMCQ-08",
+      "type": "generated_mcq",
+      "section": "Cubital fossa",
+      "source_question_number": null,
+      "question": "Which structure is the most medial of the three major contents of the cubital fossa (lateral to medial arrangement)?",
+      "options": [
+        "A. Biceps tendon",
+        "B. Brachial artery",
+        "C. Median nerve",
+        "D. Radial nerve"
+      ],
+      "correct_answer": "C. Median nerve",
+      "answer_basis": "Generated for practice from the cited university lecture material; not an original lecture question.",
+      "explanation_from_source": "The classic lateral-to-medial order is tendon, artery, nerve (TAN).",
+      "source": {
+        "file": "Anatomy of the Arm",
+        "page": null,
+        "pages": [
+          54,
+          55,
+          56
+        ]
+      },
+      "question_origin": "Generated practice question"
+    },
+    {
+      "id": "ULW2-GMCQ-09",
+      "type": "generated_mcq",
+      "section": "Volkmann contracture",
+      "source_question_number": null,
+      "question": "Volkmann ischemic contracture most directly results from ischemia of which muscle group?",
+      "options": [
+        "A. Forearm flexor muscles",
+        "B. Forearm extensor muscles",
+        "C. Thenar muscles only",
+        "D. Intrinsic shoulder muscles"
+      ],
+      "correct_answer": "A. Forearm flexor muscles",
+      "answer_basis": "Generated for practice from the cited university lecture material; not an original lecture question.",
+      "explanation_from_source": "Compartment ischemia can cause necrosis and fibrosis of the forearm flexors, producing wrist and finger flexion contracture.",
+      "source": {
+        "file": "Anatomy of the Arm",
+        "page": null,
+        "pages": [
+          78,
+          79
+        ]
+      },
+      "question_origin": "Generated practice question"
+    },
+    {
+      "id": "ULW2-GMCQ-10",
+      "type": "generated_mcq",
+      "section": "Nursemaid elbow",
+      "source_question_number": null,
+      "question": "Nursemaid’s elbow is classically caused by displacement of which structure?",
+      "options": [
+        "A. Ulnar nerve",
+        "B. Radial head beneath the annular ligament",
+        "C. Olecranon beneath the ulnar collateral ligament",
+        "D. Distal radius beneath the pronator quadratus"
+      ],
+      "correct_answer": "B. Radial head beneath the annular ligament",
+      "answer_basis": "Generated for practice from the cited university lecture material; not an original lecture question.",
+      "explanation_from_source": "Traction on the child’s pronated forearm can cause radial head subluxation relative to the annular ligament.",
+      "source": {
+        "file": "Anatomy of the Arm",
+        "page": null,
+        "pages": [
+          82,
+          83
+        ]
+      },
+      "question_origin": "Generated practice question"
+    },
+    {
+      "id": "ULW2-GMCQ-11",
+      "type": "generated_mcq",
+      "section": "Brachial plexus roots",
+      "source_question_number": null,
+      "question": "Which spinal roots contribute to the brachial plexus?",
+      "options": [
+        "A. C1–C4",
+        "B. C5–T1",
+        "C. T2–T6",
+        "D. C8–T4"
+      ],
+      "correct_answer": "B. C5–T1",
+      "answer_basis": "Generated for practice from the cited university lecture material; not an original lecture question.",
+      "explanation_from_source": "The brachial plexus is formed by the anterior rami of C5 to T1.",
+      "source": {
+        "file": "Applied Anatomy – Brachial Plexus",
+        "page": 2,
+        "pages": [
+          2
+        ]
+      },
+      "question_origin": "Generated practice question"
+    },
+    {
+      "id": "ULW2-GMCQ-12",
+      "type": "generated_mcq",
+      "section": "Brachial plexus reflexes",
+      "source_question_number": null,
+      "question": "The triceps tendon reflex is primarily associated with which spinal root?",
+      "options": [
+        "A. C5",
+        "B. C6",
+        "C. C7",
+        "D. T1"
+      ],
+      "correct_answer": "C. C7",
+      "answer_basis": "Generated for practice from the cited university lecture material; not an original lecture question.",
+      "explanation_from_source": "The lecture associates the triceps reflex mainly with C7; biceps and brachioradialis are C5–C6.",
+      "source": {
+        "file": "Applied Anatomy – Brachial Plexus",
+        "page": 10,
+        "pages": [
+          10
+        ]
+      },
+      "question_origin": "Generated practice question"
+    }
+  ],
   "lecture_short_questions": [
     {
       "id": "ULW2-BP-Q1",
@@ -1217,7 +1523,8 @@
     "Complementary case 1 concerns fracture neck of humerus with possible axillary nerve/posterior circumflex humeral artery injury.",
     "Complementary case 2 describes obstetric traction injury but lacks enough findings to definitively choose Erb versus Klumpke.",
     "Page numbers are PDF page numbers.",
-    "A separate case_image_library contains image slots for all 5 Week 2 cases; original lecture short-answer questions are preserved."
+    "A separate case_image_library contains image slots for all 5 Week 2 cases; original lecture short-answer questions are preserved.",
+    "Compatibility update: added top-level case_mappings using the Week 1 field structure because the earlier Week 2 file used pbl_cases and applied_anatomy_cases as separate keys; generated MCQs are marked generated_mcq and are not represented as original lecture questions."
   ],
   "image_metadata_status": {
     "status": "Metadata added for all Week 2 cases; image files are not embedded.",
@@ -1354,5 +1661,619 @@
         "case_role": "Applied anatomy case"
       }
     ]
-  }
+  },
+  "case_mappings": [
+    {
+      "case": "Salima",
+      "case_role": "Main PBL case",
+      "clinical_pattern": "65-year-old woman falls onto an outstretched abducted arm. Mid-arm deformity, swelling, tenderness and bruising; inability to extend wrist/fingers; radial pulse palpable. X-ray shows spiral midshaft humeral fracture with medial displacement of proximal segment. Wrist/finger extension recovers by ten weeks; residual shoulder stiffness is treated with physiotherapy.",
+      "most_relevant_topic": "Spiral midshaft humeral fracture with wrist and finger drop, consistent with radial nerve injury near the spiral groove.",
+      "anatomy_links": [
+        {
+          "topic": "Radial nerve in spiral groove",
+          "source_file": "Anatomy of the Arm",
+          "pages": [
+            40,
+            41,
+            70,
+            71,
+            81
+          ]
+        },
+        {
+          "topic": "Triceps innervation",
+          "source_file": "Anatomy of the Arm",
+          "pages": [
+            35,
+            36,
+            39,
+            41
+          ]
+        },
+        {
+          "topic": "Wrist drop",
+          "source_file": "Applied Anatomy – Brachial Plexus",
+          "pages": [
+            16,
+            33
+          ]
+        },
+        {
+          "topic": "Humeral shaft fragment displacement",
+          "source_file": "Anatomy of the Arm",
+          "pages": [
+            71,
+            72
+          ]
+        }
+      ],
+      "clinical_correlation": [
+        "Spiral midshaft humeral fracture with wrist and finger drop, consistent with radial nerve injury near the spiral groove."
+      ],
+      "case_source": {
+        "file": "Unit3-week2 Case (Arm Swelling)",
+        "pages": [
+          1,
+          2
+        ]
+      },
+      "images": [
+        {
+          "image_id": "ULW2-IMG-CASE-001",
+          "image_name": "Spiral Midshaft Humeral Fracture – X-ray",
+          "image_type": "X-ray / Radiograph",
+          "image_description": "Radiograph of the humerus showing a spiral fracture through the midshaft, corresponding to the main PBL injury. Use the image to identify the fracture location and pattern, then relate the midshaft injury to the radial nerve in the spiral groove and the patient’s wrist and finger drop.",
+          "educational_purpose": "Fracture recognition and clinical correlation with radial nerve injury.",
+          "source": {
+            "file": "Unit3-week2 Case (Arm Swelling)",
+            "pdf_page": 2,
+            "source_role": "Image embedded in the original university PBL case."
+          },
+          "image_asset": null,
+          "upload_note": "Add the original X-ray image from the PBL PDF here; do not replace it with a generic image."
+        }
+      ],
+      "image_count": 1
+    },
+    {
+      "case": "Complementary Case 1 – Surgical Neck Fracture",
+      "case_role": "Complementary PBL case",
+      "clinical_pattern": "72-year-old woman falls onto left side; upper arm bruising, swelling and tenderness; anesthesia over upper lateral arm; X-ray shows fracture neck of humerus.",
+      "most_relevant_topic": "Fracture neck of humerus with possible axillary nerve and posterior circumflex humeral artery injury.",
+      "anatomy_links": [
+        {
+          "topic": "Axillary nerve and posterior circumflex humeral artery",
+          "source_file": "Anatomy of the Arm",
+          "pages": [
+            68,
+            69,
+            81
+          ]
+        },
+        {
+          "topic": "Axillary nerve motor/sensory findings",
+          "source_file": "Applied Anatomy – Brachial Plexus",
+          "pages": [
+            28
+          ]
+        }
+      ],
+      "clinical_correlation": [
+        "Fracture neck of humerus with possible axillary nerve and posterior circumflex humeral artery injury."
+      ],
+      "case_source": {
+        "file": "Unit3-week2 complementary cases",
+        "pages": []
+      },
+      "images": [
+        {
+          "image_id": "ULW2-IMG-CASE-002",
+          "image_name": "Surgical Neck Fracture of the Humerus – X-ray",
+          "image_type": "X-ray / Radiograph",
+          "image_description": "Shoulder radiograph showing a fracture at the surgical neck of the humerus. The red arrows in the university case image point toward the fracture region. Use it to locate the fracture and connect the injury with the nearby axillary nerve and posterior circumflex humeral artery; the patient’s sensory loss over the upper lateral arm is a key clinical clue.",
+          "educational_purpose": "Identify the surgical neck fracture and associate it with possible axillary nerve injury.",
+          "source": {
+            "file": "Unit3-week2 complementary cases",
+            "pdf_page": 1,
+            "source_role": "Image embedded in the original university complementary case."
+          },
+          "image_asset": null,
+          "upload_note": "Add the original shoulder X-ray from the complementary cases PDF here."
+        }
+      ],
+      "image_count": 1
+    },
+    {
+      "case": "Complementary Case 2 – Obstetric Brachial Plexus Injury",
+      "case_role": "Complementary PBL case",
+      "clinical_pattern": "32-year-old mother delivers a 5 kg infant after difficult labour and shoulder dystocia; infant does not move the right arm and it appears deformed.",
+      "most_relevant_topic": "Obstetric brachial plexus traction injury associated with shoulder dystocia; available case details do not definitively localize upper versus lower trunk.",
+      "anatomy_links": [
+        {
+          "topic": "Upper trunk C5–C6 / Erb palsy",
+          "source_file": "Applied Anatomy – Brachial Plexus",
+          "pages": [
+            21,
+            22
+          ]
+        },
+        {
+          "topic": "Lower trunk C8–T1 / Klumpke palsy",
+          "source_file": "Applied Anatomy – Brachial Plexus",
+          "pages": [
+            23,
+            24
+          ]
+        },
+        {
+          "topic": "Segmental values and reflexes",
+          "source_file": "Applied Anatomy – Brachial Plexus",
+          "pages": [
+            10,
+            12,
+            13
+          ]
+        }
+      ],
+      "clinical_correlation": [
+        "Obstetric brachial plexus traction injury associated with shoulder dystocia; available case details do not definitively localize upper versus lower trunk."
+      ],
+      "case_source": {
+        "file": "Unit3-week2 complementary cases",
+        "pages": []
+      },
+      "images": [
+        {
+          "image_id": "ULW2-IMG-CASE-003",
+          "image_name": "Obstetric Brachial Plexus Traction Injury",
+          "image_type": "Anatomical / Clinical explanatory illustration",
+          "image_description": "Illustration demonstrating traction on the brachial plexus during difficult delivery, with excessive separation of the infant’s head and shoulder. Use it to explain the mechanism of obstetric brachial plexus injury, then compare upper trunk (C5–C6, Erb palsy) and lower trunk (C8–T1, Klumpke palsy). The case description alone does not provide enough clinical findings to determine which trunk is injured.",
+          "educational_purpose": "Explain the traction mechanism and introduce anatomical localization without assigning a definitive lesion to this case.",
+          "source": {
+            "file": "Applied Anatomy – Brachial Plexus",
+            "pdf_page": 21,
+            "source_role": "University lecture illustration; explanatory support, not an image embedded in the PBL case."
+          },
+          "image_asset": null,
+          "upload_note": "Add the brachial plexus traction illustration from lecture page 21. Keep the case diagnosis non-specific unless additional examination findings are supplied."
+        }
+      ],
+      "image_count": 1
+    },
+    {
+      "case": "Pediatric supracondylar humeral fracture",
+      "case_role": "Applied Anatomy case",
+      "clinical_pattern": "6-year-old falls on outstretched hand; painful swollen elbow held in extension; absent radial pulse but warm pink fingers. Brachial artery and median/radial/ulnar nerves at risk; AIN highlighted as commonly injured. AIN: OK sign; radial: wrist/thumb extension; ulnar: finger abduction. Missed vascular compromise may cause Volkmann ischemic contracture.",
+      "most_relevant_topic": "Pediatric supracondylar humeral fracture",
+      "anatomy_links": [
+        {
+          "topic": "Pediatric supracondylar humeral fracture",
+          "source_file": "Anatomy of the Arm",
+          "pages": [
+            75,
+            76,
+            77,
+            78,
+            79
+          ]
+        }
+      ],
+      "clinical_correlation": [
+        "6-year-old falls on outstretched hand; painful swollen elbow held in extension; absent radial pulse but warm pink fingers.",
+        "Brachial artery and median/radial/ulnar nerves at risk; AIN highlighted as commonly injured.",
+        "AIN: OK sign; radial: wrist/thumb extension; ulnar: finger abduction.",
+        "Missed vascular compromise may cause Volkmann ischemic contracture."
+      ],
+      "case_source": {
+        "file": "Anatomy of the Arm",
+        "pages": [
+          75,
+          76,
+          77,
+          78,
+          79
+        ]
+      },
+      "images": [
+        {
+          "image_id": "ULW2-IMG-CASE-004",
+          "image_name": "Pediatric Supracondylar Humerus Fracture – Lateral Elbow X-ray",
+          "image_type": "X-ray / Radiograph",
+          "image_description": "Lateral radiograph of a child’s elbow showing a supracondylar fracture of the distal humerus. The accompanying case text describes a swollen painful elbow held in extension with an absent radial pulse but warm pink fingers. Use the radiograph to identify the fracture and then consider the nearby brachial artery and nerves at risk.",
+          "educational_purpose": "Recognize a pediatric supracondylar fracture and connect it with distal neurovascular assessment.",
+          "source": {
+            "file": "Anatomy of the Arm",
+            "pdf_page": 75,
+            "source_role": "X-ray embedded in the university anatomy lecture case scenario."
+          },
+          "image_asset": null,
+          "upload_note": "Take the elbow X-ray from page 75 of Anatomy of the Arm PDF and upload it to this image slot."
+        },
+        {
+          "image_id": "ULW2-IMG-CASE-005",
+          "image_name": "Volkmann Ischemic Contracture – Clinical Photograph",
+          "image_type": "Clinical photograph",
+          "image_description": "Clinical photograph showing flexion deformity of the wrist and fingers, presented in the lecture as Volkmann ischemic contracture following ischemia of the forearm flexor muscles. Use it as the late-complication image linked to the supracondylar fracture scenario.",
+          "educational_purpose": "Recognize the characteristic wrist and finger flexion deformity and relate it to forearm muscle ischemia.",
+          "source": {
+            "file": "Anatomy of the Arm",
+            "pdf_page": 79,
+            "source_role": "Clinical photograph embedded in the university lecture explanation of Volkmann ischemic contracture."
+          },
+          "image_asset": null,
+          "upload_note": "Take the clinical photograph from page 79 of Anatomy of the Arm PDF. Keep it as a complication image for this case."
+        }
+      ],
+      "image_count": 2
+    },
+    {
+      "case": "Radial head subluxation (Nursemaid’s elbow)",
+      "case_role": "Applied Anatomy case",
+      "clinical_pattern": "Young child after axial traction on pronated forearm; arm slightly flexed/pronated and not used. Annular ligament slips over radial head and becomes trapped. Lecture describes reduction by supination followed by flexion.",
+      "most_relevant_topic": "Radial head subluxation (Nursemaid’s elbow)",
+      "anatomy_links": [
+        {
+          "topic": "Radial head subluxation (Nursemaid’s elbow)",
+          "source_file": "Anatomy of the Arm",
+          "pages": [
+            82,
+            83
+          ]
+        }
+      ],
+      "clinical_correlation": [
+        "Young child after axial traction on pronated forearm; arm slightly flexed/pronated and not used.",
+        "Annular ligament slips over radial head and becomes trapped.",
+        "Lecture describes reduction by supination followed by flexion."
+      ],
+      "case_source": {
+        "file": "Anatomy of the Arm",
+        "pages": [
+          82,
+          83
+        ]
+      },
+      "images": [
+        {
+          "image_id": "ULW2-IMG-CASE-006",
+          "image_name": "Nursemaid’s Elbow – Axial Traction Mechanism",
+          "image_type": "Clinical / mechanism illustration",
+          "image_description": "Lecture image showing an adult pulling a child by the hand or wrist, illustrating the axial traction mechanism associated with radial head subluxation. The case text describes sudden refusal to use the arm, held in slight flexion and pronation, without swelling or deformity.",
+          "educational_purpose": "Connect the history of traction to the typical presentation of nursemaid’s elbow.",
+          "source": {
+            "file": "Anatomy of the Arm",
+            "pdf_page": 82,
+            "source_role": "Mechanism photograph embedded in the university lecture case scenario."
+          },
+          "image_asset": null,
+          "upload_note": "Take the traction photograph from page 82 of Anatomy of the Arm PDF."
+        },
+        {
+          "image_id": "ULW2-IMG-CASE-007",
+          "image_name": "Nursemaid’s Elbow – Annular Ligament and Radial Head Diagram",
+          "image_type": "Anatomical illustration",
+          "image_description": "Anatomical diagrams label the radial head, capitulum and annular ligament, and illustrate the ligament slipping over the radial head during traction. The page also depicts the reduction movement described in the lecture: supination followed by flexion.",
+          "educational_purpose": "Understand the anatomical mechanism of radial head subluxation and the reduction concept taught in the lecture.",
+          "source": {
+            "file": "Anatomy of the Arm",
+            "pdf_page": 83,
+            "source_role": "Anatomical and reduction diagrams embedded in the university lecture."
+          },
+          "image_asset": null,
+          "upload_note": "Take the labelled elbow anatomy and reduction diagrams from page 83 of Anatomy of the Arm PDF."
+        }
+      ],
+      "image_count": 2
+    }
+  ],
+  "generated_mcqs": [
+    {
+      "id": "ULW2-GMCQ-01",
+      "type": "generated_mcq",
+      "section": "Arm compartments",
+      "source_question_number": null,
+      "question": "Which nerve supplies the muscles of the anterior compartment of the arm?",
+      "options": [
+        "A. Radial nerve",
+        "B. Musculocutaneous nerve",
+        "C. Ulnar nerve",
+        "D. Axillary nerve"
+      ],
+      "correct_answer": "B. Musculocutaneous nerve",
+      "answer_basis": "Generated for practice from the cited university lecture material; not an original lecture question.",
+      "explanation_from_source": "The musculocutaneous nerve supplies biceps brachii, brachialis and coracobrachialis.",
+      "source": {
+        "file": "Anatomy of the Arm",
+        "page": null,
+        "pages": [
+          14,
+          15,
+          16,
+          17
+        ]
+      },
+      "question_origin": "Generated practice question"
+    },
+    {
+      "id": "ULW2-GMCQ-02",
+      "type": "generated_mcq",
+      "section": "Elbow flexion",
+      "source_question_number": null,
+      "question": "Which muscle is the primary flexor of the elbow regardless of forearm position?",
+      "options": [
+        "A. Biceps brachii",
+        "B. Brachialis",
+        "C. Triceps brachii",
+        "D. Anconeus"
+      ],
+      "correct_answer": "B. Brachialis",
+      "answer_basis": "Generated for practice from the cited university lecture material; not an original lecture question.",
+      "explanation_from_source": "Brachialis is the main elbow flexor; biceps contribution is stronger when the forearm is supinated.",
+      "source": {
+        "file": "Anatomy of the Arm",
+        "page": null,
+        "pages": [
+          18,
+          19
+        ]
+      },
+      "question_origin": "Generated practice question"
+    },
+    {
+      "id": "ULW2-GMCQ-03",
+      "type": "generated_mcq",
+      "section": "Posterior arm",
+      "source_question_number": null,
+      "question": "Which nerve supplies the triceps brachii?",
+      "options": [
+        "A. Median nerve",
+        "B. Musculocutaneous nerve",
+        "C. Radial nerve",
+        "D. Ulnar nerve"
+      ],
+      "correct_answer": "C. Radial nerve",
+      "answer_basis": "Generated for practice from the cited university lecture material; not an original lecture question.",
+      "explanation_from_source": "The radial nerve supplies the posterior compartment muscles of the arm, including triceps.",
+      "source": {
+        "file": "Anatomy of the Arm",
+        "page": null,
+        "pages": [
+          35,
+          36,
+          39,
+          41
+        ]
+      },
+      "question_origin": "Generated practice question"
+    },
+    {
+      "id": "ULW2-GMCQ-04",
+      "type": "generated_mcq",
+      "section": "Humeral shaft fracture",
+      "source_question_number": null,
+      "question": "Which nerve is most closely related to the spiral (radial) groove of the humerus?",
+      "options": [
+        "A. Axillary nerve",
+        "B. Radial nerve",
+        "C. Median nerve",
+        "D. Musculocutaneous nerve"
+      ],
+      "correct_answer": "B. Radial nerve",
+      "answer_basis": "Generated for practice from the cited university lecture material; not an original lecture question.",
+      "explanation_from_source": "The radial nerve runs in the spiral groove and is vulnerable in midshaft humeral fractures.",
+      "source": {
+        "file": "Anatomy of the Arm",
+        "page": null,
+        "pages": [
+          40,
+          41,
+          70,
+          71
+        ]
+      },
+      "question_origin": "Generated practice question"
+    },
+    {
+      "id": "ULW2-GMCQ-05",
+      "type": "generated_mcq",
+      "section": "Surgical neck",
+      "source_question_number": null,
+      "question": "A fracture at the surgical neck of the humerus places which nerve at greatest risk?",
+      "options": [
+        "A. Radial nerve",
+        "B. Ulnar nerve",
+        "C. Axillary nerve",
+        "D. Median nerve"
+      ],
+      "correct_answer": "C. Axillary nerve",
+      "answer_basis": "Generated for practice from the cited university lecture material; not an original lecture question.",
+      "explanation_from_source": "The axillary nerve winds around the surgical neck with the posterior circumflex humeral artery.",
+      "source": {
+        "file": "Anatomy of the Arm",
+        "page": null,
+        "pages": [
+          68,
+          69,
+          81
+        ]
+      },
+      "question_origin": "Generated practice question"
+    },
+    {
+      "id": "ULW2-GMCQ-06",
+      "type": "generated_mcq",
+      "section": "Supracondylar fracture",
+      "source_question_number": null,
+      "question": "Which artery is particularly at risk in a supracondylar fracture of the humerus?",
+      "options": [
+        "A. Axillary artery",
+        "B. Brachial artery",
+        "C. Radial artery",
+        "D. Posterior circumflex humeral artery"
+      ],
+      "correct_answer": "B. Brachial artery",
+      "answer_basis": "Generated for practice from the cited university lecture material; not an original lecture question.",
+      "explanation_from_source": "The brachial artery lies anterior to the distal humerus and may be compromised in supracondylar fractures.",
+      "source": {
+        "file": "Anatomy of the Arm",
+        "page": null,
+        "pages": [
+          75,
+          76,
+          77,
+          78
+        ]
+      },
+      "question_origin": "Generated practice question"
+    },
+    {
+      "id": "ULW2-GMCQ-07",
+      "type": "generated_mcq",
+      "section": "Anterior interosseous nerve",
+      "source_question_number": null,
+      "question": "Which bedside action is commonly used to assess anterior interosseous nerve function?",
+      "options": [
+        "A. Finger abduction",
+        "B. Making an “OK” sign",
+        "C. Wrist extension",
+        "D. Thumb opposition"
+      ],
+      "correct_answer": "B. Making an “OK” sign",
+      "answer_basis": "Generated for practice from the cited university lecture material; not an original lecture question.",
+      "explanation_from_source": "The anterior interosseous nerve supplies flexor pollicis longus and the lateral part of flexor digitorum profundus; weakness impairs the tip-to-tip “OK” sign.",
+      "source": {
+        "file": "Anatomy of the Arm",
+        "page": null,
+        "pages": [
+          76,
+          77
+        ]
+      },
+      "question_origin": "Generated practice question"
+    },
+    {
+      "id": "ULW2-GMCQ-08",
+      "type": "generated_mcq",
+      "section": "Cubital fossa",
+      "source_question_number": null,
+      "question": "Which structure is the most medial of the three major contents of the cubital fossa (lateral to medial arrangement)?",
+      "options": [
+        "A. Biceps tendon",
+        "B. Brachial artery",
+        "C. Median nerve",
+        "D. Radial nerve"
+      ],
+      "correct_answer": "C. Median nerve",
+      "answer_basis": "Generated for practice from the cited university lecture material; not an original lecture question.",
+      "explanation_from_source": "The classic lateral-to-medial order is tendon, artery, nerve (TAN).",
+      "source": {
+        "file": "Anatomy of the Arm",
+        "page": null,
+        "pages": [
+          54,
+          55,
+          56
+        ]
+      },
+      "question_origin": "Generated practice question"
+    },
+    {
+      "id": "ULW2-GMCQ-09",
+      "type": "generated_mcq",
+      "section": "Volkmann contracture",
+      "source_question_number": null,
+      "question": "Volkmann ischemic contracture most directly results from ischemia of which muscle group?",
+      "options": [
+        "A. Forearm flexor muscles",
+        "B. Forearm extensor muscles",
+        "C. Thenar muscles only",
+        "D. Intrinsic shoulder muscles"
+      ],
+      "correct_answer": "A. Forearm flexor muscles",
+      "answer_basis": "Generated for practice from the cited university lecture material; not an original lecture question.",
+      "explanation_from_source": "Compartment ischemia can cause necrosis and fibrosis of the forearm flexors, producing wrist and finger flexion contracture.",
+      "source": {
+        "file": "Anatomy of the Arm",
+        "page": null,
+        "pages": [
+          78,
+          79
+        ]
+      },
+      "question_origin": "Generated practice question"
+    },
+    {
+      "id": "ULW2-GMCQ-10",
+      "type": "generated_mcq",
+      "section": "Nursemaid elbow",
+      "source_question_number": null,
+      "question": "Nursemaid’s elbow is classically caused by displacement of which structure?",
+      "options": [
+        "A. Ulnar nerve",
+        "B. Radial head beneath the annular ligament",
+        "C. Olecranon beneath the ulnar collateral ligament",
+        "D. Distal radius beneath the pronator quadratus"
+      ],
+      "correct_answer": "B. Radial head beneath the annular ligament",
+      "answer_basis": "Generated for practice from the cited university lecture material; not an original lecture question.",
+      "explanation_from_source": "Traction on the child’s pronated forearm can cause radial head subluxation relative to the annular ligament.",
+      "source": {
+        "file": "Anatomy of the Arm",
+        "page": null,
+        "pages": [
+          82,
+          83
+        ]
+      },
+      "question_origin": "Generated practice question"
+    },
+    {
+      "id": "ULW2-GMCQ-11",
+      "type": "generated_mcq",
+      "section": "Brachial plexus roots",
+      "source_question_number": null,
+      "question": "Which spinal roots contribute to the brachial plexus?",
+      "options": [
+        "A. C1–C4",
+        "B. C5–T1",
+        "C. T2–T6",
+        "D. C8–T4"
+      ],
+      "correct_answer": "B. C5–T1",
+      "answer_basis": "Generated for practice from the cited university lecture material; not an original lecture question.",
+      "explanation_from_source": "The brachial plexus is formed by the anterior rami of C5 to T1.",
+      "source": {
+        "file": "Applied Anatomy – Brachial Plexus",
+        "page": 2,
+        "pages": [
+          2
+        ]
+      },
+      "question_origin": "Generated practice question"
+    },
+    {
+      "id": "ULW2-GMCQ-12",
+      "type": "generated_mcq",
+      "section": "Brachial plexus reflexes",
+      "source_question_number": null,
+      "question": "The triceps tendon reflex is primarily associated with which spinal root?",
+      "options": [
+        "A. C5",
+        "B. C6",
+        "C. C7",
+        "D. T1"
+      ],
+      "correct_answer": "C. C7",
+      "answer_basis": "Generated for practice from the cited university lecture material; not an original lecture question.",
+      "explanation_from_source": "The lecture associates the triceps reflex mainly with C7; biceps and brachioradialis are C5–C6.",
+      "source": {
+        "file": "Applied Anatomy – Brachial Plexus",
+        "page": 10,
+        "pages": [
+          10
+        ]
+      },
+      "question_origin": "Generated practice question"
+    }
+  ]
 }
