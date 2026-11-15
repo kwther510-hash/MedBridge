@@ -3,7 +3,7 @@
   "module": "Musculoskeletal System",
   "region": "Upper Limb",
   "week": 4,
-  "version": "1.1",
+  "version": "1.2",
   "content_status": {
     "university_material": "Reviewed all four supplied Week 4 PDFs: wrist-pain PBL (2 pages), complementary cases (1 page), Anatomy of hand (54 pages), and NERVE INJURIES (23 pages).",
     "lecture_mcqs": "No original lecture MCQs with options were identified in the supplied Week 4 PDFs; this does not mean the week has no MCQs.",
@@ -32,7 +32,428 @@
       "pages": 23
     }
   ],
-  "lecture_mcqs": [],
+  "lecture_mcqs": [
+    {
+      "id": "ULW4-GMCQ-01",
+      "type": "generated_mcq",
+      "section": "Carpal bones",
+      "source_question_number": null,
+      "question": "Which carpal bone lies in the floor of the anatomical snuffbox?",
+      "options": [
+        "A. Scaphoid",
+        "B. Pisiform",
+        "C. Lunate",
+        "D. Hamate"
+      ],
+      "correct_answer": "A. Scaphoid",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The hand lecture places the scaphoid in the floor of the anatomical snuffbox and notes its fracture/avascular necrosis risk.",
+      "source": {
+        "file": "Anatomy of hand",
+        "page": 4
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-02",
+      "type": "generated_mcq",
+      "section": "Carpal bones",
+      "source_question_number": null,
+      "question": "A golfer develops pain after trauma to the hook on the palmar side of a carpal bone. Which bone is involved?",
+      "options": [
+        "A. Trapezium",
+        "B. Hamate",
+        "C. Capitate",
+        "D. Lunate"
+      ],
+      "correct_answer": "B. Hamate",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The hook of hamate may fracture in racket sports and golf.",
+      "source": {
+        "file": "Anatomy of hand",
+        "page": 4
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-03",
+      "type": "generated_mcq",
+      "section": "Carpal tunnel",
+      "source_question_number": null,
+      "question": "Which structure forms the roof of the carpal tunnel?",
+      "options": [
+        "A. Palmar aponeurosis",
+        "B. Flexor retinaculum",
+        "C. Extensor retinaculum",
+        "D. Pisohamate ligament"
+      ],
+      "correct_answer": "B. Flexor retinaculum",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The flexor retinaculum spans the carpal arch to form the carpal tunnel.",
+      "source": {
+        "file": "Anatomy of hand",
+        "page": 3
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-04",
+      "type": "generated_mcq",
+      "section": "Thenar muscles",
+      "source_question_number": null,
+      "question": "Which muscle is supplied by the ulnar nerve rather than the recurrent branch of the median nerve?",
+      "options": [
+        "A. Abductor pollicis brevis",
+        "B. Opponens pollicis",
+        "C. Flexor pollicis brevis",
+        "D. Adductor pollicis"
+      ],
+      "correct_answer": "D. Adductor pollicis",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The lecture explicitly identifies adductor pollicis as ulnar-innervated.",
+      "source": {
+        "file": "Anatomy of hand",
+        "page": 25
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-05",
+      "type": "generated_mcq",
+      "section": "Hypothenar muscles",
+      "source_question_number": null,
+      "question": "Which nerve supplies the hypothenar muscles?",
+      "options": [
+        "A. Recurrent median",
+        "B. Deep ulnar",
+        "C. Superficial radial",
+        "D. Anterior interosseous"
+      ],
+      "correct_answer": "B. Deep ulnar",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The hypothenar muscles are supplied by the deep branch of the ulnar nerve.",
+      "source": {
+        "file": "Anatomy of hand",
+        "page": 28
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-06",
+      "type": "generated_mcq",
+      "section": "Lumbricals",
+      "source_question_number": null,
+      "question": "Contraction of lumbricals produces which combination?",
+      "options": [
+        "A. Extend MCP and flex IP",
+        "B. Flex MCP and extend IP",
+        "C. Flex all finger joints",
+        "D. Extend all finger joints"
+      ],
+      "correct_answer": "B. Flex MCP and extend IP",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The lecture states lumbricals flex MCP and extend PIP/DIP joints through the extensor expansion.",
+      "source": {
+        "file": "Anatomy of hand",
+        "page": 35
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-07",
+      "type": "generated_mcq",
+      "section": "Interossei",
+      "source_question_number": null,
+      "question": "Which mnemonic correctly describes interossei actions?",
+      "options": [
+        "A. PAD and DAB",
+        "B. DAB and PAD reversed",
+        "C. LOAF",
+        "D. SITS"
+      ],
+      "correct_answer": "A. PAD and DAB",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "Palmar interossei adduct (PAD); dorsal interossei abduct (DAB).",
+      "source": {
+        "file": "NERVE INJURIES",
+        "page": 15
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-08",
+      "type": "generated_mcq",
+      "section": "Median nerve",
+      "source_question_number": null,
+      "question": "A patient cannot oppose the thumb and has thenar flattening. Which nerve branch is most directly involved?",
+      "options": [
+        "A. Deep branch of ulnar",
+        "B. Recurrent branch of median",
+        "C. Superficial radial",
+        "D. Posterior interosseous"
+      ],
+      "correct_answer": "B. Recurrent branch of median",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The recurrent median branch supplies the thenar muscles involved in opposition, abduction and flexion.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "page": 7
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-09",
+      "type": "generated_mcq",
+      "section": "Median nerve",
+      "source_question_number": null,
+      "question": "In carpal tunnel syndrome, sensation over the thenar eminence is usually spared because the palmar cutaneous branch:",
+      "options": [
+        "A. Runs through Guyon canal",
+        "B. Passes superficial to flexor retinaculum",
+        "C. Arises from ulnar nerve",
+        "D. Passes through the carpal tunnel"
+      ],
+      "correct_answer": "B. Passes superficial to flexor retinaculum",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The lecture explains that this branch is not compressed within the carpal tunnel.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "page": 9
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-10",
+      "type": "generated_mcq",
+      "section": "Median nerve",
+      "source_question_number": null,
+      "question": "When a patient with a median nerve lesion at the elbow attempts to make a fist, the index and middle fingers remain extended. This is called:",
+      "options": [
+        "A. Ape hand",
+        "B. Benediction hand",
+        "C. Claw hand",
+        "D. Wrist drop"
+      ],
+      "correct_answer": "B. Benediction hand",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The lecture describes benediction hand with median nerve injury at the elbow.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "page": 6
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-11",
+      "type": "generated_mcq",
+      "section": "Median nerve",
+      "source_question_number": null,
+      "question": "Loss of flexion at the distal phalanx of the thumb and a negative OK sign suggest dysfunction of:",
+      "options": [
+        "A. FPL via anterior interosseous branch",
+        "B. Adductor pollicis via ulnar nerve",
+        "C. EPL via radial nerve",
+        "D. APB via recurrent median branch"
+      ],
+      "correct_answer": "A. FPL via anterior interosseous branch",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The lecture links FPL paralysis/anterior interosseous involvement to loss of the OK sign.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "page": 6
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-12",
+      "type": "generated_mcq",
+      "section": "Ulnar nerve",
+      "source_question_number": null,
+      "question": "A lesion of the ulnar nerve at the wrist may cause more obvious clawing than a lesion at the elbow. This is called:",
+      "options": [
+        "A. Benediction sign",
+        "B. Ulnar paradox",
+        "C. Ape hand",
+        "D. Saturday night palsy"
+      ],
+      "correct_answer": "B. Ulnar paradox",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The source explains that FDP supply is preserved in the distal lesion, increasing clawing.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "page": 19
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-13",
+      "type": "generated_mcq",
+      "section": "Ulnar nerve",
+      "source_question_number": null,
+      "question": "Which group is supplied by the ulnar nerve in the hand?",
+      "options": [
+        "A. Thenar muscles except adductor pollicis",
+        "B. All interossei",
+        "C. Lateral two lumbricals",
+        "D. Abductor pollicis brevis"
+      ],
+      "correct_answer": "B. All interossei",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The ulnar nerve supplies all interossei, medial two lumbricals, hypothenar muscles and adductor pollicis.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "page": 14
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-14",
+      "type": "generated_mcq",
+      "section": "Ulnar nerve",
+      "source_question_number": null,
+      "question": "Guyon canal is located between which carpal landmarks?",
+      "options": [
+        "A. Scaphoid and trapezium",
+        "B. Pisiform and hook of hamate",
+        "C. Lunate and capitate",
+        "D. Trapezoid and capitate"
+      ],
+      "correct_answer": "B. Pisiform and hook of hamate",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The ulnar nerve passes through Guyon canal between pisiform and hamate.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "page": 17
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-15",
+      "type": "generated_mcq",
+      "section": "Radial nerve",
+      "source_question_number": null,
+      "question": "Which terminal branch of the radial nerve is described as purely motor?",
+      "options": [
+        "A. Superficial radial nerve",
+        "B. Posterior interosseous nerve",
+        "C. Palmar cutaneous nerve",
+        "D. Deep ulnar nerve"
+      ],
+      "correct_answer": "B. Posterior interosseous nerve",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The lecture identifies the posterior interosseous nerve as motor and the superficial radial branch as sensory.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "page": 21
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-16",
+      "type": "generated_mcq",
+      "section": "Radial nerve",
+      "source_question_number": null,
+      "question": "A patient has wrist drop and finger drop after a humeral shaft fracture. Which nerve is most likely injured?",
+      "options": [
+        "A. Median",
+        "B. Ulnar",
+        "C. Radial",
+        "D. Musculocutaneous"
+      ],
+      "correct_answer": "C. Radial",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The radial nerve injury slide lists humeral shaft fracture and wrist/finger drop.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "page": 23
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-17",
+      "type": "generated_mcq",
+      "section": "Palmar arches",
+      "source_question_number": null,
+      "question": "The superficial palmar arch is formed mainly by which artery?",
+      "options": [
+        "A. Radial",
+        "B. Ulnar",
+        "C. Anterior interosseous",
+        "D. Posterior interosseous"
+      ],
+      "correct_answer": "B. Ulnar",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The superficial palmar arch is mainly ulnar, completed by the superficial palmar branch of radial artery.",
+      "source": {
+        "file": "Anatomy of hand",
+        "page": 52
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-18",
+      "type": "generated_mcq",
+      "section": "Palmar arches",
+      "source_question_number": null,
+      "question": "The deep palmar arch is formed mainly by which artery?",
+      "options": [
+        "A. Ulnar",
+        "B. Radial",
+        "C. Brachial",
+        "D. Common interosseous"
+      ],
+      "correct_answer": "B. Radial",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The deep palmar arch is mainly radial, completed by the deep palmar branch of ulnar artery.",
+      "source": {
+        "file": "Anatomy of hand",
+        "page": 53
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-19",
+      "type": "generated_mcq",
+      "section": "Mallet finger",
+      "source_question_number": null,
+      "question": "Which clinical finding in the complementary case defines mallet finger?",
+      "options": [
+        "A. Inability to flex DIP",
+        "B. Inability to actively extend DIP with drooping fingertip",
+        "C. Inability to abduct thumb",
+        "D. Fixed flexion of MCP"
+      ],
+      "correct_answer": "B. Inability to actively extend DIP with drooping fingertip",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "This reproduces the clinical description in the complementary case; the source names the condition mallet finger.",
+      "source": {
+        "file": "Unit3-week4 Complementary cases",
+        "page": 1
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-20",
+      "type": "generated_mcq",
+      "section": "Rheumatoid arthritis",
+      "source_question_number": null,
+      "question": "Which combination is reported in Qesmah's PBL?",
+      "options": [
+        "A. Normal ESR and negative RF",
+        "B. Raised ESR, positive rheumatoid factor and periarticular osteopenia",
+        "C. Isolated DIP joint swelling only",
+        "D. Thenar wasting with normal nerve conduction"
+      ],
+      "correct_answer": "B. Raised ESR, positive rheumatoid factor and periarticular osteopenia",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "These are the investigations and X-ray findings explicitly reported in the PBL.",
+      "source": {
+        "file": "Unit3-week4 case (wrist pain)",
+        "page": 1
+      },
+      "question_origin": "Generated"
+    }
+  ],
   "lecture_short_questions": [
     {
       "id": "ULW4-SQ-01",
@@ -2123,7 +2544,8 @@
     "No original lecture MCQs with answer options were identified in the supplied source PDFs.",
     "Website schema/import code was not supplied; this JSON follows the previous week's structure but direct compatibility has not been tested.",
     "Grouping metadata aligned with Weeks 1–3: module = Musculoskeletal System; region = Upper Limb. Wrist and Hand remains the Week 4 topic content, not a separate region/category.",
-    "Week 4 includes 20 generated practice MCQs despite no original lecture MCQs being present; generated questions remain distinct from original source questions."
+    "Week 4 includes 20 generated practice MCQs despite no original lecture MCQs being present; generated questions remain distinct from original source questions.",
+    "Compatibility note v1.2: generated MCQs are also listed in lecture_mcqs because the current importer may display only that collection. Each item retains type='generated_mcq' and question_origin='Generated', and the same items remain in generated_mcqs. They are not original lecture questions."
   ],
   "image_metadata_status": {
     "status": "Image metadata added; image files not embedded.",
