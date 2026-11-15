@@ -1,0 +1,2563 @@
+{
+  "project": "MedBridge",
+  "module": "Musculoskeletal and Neuroscience I",
+  "region": "Upper Limb – Wrist and Hand",
+  "week": 4,
+  "version": "1.0",
+  "content_status": {
+    "university_material": "Reviewed all four supplied Week 4 PDFs: wrist-pain PBL (3 PDF pages, page 3 blank), complementary cases (1 page), Anatomy of hand (54 pages), and NERVE INJURIES (23 pages).",
+    "lecture_mcqs": "No original lecture MCQs with options were identified in the supplied Week 4 PDFs.",
+    "lecture_short_questions": "13 original questions extracted verbatim from the two complementary cases (7 Carpal Tunnel Syndrome questions and 6 Mallet Finger questions). Answers were not printed in the source and remain null.",
+    "quick_recall": "51 generated recall prompts covering hand bones/joints, fascia and tendon sheaths, intrinsic muscles, nerve distributions/injuries, palmar arches and clinical correlations.",
+    "generated_mcqs": "20 generated MCQs with answers and explanations, clearly distinguished from original university questions.",
+    "clinical_case_mcqs": "Deferred until end of unit as requested.",
+    "osce": "Generated hand/wrist focused assessment framework; not an official university OSCE station.",
+    "final_case_json": "Structured using the same top-level layout as the previous Week 3 JSON, including case_mappings and image_inventory. Actual website importer compatibility cannot be guaranteed without the site's schema/import code."
+  },
+  "source_files": [
+    {
+      "file": "Unit3-week4 case (wrist pain)",
+      "pages": 2
+    },
+    {
+      "file": "Unit3-week4 Complementary cases",
+      "pages": 1
+    },
+    {
+      "file": "Anatomy of hand",
+      "pages": 54
+    },
+    {
+      "file": "NERVE INJURIES",
+      "pages": 23
+    }
+  ],
+  "lecture_mcqs": [],
+  "lecture_short_questions": [
+    {
+      "id": "ULW4-SQ-01",
+      "type": "lecture_short_question",
+      "question": "What is the likely diagnosis?",
+      "options": [],
+      "answer": null,
+      "source": {
+        "file": "Unit3-week4 Complementary cases",
+        "pages": [
+          1
+        ]
+      },
+      "status": "Original complementary-case question; answer not printed in source."
+    },
+    {
+      "id": "ULW4-SQ-02",
+      "type": "lecture_short_question",
+      "question": "What is carpal tunnel syndrome?",
+      "options": [],
+      "answer": null,
+      "source": {
+        "file": "Unit3-week4 Complementary cases",
+        "pages": [
+          1
+        ]
+      },
+      "status": "Original complementary-case question; answer not printed in source."
+    },
+    {
+      "id": "ULW4-SQ-03",
+      "type": "lecture_short_question",
+      "question": "What are the causes of carpal tunnel syndrome?",
+      "options": [],
+      "answer": null,
+      "source": {
+        "file": "Unit3-week4 Complementary cases",
+        "pages": [
+          1
+        ]
+      },
+      "status": "Original complementary-case question; answer not printed in source."
+    },
+    {
+      "id": "ULW4-SQ-04",
+      "type": "lecture_short_question",
+      "question": "What are the symptoms of carpal tunnel syndrome?",
+      "options": [],
+      "answer": null,
+      "source": {
+        "file": "Unit3-week4 Complementary cases",
+        "pages": [
+          1
+        ]
+      },
+      "status": "Original complementary-case question; answer not printed in source."
+    },
+    {
+      "id": "ULW4-SQ-05",
+      "type": "lecture_short_question",
+      "question": "Who is at risk of developing carpal tunnel syndrome?",
+      "options": [],
+      "answer": null,
+      "source": {
+        "file": "Unit3-week4 Complementary cases",
+        "pages": [
+          1
+        ]
+      },
+      "status": "Original complementary-case question; answer not printed in source."
+    },
+    {
+      "id": "ULW4-SQ-06",
+      "type": "lecture_short_question",
+      "question": "How is carpal tunnel syndrome diagnosed?",
+      "options": [],
+      "answer": null,
+      "source": {
+        "file": "Unit3-week4 Complementary cases",
+        "pages": [
+          1
+        ]
+      },
+      "status": "Original complementary-case question; answer not printed in source."
+    },
+    {
+      "id": "ULW4-SQ-07",
+      "type": "lecture_short_question",
+      "question": "How is carpal tunnel syndrome treated?",
+      "options": [],
+      "answer": null,
+      "source": {
+        "file": "Unit3-week4 Complementary cases",
+        "pages": [
+          1
+        ]
+      },
+      "status": "Original complementary-case question; answer not printed in source."
+    },
+    {
+      "id": "ULW4-SQ-08",
+      "type": "lecture_short_question",
+      "question": "What is the first aid management for a very painful injured joint?",
+      "options": [],
+      "answer": null,
+      "source": {
+        "file": "Unit3-week4 Complementary cases",
+        "pages": [
+          1
+        ]
+      },
+      "status": "Original complementary-case question; answer not printed in source."
+    },
+    {
+      "id": "ULW4-SQ-09",
+      "type": "lecture_short_question",
+      "question": "What is Mallet finger?",
+      "options": [],
+      "answer": null,
+      "source": {
+        "file": "Unit3-week4 Complementary cases",
+        "pages": [
+          1
+        ]
+      },
+      "status": "Original complementary-case question; answer not printed in source."
+    },
+    {
+      "id": "ULW4-SQ-10",
+      "type": "lecture_short_question",
+      "question": "How could it be confirmed?",
+      "options": [],
+      "answer": null,
+      "source": {
+        "file": "Unit3-week4 Complementary cases",
+        "pages": [
+          1
+        ]
+      },
+      "status": "Original complementary-case question; answer not printed in source."
+    },
+    {
+      "id": "ULW4-SQ-11",
+      "type": "lecture_short_question",
+      "question": "What other problems may co-exist?",
+      "options": [],
+      "answer": null,
+      "source": {
+        "file": "Unit3-week4 Complementary cases",
+        "pages": [
+          1
+        ]
+      },
+      "status": "Original complementary-case question; answer not printed in source."
+    },
+    {
+      "id": "ULW4-SQ-12",
+      "type": "lecture_short_question",
+      "question": "What is the management of a mallet finger? Does it depend on who has the problem?",
+      "options": [],
+      "answer": null,
+      "source": {
+        "file": "Unit3-week4 Complementary cases",
+        "pages": [
+          1
+        ]
+      },
+      "status": "Original complementary-case question; answer not printed in source."
+    },
+    {
+      "id": "ULW4-SQ-13",
+      "type": "lecture_short_question",
+      "question": "What are the mechanical factors that cause significant injuries to the interphalangeal joint?",
+      "options": [],
+      "answer": null,
+      "source": {
+        "file": "Unit3-week4 Complementary cases",
+        "pages": [
+          1
+        ]
+      },
+      "status": "Original complementary-case question; answer not printed in source."
+    }
+  ],
+  "quick_recall": [
+    {
+      "id": "ULW4-QR-001",
+      "type": "quick_recall",
+      "category": "Hand skeleton",
+      "question": "How many bones are in the hand?",
+      "answer": "27: 8 carpal bones, 5 metacarpals and 14 phalanges.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          3
+        ]
+      },
+      "tags": [
+        "hand_skeleton"
+      ]
+    },
+    {
+      "id": "ULW4-QR-002",
+      "type": "quick_recall",
+      "category": "Carpal bones",
+      "question": "Name the proximal row of carpal bones from lateral to medial.",
+      "answer": "Scaphoid, lunate, triquetrum, pisiform.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          3
+        ]
+      },
+      "tags": [
+        "carpal_bones"
+      ]
+    },
+    {
+      "id": "ULW4-QR-003",
+      "type": "quick_recall",
+      "category": "Carpal bones",
+      "question": "Name the distal row of carpal bones from lateral to medial.",
+      "answer": "Trapezium, trapezoid, capitate, hamate.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          3
+        ]
+      },
+      "tags": [
+        "carpal_bones"
+      ]
+    },
+    {
+      "id": "ULW4-QR-004",
+      "type": "quick_recall",
+      "category": "Carpal bones",
+      "question": "Which carpal bone is most frequently fractured?",
+      "answer": "Scaphoid.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          4
+        ]
+      },
+      "tags": [
+        "carpal_bones"
+      ]
+    },
+    {
+      "id": "ULW4-QR-005",
+      "type": "quick_recall",
+      "category": "Carpal bones",
+      "question": "Which carpal bone is most frequently dislocated according to the lecture?",
+      "answer": "Lunate.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          4
+        ]
+      },
+      "tags": [
+        "carpal_bones"
+      ]
+    },
+    {
+      "id": "ULW4-QR-006",
+      "type": "quick_recall",
+      "category": "Carpal bones",
+      "question": "Which carpal bone forms a saddle joint with the first metacarpal?",
+      "answer": "Trapezium.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          4,
+          5
+        ]
+      },
+      "tags": [
+        "carpal_bones"
+      ]
+    },
+    {
+      "id": "ULW4-QR-007",
+      "type": "quick_recall",
+      "category": "Carpal bones",
+      "question": "Which carpal bone has a hook that may fracture in racket sports and golf?",
+      "answer": "Hamate.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          4
+        ]
+      },
+      "tags": [
+        "carpal_bones"
+      ]
+    },
+    {
+      "id": "ULW4-QR-008",
+      "type": "quick_recall",
+      "category": "Carpal tunnel",
+      "question": "What forms the roof of the carpal tunnel?",
+      "answer": "Flexor retinaculum.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          3,
+          11
+        ]
+      },
+      "tags": [
+        "carpal_tunnel"
+      ]
+    },
+    {
+      "id": "ULW4-QR-009",
+      "type": "quick_recall",
+      "category": "Hand joints",
+      "question": "What type of joint is the first carpometacarpal joint?",
+      "answer": "Saddle joint.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          5
+        ]
+      },
+      "tags": [
+        "hand_joints"
+      ]
+    },
+    {
+      "id": "ULW4-QR-010",
+      "type": "quick_recall",
+      "category": "Palmaris brevis",
+      "question": "What is the nerve supply of palmaris brevis?",
+      "answer": "Superficial branch of ulnar nerve.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          8,
+          9
+        ]
+      },
+      "tags": [
+        "palmaris_brevis"
+      ]
+    },
+    {
+      "id": "ULW4-QR-011",
+      "type": "quick_recall",
+      "category": "Palmar aponeurosis",
+      "question": "Give two functions of palmar aponeurosis.",
+      "answer": "Fixes palmar skin to improve grip; protects underlying tendons, nerves and vessels.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          12
+        ]
+      },
+      "tags": [
+        "palmar_aponeurosis"
+      ]
+    },
+    {
+      "id": "ULW4-QR-012",
+      "type": "quick_recall",
+      "category": "Dupuytren",
+      "question": "Which digits are most affected in Dupuytren contracture?",
+      "answer": "Digits 4 and 5.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          13
+        ]
+      },
+      "tags": [
+        "dupuytren"
+      ]
+    },
+    {
+      "id": "ULW4-QR-013",
+      "type": "quick_recall",
+      "category": "Flexor sheaths",
+      "question": "What is the function of fibrous flexor sheaths?",
+      "answer": "Hold flexor tendons in position during finger flexion.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          14
+        ]
+      },
+      "tags": [
+        "flexor_sheaths"
+      ]
+    },
+    {
+      "id": "ULW4-QR-014",
+      "type": "quick_recall",
+      "category": "Synovial sheaths",
+      "question": "Name the three parts of the long flexor synovial sheaths listed in the lecture.",
+      "answer": "Ulnar bursa, radial bursa and digital synovial sheaths.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          16
+        ]
+      },
+      "tags": [
+        "synovial_sheaths"
+      ]
+    },
+    {
+      "id": "ULW4-QR-015",
+      "type": "quick_recall",
+      "category": "Extensor compartments",
+      "question": "How many extensor tendon compartments are present at the posterior wrist?",
+      "answer": "Six.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          17
+        ]
+      },
+      "tags": [
+        "extensor_compartments"
+      ]
+    },
+    {
+      "id": "ULW4-QR-016",
+      "type": "quick_recall",
+      "category": "Intrinsic muscles",
+      "question": "What is the stated number of intrinsic hand muscles?",
+      "answer": "20 short muscles.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          19
+        ]
+      },
+      "tags": [
+        "intrinsic_muscles"
+      ]
+    },
+    {
+      "id": "ULW4-QR-017",
+      "type": "quick_recall",
+      "category": "Thenar muscles",
+      "question": "Name the three thenar muscles.",
+      "answer": "Abductor pollicis brevis, flexor pollicis brevis and opponens pollicis.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          24,
+          25
+        ]
+      },
+      "tags": [
+        "thenar_muscles"
+      ]
+    },
+    {
+      "id": "ULW4-QR-018",
+      "type": "quick_recall",
+      "category": "Thenar muscles",
+      "question": "Which thenar-region muscle is supplied by the ulnar nerve?",
+      "answer": "Adductor pollicis.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          24,
+          25,
+          27
+        ]
+      },
+      "tags": [
+        "thenar_muscles"
+      ]
+    },
+    {
+      "id": "ULW4-QR-019",
+      "type": "quick_recall",
+      "category": "Thenar muscles",
+      "question": "What nerve branch supplies most thenar muscles?",
+      "answer": "Recurrent branch of median nerve.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          26
+        ]
+      },
+      "tags": [
+        "thenar_muscles"
+      ]
+    },
+    {
+      "id": "ULW4-QR-020",
+      "type": "quick_recall",
+      "category": "Hypothenar muscles",
+      "question": "Name the three hypothenar muscles.",
+      "answer": "Abductor digiti minimi, flexor digiti minimi and opponens digiti minimi.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          28
+        ]
+      },
+      "tags": [
+        "hypothenar_muscles"
+      ]
+    },
+    {
+      "id": "ULW4-QR-021",
+      "type": "quick_recall",
+      "category": "Hypothenar muscles",
+      "question": "What is the nerve supply of hypothenar muscles?",
+      "answer": "Deep branch of ulnar nerve.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          28,
+          29
+        ]
+      },
+      "tags": [
+        "hypothenar_muscles"
+      ]
+    },
+    {
+      "id": "ULW4-QR-022",
+      "type": "quick_recall",
+      "category": "Lumbricals",
+      "question": "From which tendons do the four lumbricals arise?",
+      "answer": "Flexor digitorum profundus tendons.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          32
+        ]
+      },
+      "tags": [
+        "lumbricals"
+      ]
+    },
+    {
+      "id": "ULW4-QR-023",
+      "type": "quick_recall",
+      "category": "Lumbricals",
+      "question": "What is the action of lumbricals at MCP and IP joints?",
+      "answer": "Flex MCP joints and extend IP joints.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          34,
+          35
+        ]
+      },
+      "tags": [
+        "lumbricals"
+      ]
+    },
+    {
+      "id": "ULW4-QR-024",
+      "type": "quick_recall",
+      "category": "Extensor expansion",
+      "question": "Where does the central slip of extensor expansion insert?",
+      "answer": "Base of middle phalanx.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          34
+        ]
+      },
+      "tags": [
+        "extensor_expansion"
+      ]
+    },
+    {
+      "id": "ULW4-QR-025",
+      "type": "quick_recall",
+      "category": "Extensor expansion",
+      "question": "Where do the lateral slips insert?",
+      "answer": "Base of terminal/distal phalanx.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          34
+        ]
+      },
+      "tags": [
+        "extensor_expansion"
+      ]
+    },
+    {
+      "id": "ULW4-QR-026",
+      "type": "quick_recall",
+      "category": "Interossei",
+      "question": "What is the mnemonic for interossei actions?",
+      "answer": "PAD = palmar interossei adduct; DAB = dorsal interossei abduct.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ]
+      },
+      "tags": [
+        "interossei"
+      ]
+    },
+    {
+      "id": "ULW4-QR-027",
+      "type": "quick_recall",
+      "category": "Median nerve",
+      "question": "What is the LOAF mnemonic?",
+      "answer": "Lateral two lumbricals; Opponens pollicis; Abductor pollicis brevis; Flexor pollicis brevis.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "pages": [
+          3
+        ]
+      },
+      "tags": [
+        "median_nerve"
+      ]
+    },
+    {
+      "id": "ULW4-QR-028",
+      "type": "quick_recall",
+      "category": "Median nerve",
+      "question": "Which fingers receive palmar sensory supply from the median nerve?",
+      "answer": "Lateral 3½ fingers.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "pages": [
+          3
+        ]
+      },
+      "tags": [
+        "median_nerve"
+      ]
+    },
+    {
+      "id": "ULW4-QR-029",
+      "type": "quick_recall",
+      "category": "Median nerve",
+      "question": "Why is thenar eminence skin spared in carpal tunnel syndrome?",
+      "answer": "The palmar cutaneous branch passes superficial to the flexor retinaculum.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "pages": [
+          9
+        ]
+      },
+      "tags": [
+        "median_nerve"
+      ]
+    },
+    {
+      "id": "ULW4-QR-030",
+      "type": "quick_recall",
+      "category": "Median nerve",
+      "question": "What deformity is seen when a patient with median nerve injury at the elbow tries to make a fist?",
+      "answer": "Benediction hand.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "pages": [
+          6
+        ]
+      },
+      "tags": [
+        "median_nerve"
+      ]
+    },
+    {
+      "id": "ULW4-QR-031",
+      "type": "quick_recall",
+      "category": "Median nerve",
+      "question": "Which test sign may be lost with anterior interosseous/FPL dysfunction?",
+      "answer": "OK sign.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "pages": [
+          6
+        ]
+      },
+      "tags": [
+        "median_nerve"
+      ]
+    },
+    {
+      "id": "ULW4-QR-032",
+      "type": "quick_recall",
+      "category": "Median nerve",
+      "question": "What is the typical thenar deformity after median nerve injury?",
+      "answer": "Ape-like hand/flattened thenar eminence with loss of opposition and abduction.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "pages": [
+          7
+        ]
+      },
+      "tags": [
+        "median_nerve"
+      ]
+    },
+    {
+      "id": "ULW4-QR-033",
+      "type": "quick_recall",
+      "category": "Median nerve",
+      "question": "Which provocative tests are listed for carpal tunnel syndrome?",
+      "answer": "Forced palmar flexion and tapping over the tunnel (Tinel-type tapping).",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "pages": [
+          10
+        ]
+      },
+      "tags": [
+        "median_nerve"
+      ]
+    },
+    {
+      "id": "ULW4-QR-034",
+      "type": "quick_recall",
+      "category": "Ulnar nerve",
+      "question": "Which roots are listed for the ulnar nerve?",
+      "answer": "C7, C8 and T1.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "pages": [
+          12
+        ]
+      },
+      "tags": [
+        "ulnar_nerve"
+      ]
+    },
+    {
+      "id": "ULW4-QR-035",
+      "type": "quick_recall",
+      "category": "Ulnar nerve",
+      "question": "Which forearm muscles are supplied by the ulnar nerve?",
+      "answer": "FCU and medial half of FDP.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "pages": [
+          13
+        ]
+      },
+      "tags": [
+        "ulnar_nerve"
+      ]
+    },
+    {
+      "id": "ULW4-QR-036",
+      "type": "quick_recall",
+      "category": "Ulnar nerve",
+      "question": "Name the ulnar-innervated intrinsic muscle groups in the hand.",
+      "answer": "Palmaris brevis, hypothenar muscles, medial two lumbricals, adductor pollicis and all interossei.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "pages": [
+          14
+        ]
+      },
+      "tags": [
+        "ulnar_nerve"
+      ]
+    },
+    {
+      "id": "ULW4-QR-037",
+      "type": "quick_recall",
+      "category": "Ulnar nerve",
+      "question": "What is the sensory territory stated for the palmar ulnar nerve?",
+      "answer": "Medial 1½ fingers.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "pages": [
+          14
+        ]
+      },
+      "tags": [
+        "ulnar_nerve"
+      ]
+    },
+    {
+      "id": "ULW4-QR-038",
+      "type": "quick_recall",
+      "category": "Ulnar nerve",
+      "question": "What is the classic claw-hand pattern after ulnar nerve injury?",
+      "answer": "MCP hyperextension with IP flexion, most evident in ring and little fingers.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "pages": [
+          18,
+          19
+        ]
+      },
+      "tags": [
+        "ulnar_nerve"
+      ]
+    },
+    {
+      "id": "ULW4-QR-039",
+      "type": "quick_recall",
+      "category": "Ulnar nerve",
+      "question": "What is meant by ulnar paradox in the lecture?",
+      "answer": "A distal hand lesion causes more marked clawing because the medial half of FDP remains innervated.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "pages": [
+          19
+        ]
+      },
+      "tags": [
+        "ulnar_nerve"
+      ]
+    },
+    {
+      "id": "ULW4-QR-040",
+      "type": "quick_recall",
+      "category": "Ulnar nerve",
+      "question": "Where is Guyon canal located?",
+      "answer": "At the wrist between pisiform and hook of hamate, bridged by a ligament.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "pages": [
+          17
+        ]
+      },
+      "tags": [
+        "ulnar_nerve"
+      ]
+    },
+    {
+      "id": "ULW4-QR-041",
+      "type": "quick_recall",
+      "category": "Radial nerve",
+      "question": "Into which two terminal branches does the radial nerve divide?",
+      "answer": "Superficial radial nerve (sensory) and posterior interosseous nerve (motor).",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "pages": [
+          21
+        ]
+      },
+      "tags": [
+        "radial_nerve"
+      ]
+    },
+    {
+      "id": "ULW4-QR-042",
+      "type": "quick_recall",
+      "category": "Radial nerve",
+      "question": "What is the sensory territory of the superficial radial nerve described in the lecture?",
+      "answer": "Lateral 2/3 of dorsum of hand and dorsal proximal halves of lateral 3½ fingers.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "pages": [
+          22
+        ]
+      },
+      "tags": [
+        "radial_nerve"
+      ]
+    },
+    {
+      "id": "ULW4-QR-043",
+      "type": "quick_recall",
+      "category": "Radial nerve",
+      "question": "Name two causes of radial nerve injury listed in the lecture.",
+      "answer": "Crutch palsy and Saturday night palsy; also humeral shaft or supracondylar fracture.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "pages": [
+          23
+        ]
+      },
+      "tags": [
+        "radial_nerve"
+      ]
+    },
+    {
+      "id": "ULW4-QR-044",
+      "type": "quick_recall",
+      "category": "Radial nerve",
+      "question": "What are the characteristic motor deformities of radial nerve injury?",
+      "answer": "Finger drop and wrist drop.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "pages": [
+          23
+        ]
+      },
+      "tags": [
+        "radial_nerve"
+      ]
+    },
+    {
+      "id": "ULW4-QR-045",
+      "type": "quick_recall",
+      "category": "Palmar arches",
+      "question": "Which artery mainly forms the superficial palmar arch?",
+      "answer": "Ulnar artery, completed by superficial palmar branch of radial artery.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          52
+        ]
+      },
+      "tags": [
+        "palmar_arches"
+      ]
+    },
+    {
+      "id": "ULW4-QR-046",
+      "type": "quick_recall",
+      "category": "Palmar arches",
+      "question": "Which artery mainly forms the deep palmar arch?",
+      "answer": "Radial artery, completed by deep palmar branch of ulnar artery.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          53
+        ]
+      },
+      "tags": [
+        "palmar_arches"
+      ]
+    },
+    {
+      "id": "ULW4-QR-047",
+      "type": "quick_recall",
+      "category": "Palmar arches",
+      "question": "What branches arise from the superficial palmar arch?",
+      "answer": "Four palmar digital arteries.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          52
+        ]
+      },
+      "tags": [
+        "palmar_arches"
+      ]
+    },
+    {
+      "id": "ULW4-QR-048",
+      "type": "quick_recall",
+      "category": "Palmar arches",
+      "question": "What branches arise from the deep palmar arch?",
+      "answer": "Palmar metacarpal arteries.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          53
+        ]
+      },
+      "tags": [
+        "palmar_arches"
+      ]
+    },
+    {
+      "id": "ULW4-QR-049",
+      "type": "quick_recall",
+      "category": "Fascial spaces",
+      "question": "Where is Parona space located?",
+      "answer": "Distal forearm/volar wrist, deep to flexor tendons, between pronator quadratus fascia and FDP tendon sheath.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          46
+        ]
+      },
+      "tags": [
+        "fascial_spaces"
+      ]
+    },
+    {
+      "id": "ULW4-QR-050",
+      "type": "quick_recall",
+      "category": "Clinical",
+      "question": "What nerve is compressed in carpal tunnel syndrome?",
+      "answer": "Median nerve.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "pages": [
+          9,
+          10
+        ]
+      },
+      "tags": [
+        "clinical"
+      ]
+    },
+    {
+      "id": "ULW4-QR-051",
+      "type": "quick_recall",
+      "category": "Clinical",
+      "question": "What tendon mechanism is disrupted in mallet finger?",
+      "answer": "Terminal extensor mechanism at the DIP joint; the supplied source identifies mallet finger but does not detail the lesion.",
+      "source_basis": "Generated from the stated university lecture/PBL material; not a verbatim university question.",
+      "source": {
+        "file": "Unit3-week4 Complementary cases",
+        "pages": [
+          1
+        ]
+      },
+      "tags": [
+        "clinical"
+      ]
+    }
+  ],
+  "case_mappings": [
+    {
+      "case": "Qesmah",
+      "case_role": "Main PBL case",
+      "clinical_pattern": "A 45-year-old woman has recurrent aching pain in the right wrist and MCP joints of both hands, mild joint swelling, morning stiffness and functional difficulty. She reports nocturnal tingling/numbness in the right thumb and index finger. Examination shows swelling/tenderness at the wrist, MCP and PIP joints, reduced sensation in the right thumb/index, but normal muscle power and no thenar wasting. Small painless subcutaneous nodules are present near the elbow. Hand/wrist X-rays show periarticular soft-tissue swelling and periarticular osteopenia; ESR is raised, mild hypochromic normocytic anemia and positive rheumatoid factor are reported. Nerve conduction shows reduced velocity in the right median nerve distal to the wrist. The PBL diagnosis is Rheumatoid Arthritis.",
+      "most_relevant_topic": "Rheumatoid Arthritis with associated right median nerve compression / carpal tunnel syndrome features. The case explicitly diagnoses RA and reports slowed median nerve conduction distal to the wrist.",
+      "anatomy_links": [
+        {
+          "topic": "Median nerve sensory territory in the hand and carpal tunnel compression",
+          "source_file": "NERVE INJURIES",
+          "pages": [
+            3,
+            9,
+            10
+          ]
+        },
+        {
+          "topic": "Flexor retinaculum, carpal tunnel and flexor synovial sheaths",
+          "source_file": "Anatomy of hand",
+          "pages": [
+            3,
+            16
+          ]
+        },
+        {
+          "topic": "Thenar muscles and recurrent median nerve branch (LOAF)",
+          "source_file": "Anatomy of hand",
+          "pages": [
+            24,
+            25,
+            26,
+            49
+          ]
+        }
+      ],
+      "clinical_correlation": [
+        "Bilateral MCP/PIP and wrist symptoms with morning stiffness, swelling and raised ESR support an inflammatory polyarthritis pattern; the supplied PBL names Rheumatoid Arthritis.",
+        "Numbness/tingling in the thumb and index finger, especially at night, together with reduced median nerve conduction distal to the wrist, indicates median nerve involvement at the wrist.",
+        "No thenar wasting and normal motor power are documented; do not add thenar atrophy to this patient's findings.",
+        "Subcutaneous nodules near the elbow are a systemic extra-articular clue described in the case.",
+        "The PBL states an indomethacin dose as '150 gm/day'; this is an apparent source-unit error and must not be treated as a usable prescription. The source later describes methotrexate 7.5 mg weekly and physiotherapy."
+      ],
+      "source": {
+        "file": "Unit3-week4 case (wrist pain)",
+        "pages": [
+          1,
+          2
+        ]
+      },
+      "source_notes": [
+        "The source text inconsistently calls the patient Qesmah and later Farida; the JSON retains Qesmah, the name used in the case opening.",
+        "The printed indomethacin unit is 'gm/day' and is clearly unsafe/implausible as written; retained only as a flagged transcription issue, not clinical advice."
+      ]
+    },
+    {
+      "case": "Jasim",
+      "case_role": "Complementary Case 1",
+      "clinical_pattern": "A 55-year-old male painter has hand and wrist pain with tingling, occasional sharp shooting pain extending from the wrist up the arm during work, weak grip, difficulty grasping small objects and wasting at the base of the thumb. He has had diabetes mellitus for 10 years.",
+      "most_relevant_topic": "Carpal Tunnel Syndrome (median nerve compression in the carpal tunnel), as indicated by the case questions and thenar wasting; diabetes is a risk factor to consider.",
+      "anatomy_links": [
+        {
+          "topic": "Carpal tunnel formed by the carpal arch and flexor retinaculum",
+          "source_file": "Anatomy of hand",
+          "pages": [
+            3,
+            11,
+            16
+          ]
+        },
+        {
+          "topic": "Median nerve sensory territory and thenar motor supply",
+          "source_file": "NERVE INJURIES",
+          "pages": [
+            3,
+            9,
+            10
+          ]
+        },
+        {
+          "topic": "Thenar muscles and recurrent branch of median nerve",
+          "source_file": "Anatomy of hand",
+          "pages": [
+            24,
+            25,
+            26,
+            49
+          ]
+        }
+      ],
+      "clinical_correlation": [
+        "Median nerve compression can cause pain/tingling in its hand sensory territory and weakness/wasting of thenar muscles in more advanced disease.",
+        "The palmar cutaneous branch passes superficial to the flexor retinaculum, so sensation over the thenar eminence is typically spared in carpal tunnel syndrome.",
+        "The case asks about diagnosis, causes, symptoms, risk groups and treatment; it does not provide test results or a confirmed treatment plan."
+      ],
+      "source": {
+        "file": "Unit3-week4 Complementary cases",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "case": "Salam",
+      "case_role": "Complementary Case 2",
+      "clinical_pattern": "A volleyball player injures the index finger. There is immediate pain and swelling at the distal interphalangeal (DIP) joint, a sensation that something gave way, drooping of the fingertip and inability to actively extend the DIP joint. The case identifies the condition as Mallet finger.",
+      "most_relevant_topic": "Mallet finger due to disruption of the terminal extensor mechanism at the DIP joint; assess for associated avulsion fracture and joint alignment as appropriate.",
+      "anatomy_links": [
+        {
+          "topic": "Dorsal extensor expansion and terminal extensor slips",
+          "source_file": "Anatomy of hand",
+          "pages": [
+            34,
+            35
+          ]
+        },
+        {
+          "topic": "Finger extensor apparatus and intrinsic muscle contributions",
+          "source_file": "Anatomy of hand",
+          "pages": [
+            32,
+            33,
+            34,
+            35
+          ]
+        }
+      ],
+      "clinical_correlation": [
+        "The defining finding in the case is inability to actively extend the DIP joint with a drooping fingertip.",
+        "The source asks how to confirm the diagnosis and what other problems may coexist, but it does not provide the answers or imaging findings."
+      ],
+      "source": {
+        "file": "Unit3-week4 Complementary cases",
+        "pages": [
+          1
+        ]
+      }
+    },
+    {
+      "case": "Scaphoid fracture",
+      "case_role": "Applied Anatomy clinical correlation",
+      "clinical_pattern": "A patient with wrist trauma and tenderness in the anatomical snuffbox may have a scaphoid fracture.",
+      "most_relevant_topic": "Scaphoid is the most frequently fractured carpal bone in the lecture and has a risk of avascular necrosis.",
+      "anatomy_links": [
+        {
+          "topic": "Scaphoid lies in the floor of the anatomical snuffbox",
+          "source_file": "Anatomy of hand",
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "clinical_correlation": [
+        "The lecture identifies the scaphoid as the most frequently fractured carpal bone and notes the risk of avascular necrosis."
+      ],
+      "source": {
+        "file": "Anatomy of hand",
+        "page": 4
+      }
+    },
+    {
+      "case": "Lunate dislocation",
+      "case_role": "Applied Anatomy clinical correlation",
+      "clinical_pattern": "Carpal trauma may produce lunate dislocation and potentially affect structures passing through the carpal tunnel.",
+      "most_relevant_topic": "Lunate is identified in the lecture as the most frequently dislocated carpal bone.",
+      "anatomy_links": [
+        {
+          "topic": "Carpal bone landmarks",
+          "source_file": "Anatomy of hand",
+          "pages": [
+            4
+          ]
+        }
+      ],
+      "clinical_correlation": [
+        "The lecture identifies the lunate as the most frequently dislocated carpal bone."
+      ],
+      "source": {
+        "file": "Anatomy of hand",
+        "page": 4
+      }
+    },
+    {
+      "case": "Hook of hamate fracture / Guyon canal compression",
+      "case_role": "Applied Anatomy clinical correlation",
+      "clinical_pattern": "A racket-sport or golf player may fracture the hook of hamate; ulnar nerve compression can occur in Guyon canal near the pisiform and hook of hamate.",
+      "most_relevant_topic": "Hook of hamate injury and ulnar nerve entrapment in Guyon canal.",
+      "anatomy_links": [
+        {
+          "topic": "Hook of hamate and Guyon canal",
+          "source_file": "Anatomy of hand",
+          "pages": [
+            4,
+            47
+          ]
+        },
+        {
+          "topic": "Ulnar nerve entrapment in Guyon canal",
+          "source_file": "NERVE INJURIES",
+          "pages": [
+            16,
+            17
+          ]
+        }
+      ],
+      "clinical_correlation": [
+        "The hand lecture links hook of hamate fracture to racket sports and golf and describes ulnar nerve compression in Guyon canal.",
+        "The nerve-injury lecture lists hook of hamate fracture and Guyon canal syndrome as wrist-level ulnar nerve injury contexts."
+      ],
+      "source": {
+        "file": "Anatomy of hand",
+        "pages": [
+          4,
+          47
+        ]
+      }
+    },
+    {
+      "case": "Dupuytren contracture",
+      "case_role": "Applied Anatomy clinical correlation",
+      "clinical_pattern": "Progressive fibrosis and degeneration of palmar fascia/aponeurosis, affecting digits 4 and 5 most often.",
+      "most_relevant_topic": "Dupuytren contracture; distinguish it from ulnar claw hand and rheumatoid/intrinsic joint disease using the lecture's comparison.",
+      "anatomy_links": [
+        {
+          "topic": "Palmar aponeurosis and Dupuytren contracture",
+          "source_file": "Anatomy of hand",
+          "pages": [
+            12,
+            13
+          ]
+        }
+      ],
+      "clinical_correlation": [
+        "The lecture states digits 4 and 5 are most affected and males are affected more often.",
+        "Its differential comparison notes that in ulnar nerve palsy there may be intrinsic muscle wasting and sensory loss, while the fingers can still be passively straightened; RA/intrinsic joint disease has joint pain, swelling, morning stiffness and erosive X-ray changes."
+      ],
+      "source": {
+        "file": "Anatomy of hand",
+        "page": 13
+      }
+    },
+    {
+      "case": "Median nerve injury",
+      "case_role": "Applied Anatomy clinical correlation",
+      "clinical_pattern": "Median nerve injury at the elbow may cause loss of pronation, weak flexion, benediction hand when attempting to make a fist, loss of FPL function/negative OK sign, and thenar weakness. Injury at the wrist can produce thenar wasting and loss of opposition/abduction.",
+      "most_relevant_topic": "Median nerve lesion level and clinical signs; carpal tunnel syndrome is a compression neuropathy at the wrist.",
+      "anatomy_links": [
+        {
+          "topic": "Median nerve motor/sensory distribution and lesion patterns",
+          "source_file": "NERVE INJURIES",
+          "pages": [
+            2,
+            3,
+            5,
+            6,
+            7,
+            9,
+            10
+          ]
+        }
+      ],
+      "clinical_correlation": [
+        "Benediction hand is described in the source when attempting to make a fist after median nerve injury at the elbow.",
+        "Ape-like hand reflects thenar muscle paralysis/wasting and loss of opposition/abduction.",
+        "Carpal tunnel syndrome typically spares sensation over the thenar eminence because the palmar cutaneous branch passes superficial to the flexor retinaculum."
+      ],
+      "source": {
+        "file": "NERVE INJURIES",
+        "pages": [
+          5,
+          6,
+          7,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "case": "Ulnar nerve injury",
+      "case_role": "Applied Anatomy clinical correlation",
+      "clinical_pattern": "Ulnar nerve injury at or above the elbow produces partial clawing most prominent in digits 4 and 5, interosseous wasting and altered thumb position. A wrist/hand lesion may produce more marked clawing (ulnar paradox).",
+      "most_relevant_topic": "Ulnar nerve motor supply to intrinsic hand muscles, PAD/DAB actions, and lesion-level differences.",
+      "anatomy_links": [
+        {
+          "topic": "Ulnar nerve motor branches and sensory territory",
+          "source_file": "NERVE INJURIES",
+          "pages": [
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19
+          ]
+        },
+        {
+          "topic": "Hypothenar, adductor pollicis, lumbricals and interossei",
+          "source_file": "Anatomy of hand",
+          "pages": [
+            24,
+            27,
+            28,
+            29,
+            34,
+            37,
+            49,
+            50
+          ]
+        }
+      ],
+      "clinical_correlation": [
+        "Ulnar nerve supplies all interossei, hypothenar muscles, adductor pollicis and medial two lumbricals in the hand, as listed in the lecture.",
+        "PAD = palmar interossei adduct; DAB = dorsal interossei abduct.",
+        "The source describes ulnar paradox: a distal lesion can cause more obvious clawing because the medial half of FDP remains innervated."
+      ],
+      "source": {
+        "file": "NERVE INJURIES",
+        "pages": [
+          14,
+          15,
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "case": "Radial nerve injury",
+      "case_role": "Applied Anatomy clinical correlation",
+      "clinical_pattern": "Radial nerve injury may follow crutch palsy, Saturday night palsy, humeral shaft fracture or supracondylar fracture; motor findings include finger drop and wrist drop.",
+      "most_relevant_topic": "Radial nerve motor supply and sensory territory on the dorsum of the hand.",
+      "anatomy_links": [
+        {
+          "topic": "Radial nerve branches and injury findings",
+          "source_file": "NERVE INJURIES",
+          "pages": [
+            21,
+            22,
+            23
+          ]
+        }
+      ],
+      "clinical_correlation": [
+        "The lecture describes sensory loss limited by overlap to a small triangular area on the dorsum near the base of the thumb/first dorsal interosseous space.",
+        "The lecture lists finger drop and wrist drop as motor deformities."
+      ],
+      "source": {
+        "file": "NERVE INJURIES",
+        "pages": [
+          21,
+          22,
+          23
+        ]
+      }
+    }
+  ],
+  "image_inventory": [
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 3,
+      "asset_description": "Carpal arch, proximal and distal carpal rows, and flexor retinaculum forming the carpal tunnel.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.3",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 4,
+      "asset_description": "Carpal bone landmarks and clinical correlations: scaphoid, lunate, pisiform, capitate, trapezium and hook of hamate.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.4",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 5,
+      "asset_description": "Hand joints, including intercarpal, midcarpal and carpometacarpal joints; thumb CMC saddle joint.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.5",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 6,
+      "asset_description": "Layered palmar-to-dorsal anatomy of the hand with contents of each layer.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.6",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 8,
+      "asset_description": "Palmaris brevis: origin, insertion and action with palmar anatomical illustration.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.8",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 9,
+      "asset_description": "Palmaris brevis nerve supply diagram showing superficial ulnar branch.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.9",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 11,
+      "asset_description": "Deep fascia of palm and its specialized structures: retinacula, palmar aponeurosis and digital sheaths.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.11",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 12,
+      "asset_description": "Palmar aponeurosis illustration and functions.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.12",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 13,
+      "asset_description": "Dupuytren contracture clinical image and differential comparison with ulnar nerve palsy and rheumatoid/intrinsic joint disease.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.13",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 14,
+      "asset_description": "Fibrous flexor sheath of a digit and its relation to the flexor tendon.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.14",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 16,
+      "asset_description": "Flexor tendon synovial sheaths, radial and ulnar bursae and digital sheaths.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.16",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 17,
+      "asset_description": "Posterior wrist extensor tendon compartments and their synovial sheaths.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.17",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 19,
+      "asset_description": "Cross-sectional/layered view of intrinsic hand muscles and four-layer organization.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.19",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 20,
+      "asset_description": "Thenar and hypothenar eminences and their muscle groups.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.20",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 21,
+      "asset_description": "Second layer: flexor tendons and lumbrical origins.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.21",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 22,
+      "asset_description": "Third layer: adductor pollicis.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.22",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 23,
+      "asset_description": "Fourth layer: interossei between metacarpals.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.23",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 24,
+      "asset_description": "Thenar and hypothenar muscle list and ulnar-innervation note.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.24",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 25,
+      "asset_description": "Thenar muscle table showing origins, insertions and actions.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.25",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 26,
+      "asset_description": "Recurrent branch of median nerve supplying thenar muscles.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.26",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 27,
+      "asset_description": "Ulnar nerve supply to adductor pollicis.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.27",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 28,
+      "asset_description": "Hypothenar muscle table, common origin/insertion and actions.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.28",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 29,
+      "asset_description": "Deep branch of ulnar nerve supplying hypothenar muscles.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.29",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 31,
+      "asset_description": "FDS and FDP long flexor tendons in the hand.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.31",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 32,
+      "asset_description": "Four lumbricals arising from FDP tendons.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.32",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 33,
+      "asset_description": "Lumbrical insertion into dorsal extensor expansion.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.33",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 34,
+      "asset_description": "Dorsal extensor expansion formation, central and lateral slips, and functions.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.34",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 35,
+      "asset_description": "Lumbrical action: MCP flexion and IP extension.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.35",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 36,
+      "asset_description": "Visual-only slide illustrating interosseous muscle/hand nerve relationships; source page has no extractable text.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.36",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 37,
+      "asset_description": "Interossei layer and metacarpal relationship.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.37",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 38,
+      "asset_description": "Visual-only diagram of palmar and dorsal interossei actions (abduction/adduction).",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.38",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 39,
+      "asset_description": "Visual-only comparison diagram of interosseous actions and hand movements.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.39",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 40,
+      "asset_description": "Visual-only diagram showing finger abduction/adduction by interossei.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.40",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 41,
+      "asset_description": "Visual-only diagram of interosseous muscle actions on the digits.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.41",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 42,
+      "asset_description": "Visual-only diagram showing deep palmar anatomy/interosseous arrangement.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.42",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 43,
+      "asset_description": "Diagram of intrinsic hand muscles and their actions, including lumbricals/interossei.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.43",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 44,
+      "asset_description": "Fascial spaces of the hand section/illustration.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.44",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 45,
+      "asset_description": "Fascial compartments and spaces of the palm, diagram/table.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.45",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 46,
+      "asset_description": "Parona space and potential spaces of the hand/forearm.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.46",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 47,
+      "asset_description": "Surface anatomy of the palm and Guyon canal region.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.47",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 49,
+      "asset_description": "Median nerve branches in the palm: LOAF motor supply and sensory distribution.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.49",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 50,
+      "asset_description": "Ulnar nerve branches in the palm: deep motor branch and superficial sensory branch.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.50",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 52,
+      "asset_description": "Superficial palmar arch location, formation and digital branches.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.52",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 53,
+      "asset_description": "Deep palmar arch location, formation and palmar metacarpal branches.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.53",
+      "image_asset": null
+    },
+    {
+      "case": "Hand anatomy",
+      "file": "Anatomy of hand",
+      "page": 54,
+      "asset_description": "Summary diagram of hand arterial supply/palmar arches.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "Anatomy of hand – p.54",
+      "image_asset": null
+    },
+    {
+      "case": "Nerve injuries",
+      "file": "NERVE INJURIES",
+      "page": 2,
+      "asset_description": "Median nerve roots, origin and forearm motor/sensory branches.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "NERVE INJURIES – p.2",
+      "image_asset": null
+    },
+    {
+      "case": "Nerve injuries",
+      "file": "NERVE INJURIES",
+      "page": 3,
+      "asset_description": "Median nerve motor LOAF supply and sensory distribution in the hand.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "NERVE INJURIES – p.3",
+      "image_asset": null
+    },
+    {
+      "case": "Nerve injuries",
+      "file": "NERVE INJURIES",
+      "page": 4,
+      "asset_description": "Common median nerve injury sites at elbow and wrist.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "NERVE INJURIES – p.4",
+      "image_asset": null
+    },
+    {
+      "case": "Nerve injuries",
+      "file": "NERVE INJURIES",
+      "page": 5,
+      "asset_description": "Median nerve injury at elbow: pronation, flexion and wrist deviation deficits.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "NERVE INJURIES – p.5",
+      "image_asset": null
+    },
+    {
+      "case": "Nerve injuries",
+      "file": "NERVE INJURIES",
+      "page": 6,
+      "asset_description": "Median nerve injury at elbow: benediction hand and loss of FPL/OK sign.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "NERVE INJURIES – p.6",
+      "image_asset": null
+    },
+    {
+      "case": "Nerve injuries",
+      "file": "NERVE INJURIES",
+      "page": 7,
+      "asset_description": "Ape-like hand due to thenar muscle paralysis/wasting after median nerve injury.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "NERVE INJURIES – p.7",
+      "image_asset": null
+    },
+    {
+      "case": "Nerve injuries",
+      "file": "NERVE INJURIES",
+      "page": 8,
+      "asset_description": "Sensory/autonomic changes in median nerve injury.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "NERVE INJURIES – p.8",
+      "image_asset": null
+    },
+    {
+      "case": "Nerve injuries",
+      "file": "NERVE INJURIES",
+      "page": 9,
+      "asset_description": "Carpal tunnel syndrome: median nerve compression and sparing of thenar eminence skin.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "NERVE INJURIES – p.9",
+      "image_asset": null
+    },
+    {
+      "case": "Nerve injuries",
+      "file": "NERVE INJURIES",
+      "page": 10,
+      "asset_description": "Carpal tunnel syndrome diagnostic maneuvers and decompression treatments.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "NERVE INJURIES – p.10",
+      "image_asset": null
+    },
+    {
+      "case": "Nerve injuries",
+      "file": "NERVE INJURIES",
+      "page": 12,
+      "asset_description": "Ulnar nerve roots, origin and course behind medial epicondyle/between FCU heads.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "NERVE INJURIES – p.12",
+      "image_asset": null
+    },
+    {
+      "case": "Nerve injuries",
+      "file": "NERVE INJURIES",
+      "page": 13,
+      "asset_description": "Ulnar nerve forearm motor and sensory branches.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "NERVE INJURIES – p.13",
+      "image_asset": null
+    },
+    {
+      "case": "Nerve injuries",
+      "file": "NERVE INJURIES",
+      "page": 14,
+      "asset_description": "Ulnar nerve hand motor and sensory distribution.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "NERVE INJURIES – p.14",
+      "image_asset": null
+    },
+    {
+      "case": "Nerve injuries",
+      "file": "NERVE INJURIES",
+      "page": 15,
+      "asset_description": "PAD/DAB actions of interossei and combined action with lumbricals.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "NERVE INJURIES – p.15",
+      "image_asset": null
+    },
+    {
+      "case": "Nerve injuries",
+      "file": "NERVE INJURIES",
+      "page": 16,
+      "asset_description": "Common ulnar nerve injury sites at elbow and wrist.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "NERVE INJURIES – p.16",
+      "image_asset": null
+    },
+    {
+      "case": "Nerve injuries",
+      "file": "NERVE INJURIES",
+      "page": 17,
+      "asset_description": "Guyon canal anatomy and ulnar nerve entrapment.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "NERVE INJURIES – p.17",
+      "image_asset": null
+    },
+    {
+      "case": "Nerve injuries",
+      "file": "NERVE INJURIES",
+      "page": 18,
+      "asset_description": "Ulnar nerve lesion at elbow/above: partial claw hand and interosseous wasting.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "NERVE INJURIES – p.18",
+      "image_asset": null
+    },
+    {
+      "case": "Nerve injuries",
+      "file": "NERVE INJURIES",
+      "page": 19,
+      "asset_description": "Ulnar paradox with distal ulnar nerve lesion and claw-hand comparison.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "NERVE INJURIES – p.19",
+      "image_asset": null
+    },
+    {
+      "case": "Nerve injuries",
+      "file": "NERVE INJURIES",
+      "page": 21,
+      "asset_description": "Radial nerve roots, origin and terminal division into superficial radial and posterior interosseous nerves.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "NERVE INJURIES – p.21",
+      "image_asset": null
+    },
+    {
+      "case": "Nerve injuries",
+      "file": "NERVE INJURIES",
+      "page": 22,
+      "asset_description": "Radial nerve branches and motor/sensory distribution.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "NERVE INJURIES – p.22",
+      "image_asset": null
+    },
+    {
+      "case": "Nerve injuries",
+      "file": "NERVE INJURIES",
+      "page": 23,
+      "asset_description": "Radial nerve injury causes, sensory loss, motor loss, wrist drop and finger drop.",
+      "site_use": "Source image/diagram from the lecture PDF; extract or upload the corresponding page visual manually.",
+      "image_name": "NERVE INJURIES – p.23",
+      "image_asset": null
+    },
+    {
+      "case": "Jasim",
+      "file": "Not present in supplied Week 4 files",
+      "page": null,
+      "asset_description": "Optional external clinical illustration of carpal tunnel anatomy/median nerve compression; no dedicated clinical image supplied in the complementary case.",
+      "site_use": "External image required; not embedded in supplied PBL/case PDF.",
+      "image_name": "Not present in supplied Week 4 files – p.None",
+      "image_asset": null
+    },
+    {
+      "case": "Salam",
+      "file": "Not present in supplied Week 4 files",
+      "page": null,
+      "asset_description": "Optional external clinical illustration of mallet finger showing DIP droop and terminal extensor injury; no dedicated image supplied in the complementary case.",
+      "site_use": "External image required; not embedded in supplied case PDF.",
+      "image_name": "Not present in supplied Week 4 files – p.None",
+      "image_asset": null
+    },
+    {
+      "case": "Qesmah",
+      "file": "Unit3-week4 case (wrist pain)",
+      "page": 2,
+      "asset_description": "Figure 1: normal hand radiograph used as a comparison image in the rheumatoid arthritis PBL.",
+      "site_use": "Original PBL radiograph; crop from PDF page 2.",
+      "image_name": "Unit3-week4 case (wrist pain) – p.2",
+      "image_asset": null
+    },
+    {
+      "case": "Qesmah",
+      "file": "Unit3-week4 case (wrist pain)",
+      "page": 2,
+      "asset_description": "Figure 2: rheumatoid arthritis hand radiograph with labeled bone erosion and bone displacement.",
+      "site_use": "Original PBL radiograph; crop from PDF page 2.",
+      "image_name": "Unit3-week4 case (wrist pain) – p.2",
+      "image_asset": null
+    }
+  ],
+  "osce_framework": {
+    "title": "Focused Hand and Wrist Examination",
+    "status": "Generated study framework; not an official university station.",
+    "steps": [
+      "Introduce yourself, confirm patient identity, explain the examination and obtain consent.",
+      "Inspect both hands and wrists: swelling, erythema, deformity, scars, skin changes, thenar/hypothenar wasting, interosseous wasting and finger posture.",
+      "Assess active and passive range of motion of wrist, MCP, PIP and DIP joints; compare sides and note pain/stiffness.",
+      "Assess grip and pinch strength; test thumb opposition, abduction, adduction and flexion.",
+      "Test median nerve: sensation over palmar lateral 3½ fingers; thenar motor function; consider Phalen-type wrist flexion and Tinel tapping if carpal tunnel is suspected.",
+      "Test ulnar nerve: sensation over medial 1½ fingers; finger abduction/adduction (interossei), Froment-type pinch and hypothenar function.",
+      "Test radial nerve: wrist, finger and thumb extension; assess dorsal first web-space sensation.",
+      "Assess circulation: radial/ulnar pulses, capillary refill, temperature and colour.",
+      "Examine relevant joints and systemic features when inflammatory arthritis is suspected; document findings and compare both hands.",
+      "Thank the patient, ensure comfort and summarize findings."
+    ],
+    "clinical_focus": [
+      "Carpal tunnel syndrome: median nerve symptoms, thenar function and sensory sparing over thenar eminence.",
+      "Ulnar neuropathy: interossei weakness, sensory change in medial 1½ fingers and clawing.",
+      "Radial neuropathy: wrist/finger extension weakness and dorsal hand sensory territory.",
+      "Mallet finger: inspect DIP droop and test active DIP extension; avoid forceful movement if acutely painful."
+    ]
+  },
+  "deferred_content": {
+    "clinical_case_mcqs": {
+      "status": "Deferred",
+      "reason": "User's established workflow is to create Clinical Case MCQs only at the end of the unit."
+    }
+  },
+  "quality_notes": [
+    "Case mappings distinguish the formal Main PBL (Qesmah) and two complementary cases (Jasim and Salam) from applied anatomy clinical correlations drawn from the lecture slides.",
+    "The PBL explicitly diagnoses Qesmah with Rheumatoid Arthritis and reports reduced right median nerve conduction distal to the wrist; carpal tunnel syndrome is a relevant associated clinical interpretation, not the named primary PBL diagnosis.",
+    "The PBL uses the name Qesmah in the opening and later refers to her as Farida. This inconsistency is flagged rather than silently reconciled.",
+    "The PBL prints 'indomethacin capsules 150 gm/day'. This is an apparent source-unit error and is not reproduced as a usable treatment recommendation. Do not use this as clinical dosing guidance.",
+    "The complementary cases explicitly name Carpal Tunnel Syndrome in the Jasim question set and Mallet finger in Salam's case narrative; they do not provide answers to their question prompts.",
+    "The supplied PBL has actual hand radiographs on PDF page 2: a normal hand image and a rheumatoid arthritis image labelled with bone erosion and bone displacement. No image is embedded in the complementary-case PDF.",
+    "Anatomy of hand PDF pages 36, 38–43, 45, 47 and 48 are primarily visual slides with little/no extractable text; they were inspected visually and included in the image inventory where useful.",
+    "Image inventory contains metadata and null image_asset placeholders only; image binaries are not embedded in this JSON.",
+    "PDF page numbering is 1-based and refers to the actual uploaded PDF pages.",
+    "Generated Quick Recall and Generated MCQs are not verbatim university questions. Original short questions remain unchanged.",
+    "No original lecture MCQs with answer options were identified in the supplied source PDFs.",
+    "Website schema/import code was not supplied; this JSON follows the previous week's structure but direct compatibility has not been tested."
+  ],
+  "image_metadata_status": {
+    "status": "Image metadata added; image files not embedded.",
+    "image_slots_added": 69,
+    "cases_with_image_metadata": 5,
+    "separate_section": "image_inventory",
+    "per_case_fields": [
+      "image_name",
+      "asset_description",
+      "site_use",
+      "file",
+      "page",
+      "image_asset"
+    ],
+    "note": "For each image, source file and PDF page are provided when available. If no suitable image exists in the supplied files, this is stated explicitly."
+  },
+  "generated_mcqs": [
+    {
+      "id": "ULW4-GMCQ-01",
+      "type": "generated_mcq",
+      "section": "Carpal bones",
+      "source_question_number": null,
+      "question": "Which carpal bone lies in the floor of the anatomical snuffbox?",
+      "options": [
+        "A. Scaphoid",
+        "B. Pisiform",
+        "C. Lunate",
+        "D. Hamate"
+      ],
+      "correct_answer": "A. Scaphoid",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The hand lecture places the scaphoid in the floor of the anatomical snuffbox and notes its fracture/avascular necrosis risk.",
+      "source": {
+        "file": "Anatomy of hand",
+        "page": 4
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-02",
+      "type": "generated_mcq",
+      "section": "Carpal bones",
+      "source_question_number": null,
+      "question": "A golfer develops pain after trauma to the hook on the palmar side of a carpal bone. Which bone is involved?",
+      "options": [
+        "A. Trapezium",
+        "B. Hamate",
+        "C. Capitate",
+        "D. Lunate"
+      ],
+      "correct_answer": "B. Hamate",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The hook of hamate may fracture in racket sports and golf.",
+      "source": {
+        "file": "Anatomy of hand",
+        "page": 4
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-03",
+      "type": "generated_mcq",
+      "section": "Carpal tunnel",
+      "source_question_number": null,
+      "question": "Which structure forms the roof of the carpal tunnel?",
+      "options": [
+        "A. Palmar aponeurosis",
+        "B. Flexor retinaculum",
+        "C. Extensor retinaculum",
+        "D. Pisohamate ligament"
+      ],
+      "correct_answer": "B. Flexor retinaculum",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The flexor retinaculum spans the carpal arch to form the carpal tunnel.",
+      "source": {
+        "file": "Anatomy of hand",
+        "page": 3
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-04",
+      "type": "generated_mcq",
+      "section": "Thenar muscles",
+      "source_question_number": null,
+      "question": "Which muscle is supplied by the ulnar nerve rather than the recurrent branch of the median nerve?",
+      "options": [
+        "A. Abductor pollicis brevis",
+        "B. Opponens pollicis",
+        "C. Flexor pollicis brevis",
+        "D. Adductor pollicis"
+      ],
+      "correct_answer": "D. Adductor pollicis",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The lecture explicitly identifies adductor pollicis as ulnar-innervated.",
+      "source": {
+        "file": "Anatomy of hand",
+        "page": 25
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-05",
+      "type": "generated_mcq",
+      "section": "Hypothenar muscles",
+      "source_question_number": null,
+      "question": "Which nerve supplies the hypothenar muscles?",
+      "options": [
+        "A. Recurrent median",
+        "B. Deep ulnar",
+        "C. Superficial radial",
+        "D. Anterior interosseous"
+      ],
+      "correct_answer": "B. Deep ulnar",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The hypothenar muscles are supplied by the deep branch of the ulnar nerve.",
+      "source": {
+        "file": "Anatomy of hand",
+        "page": 28
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-06",
+      "type": "generated_mcq",
+      "section": "Lumbricals",
+      "source_question_number": null,
+      "question": "Contraction of lumbricals produces which combination?",
+      "options": [
+        "A. Extend MCP and flex IP",
+        "B. Flex MCP and extend IP",
+        "C. Flex all finger joints",
+        "D. Extend all finger joints"
+      ],
+      "correct_answer": "B. Flex MCP and extend IP",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The lecture states lumbricals flex MCP and extend PIP/DIP joints through the extensor expansion.",
+      "source": {
+        "file": "Anatomy of hand",
+        "page": 35
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-07",
+      "type": "generated_mcq",
+      "section": "Interossei",
+      "source_question_number": null,
+      "question": "Which mnemonic correctly describes interossei actions?",
+      "options": [
+        "A. PAD and DAB",
+        "B. DAB and PAD reversed",
+        "C. LOAF",
+        "D. SITS"
+      ],
+      "correct_answer": "A. PAD and DAB",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "Palmar interossei adduct (PAD); dorsal interossei abduct (DAB).",
+      "source": {
+        "file": "NERVE INJURIES",
+        "page": 15
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-08",
+      "type": "generated_mcq",
+      "section": "Median nerve",
+      "source_question_number": null,
+      "question": "A patient cannot oppose the thumb and has thenar flattening. Which nerve branch is most directly involved?",
+      "options": [
+        "A. Deep branch of ulnar",
+        "B. Recurrent branch of median",
+        "C. Superficial radial",
+        "D. Posterior interosseous"
+      ],
+      "correct_answer": "B. Recurrent branch of median",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The recurrent median branch supplies the thenar muscles involved in opposition, abduction and flexion.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "page": 7
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-09",
+      "type": "generated_mcq",
+      "section": "Median nerve",
+      "source_question_number": null,
+      "question": "In carpal tunnel syndrome, sensation over the thenar eminence is usually spared because the palmar cutaneous branch:",
+      "options": [
+        "A. Runs through Guyon canal",
+        "B. Passes superficial to flexor retinaculum",
+        "C. Arises from ulnar nerve",
+        "D. Passes through the carpal tunnel"
+      ],
+      "correct_answer": "B. Passes superficial to flexor retinaculum",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The lecture explains that this branch is not compressed within the carpal tunnel.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "page": 9
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-10",
+      "type": "generated_mcq",
+      "section": "Median nerve",
+      "source_question_number": null,
+      "question": "When a patient with a median nerve lesion at the elbow attempts to make a fist, the index and middle fingers remain extended. This is called:",
+      "options": [
+        "A. Ape hand",
+        "B. Benediction hand",
+        "C. Claw hand",
+        "D. Wrist drop"
+      ],
+      "correct_answer": "B. Benediction hand",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The lecture describes benediction hand with median nerve injury at the elbow.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "page": 6
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-11",
+      "type": "generated_mcq",
+      "section": "Median nerve",
+      "source_question_number": null,
+      "question": "Loss of flexion at the distal phalanx of the thumb and a negative OK sign suggest dysfunction of:",
+      "options": [
+        "A. FPL via anterior interosseous branch",
+        "B. Adductor pollicis via ulnar nerve",
+        "C. EPL via radial nerve",
+        "D. APB via recurrent median branch"
+      ],
+      "correct_answer": "A. FPL via anterior interosseous branch",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The lecture links FPL paralysis/anterior interosseous involvement to loss of the OK sign.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "page": 6
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-12",
+      "type": "generated_mcq",
+      "section": "Ulnar nerve",
+      "source_question_number": null,
+      "question": "A lesion of the ulnar nerve at the wrist may cause more obvious clawing than a lesion at the elbow. This is called:",
+      "options": [
+        "A. Benediction sign",
+        "B. Ulnar paradox",
+        "C. Ape hand",
+        "D. Saturday night palsy"
+      ],
+      "correct_answer": "B. Ulnar paradox",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The source explains that FDP supply is preserved in the distal lesion, increasing clawing.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "page": 19
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-13",
+      "type": "generated_mcq",
+      "section": "Ulnar nerve",
+      "source_question_number": null,
+      "question": "Which group is supplied by the ulnar nerve in the hand?",
+      "options": [
+        "A. Thenar muscles except adductor pollicis",
+        "B. All interossei",
+        "C. Lateral two lumbricals",
+        "D. Abductor pollicis brevis"
+      ],
+      "correct_answer": "B. All interossei",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The ulnar nerve supplies all interossei, medial two lumbricals, hypothenar muscles and adductor pollicis.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "page": 14
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-14",
+      "type": "generated_mcq",
+      "section": "Ulnar nerve",
+      "source_question_number": null,
+      "question": "Guyon canal is located between which carpal landmarks?",
+      "options": [
+        "A. Scaphoid and trapezium",
+        "B. Pisiform and hook of hamate",
+        "C. Lunate and capitate",
+        "D. Trapezoid and capitate"
+      ],
+      "correct_answer": "B. Pisiform and hook of hamate",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The ulnar nerve passes through Guyon canal between pisiform and hamate.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "page": 17
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-15",
+      "type": "generated_mcq",
+      "section": "Radial nerve",
+      "source_question_number": null,
+      "question": "Which terminal branch of the radial nerve is described as purely motor?",
+      "options": [
+        "A. Superficial radial nerve",
+        "B. Posterior interosseous nerve",
+        "C. Palmar cutaneous nerve",
+        "D. Deep ulnar nerve"
+      ],
+      "correct_answer": "B. Posterior interosseous nerve",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The lecture identifies the posterior interosseous nerve as motor and the superficial radial branch as sensory.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "page": 21
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-16",
+      "type": "generated_mcq",
+      "section": "Radial nerve",
+      "source_question_number": null,
+      "question": "A patient has wrist drop and finger drop after a humeral shaft fracture. Which nerve is most likely injured?",
+      "options": [
+        "A. Median",
+        "B. Ulnar",
+        "C. Radial",
+        "D. Musculocutaneous"
+      ],
+      "correct_answer": "C. Radial",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The radial nerve injury slide lists humeral shaft fracture and wrist/finger drop.",
+      "source": {
+        "file": "NERVE INJURIES",
+        "page": 23
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-17",
+      "type": "generated_mcq",
+      "section": "Palmar arches",
+      "source_question_number": null,
+      "question": "The superficial palmar arch is formed mainly by which artery?",
+      "options": [
+        "A. Radial",
+        "B. Ulnar",
+        "C. Anterior interosseous",
+        "D. Posterior interosseous"
+      ],
+      "correct_answer": "B. Ulnar",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The superficial palmar arch is mainly ulnar, completed by the superficial palmar branch of radial artery.",
+      "source": {
+        "file": "Anatomy of hand",
+        "page": 52
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-18",
+      "type": "generated_mcq",
+      "section": "Palmar arches",
+      "source_question_number": null,
+      "question": "The deep palmar arch is formed mainly by which artery?",
+      "options": [
+        "A. Ulnar",
+        "B. Radial",
+        "C. Brachial",
+        "D. Common interosseous"
+      ],
+      "correct_answer": "B. Radial",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "The deep palmar arch is mainly radial, completed by the deep palmar branch of ulnar artery.",
+      "source": {
+        "file": "Anatomy of hand",
+        "page": 53
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-19",
+      "type": "generated_mcq",
+      "section": "Mallet finger",
+      "source_question_number": null,
+      "question": "Which clinical finding in the complementary case defines mallet finger?",
+      "options": [
+        "A. Inability to flex DIP",
+        "B. Inability to actively extend DIP with drooping fingertip",
+        "C. Inability to abduct thumb",
+        "D. Fixed flexion of MCP"
+      ],
+      "correct_answer": "B. Inability to actively extend DIP with drooping fingertip",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "This reproduces the clinical description in the complementary case; the source names the condition mallet finger.",
+      "source": {
+        "file": "Unit3-week4 Complementary cases",
+        "page": 1
+      },
+      "question_origin": "Generated"
+    },
+    {
+      "id": "ULW4-GMCQ-20",
+      "type": "generated_mcq",
+      "section": "Rheumatoid arthritis",
+      "source_question_number": null,
+      "question": "Which combination is reported in Qesmah's PBL?",
+      "options": [
+        "A. Normal ESR and negative RF",
+        "B. Raised ESR, positive rheumatoid factor and periarticular osteopenia",
+        "C. Isolated DIP joint swelling only",
+        "D. Thenar wasting with normal nerve conduction"
+      ],
+      "correct_answer": "B. Raised ESR, positive rheumatoid factor and periarticular osteopenia",
+      "answer_basis": "Generated from the university source material; not a verbatim university question.",
+      "explanation_from_source": "These are the investigations and X-ray findings explicitly reported in the PBL.",
+      "source": {
+        "file": "Unit3-week4 case (wrist pain)",
+        "page": 1
+      },
+      "question_origin": "Generated"
+    }
+  ]
+}
