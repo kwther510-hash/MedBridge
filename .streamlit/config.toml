@@ -1,6 +1,18 @@
+
 [theme]
-primaryColor = "#5E5FC9"
-backgroundColor = "#F7F7FD"
-secondaryBackgroundColor = "#ECECFA"
-textColor = "#23244A"
+base = "light"
+
+# Primary brand color
+primaryColor = "#397E78"
+
+# Main application background
+backgroundColor = "#DDECE9"
+
+# Cards, sidebar and secondary surfaces
+secondaryBackgroundColor = "#F2F8F6"
+
+# Main text color
+textColor = "#293D3A"
+
+# Typography
 font = "sans serif"
