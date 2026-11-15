@@ -1,15 +1,15 @@
 {
   "project": "MedBridge",
-  "module": "Musculoskeletal and Neuroscience I",
-  "region": "Upper Limb – Wrist and Hand",
+  "module": "Musculoskeletal System",
+  "region": "Upper Limb",
   "week": 4,
-  "version": "1.0",
+  "version": "1.1",
   "content_status": {
-    "university_material": "Reviewed all four supplied Week 4 PDFs: wrist-pain PBL (3 PDF pages, page 3 blank), complementary cases (1 page), Anatomy of hand (54 pages), and NERVE INJURIES (23 pages).",
-    "lecture_mcqs": "No original lecture MCQs with options were identified in the supplied Week 4 PDFs.",
+    "university_material": "Reviewed all four supplied Week 4 PDFs: wrist-pain PBL (2 pages), complementary cases (1 page), Anatomy of hand (54 pages), and NERVE INJURIES (23 pages).",
+    "lecture_mcqs": "No original lecture MCQs with options were identified in the supplied Week 4 PDFs; this does not mean the week has no MCQs.",
     "lecture_short_questions": "13 original questions extracted verbatim from the two complementary cases (7 Carpal Tunnel Syndrome questions and 6 Mallet Finger questions). Answers were not printed in the source and remain null.",
     "quick_recall": "51 generated recall prompts covering hand bones/joints, fascia and tendon sheaths, intrinsic muscles, nerve distributions/injuries, palmar arches and clinical correlations.",
-    "generated_mcqs": "20 generated MCQs with answers and explanations, clearly distinguished from original university questions.",
+    "generated_mcqs": "20 generated MCQs with answers and explanations, based on Week 4 university source material; these are practice questions, not verbatim university questions.",
     "clinical_case_mcqs": "Deferred until end of unit as requested.",
     "osce": "Generated hand/wrist focused assessment framework; not an official university OSCE station.",
     "final_case_json": "Structured using the same top-level layout as the previous Week 3 JSON, including case_mappings and image_inventory. Actual website importer compatibility cannot be guaranteed without the site's schema/import code."
@@ -2121,7 +2121,9 @@
     "PDF page numbering is 1-based and refers to the actual uploaded PDF pages.",
     "Generated Quick Recall and Generated MCQs are not verbatim university questions. Original short questions remain unchanged.",
     "No original lecture MCQs with answer options were identified in the supplied source PDFs.",
-    "Website schema/import code was not supplied; this JSON follows the previous week's structure but direct compatibility has not been tested."
+    "Website schema/import code was not supplied; this JSON follows the previous week's structure but direct compatibility has not been tested.",
+    "Grouping metadata aligned with Weeks 1–3: module = Musculoskeletal System; region = Upper Limb. Wrist and Hand remains the Week 4 topic content, not a separate region/category.",
+    "Week 4 includes 20 generated practice MCQs despite no original lecture MCQs being present; generated questions remain distinct from original source questions."
   ],
   "image_metadata_status": {
     "status": "Image metadata added; image files not embedded.",
