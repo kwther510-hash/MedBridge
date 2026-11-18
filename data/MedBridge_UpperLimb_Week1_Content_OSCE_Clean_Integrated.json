@@ -4,39 +4,20 @@
   "region": "Upper Limb",
   "week": 1,
   "version": "1.0",
-  "images": [
-    { 
-      "file": "Week1/shoulder_impingement.webp",
-      "caption": "Shoulder Impingement Syndrome",
-      "description": "Diagram showing inflamed bursa, pinched rotator cuff tendon, and narrowed subacromial space.",
-      "source_file": "Applied Anatomy",
-      "source_page": 1,
-      "related_type": "case",
-      "related_id": "Mazin",
-      "order": 1
-    
-    },
-    {
-      "file": "Week1/painful_arc.jpg",
-      "caption": "Painful Arc",
-      "description": "Pain between 60 and 120 degrees of abduction.",
-      "source_file": "Applied Anatomy",
-      "source_page": 44,
-      "related_type": "section",
-      "related_id": "cases",
-      "order": 2
-    }
-  ],
-
   "content_status": {
-    "university_material": "Reviewed for the five listed source files",
+    "university_material": "Reviewed for the six listed source files; Skill Lab is the primary OSCE source.",
     "lecture_mcqs": "Extracted",
     "quick_recall": "Generated",
     "clinical_case_mcqs": "Deferred until end of unit as requested",
-    "osce": "Framework drafted; procedural details limited by source material",
-    "final_case_json": "Structured draft based on currently reviewed Week 1 sources"
+    "osce": "Structured OSCE examination and focused-history stations are included; supplementary tests are source-labelled and procedural limits are retained.",
+    "final_case_json": "Structured draft based on currently reviewed Week 1 sources",
+    "osce_practice": "One shoulder examination station and one linked focused-history station; university checklist criteria and marks are preserved."
   },
   "source_files": [
+    {
+      "file": "Skill Lab – Shoulder Joint",
+      "pages": 10
+    },
     {
       "file": "The Axilla",
       "pages": 17
@@ -56,6 +37,171 @@
     {
       "file": "PBL 1: A Painful Shoulder",
       "pages": 3
+    }
+  ],
+  "case_mappings": [
+    {
+      "case": "Mazin",
+      "case_role": "Main PBL case",
+      "clinical_pattern": "Progressive shoulder pain in an overhead athlete; painful arc during active abduction, lateral subacromial/greater tuberosity tenderness, painful restricted abduction and external rotation, positive impingement test, night pain.",
+      "most_relevant_topic": "Shoulder impingement / painful arc syndrome",
+      "anatomy_links": [
+        {
+          "topic": "Subacromial space and coracoacromial arch",
+          "source_file": "Applied Anatomy – Shoulder Joint",
+          "pages": [
+            44,
+            45,
+            46
+          ]
+        },
+        {
+          "topic": "Supraspinatus and rotator cuff",
+          "source_file": "Muscles of Shoulder Region",
+          "pages": [
+            15
+          ]
+        },
+        {
+          "topic": "Serratus anterior and scapular mechanics",
+          "source_file": "Muscles of Shoulder Region",
+          "pages": [
+            4
+          ]
+        },
+        {
+          "topic": "Deltoid and abduction",
+          "source_file": "Muscles of Shoulder Region",
+          "pages": [
+            15
+          ]
+        }
+      ],
+      "clinical_correlation": [
+        "Painful arc is described at 60°–120° in the lecture.",
+        "Supraspinatus tendon and subacromial bursa are compressed beneath the coracoacromial arch.",
+        "The lecture identifies supraspinatus as the most commonly impinged tendon.",
+        "Serratus anterior weakness may contribute to secondary impingement through scapular dyskinesia."
+      ],
+      "case_source": {
+        "file": "PBL 1: A Painful Shoulder",
+        "pages": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "case": "Salim",
+      "case_role": "Complementary PBL case",
+      "clinical_pattern": "Traction injury to the arm followed by shoulder pain, loss of rounded contour, depression below acromion, anteriorly palpable humeral head, and radiographic anterior dislocation with Hill-Sachs lesion.",
+      "most_relevant_topic": "Anterior glenohumeral dislocation",
+      "anatomy_links": [
+        {
+          "topic": "IGHL and anterior shoulder stability",
+          "source_file": "Applied Anatomy – Shoulder Joint",
+          "pages": [
+            34,
+            40
+          ]
+        },
+        {
+          "topic": "Bankart and Hill-Sachs lesions",
+          "source_file": "Applied Anatomy – Shoulder Joint",
+          "pages": [
+            35,
+            38
+          ]
+        },
+        {
+          "topic": "Axillary nerve and deltoid",
+          "source_file": "Brachial Plexus",
+          "pages": [
+            28
+          ]
+        },
+        {
+          "topic": "Quadrangular space and its contents",
+          "source_file": "The Axilla",
+          "pages": [
+            14,
+            15
+          ]
+        },
+        {
+          "topic": "Biceps and musculocutaneous-related clinical finding",
+          "source_file": "PBL 1: A Painful Shoulder",
+          "pages": [
+            3
+          ]
+        }
+      ],
+      "clinical_correlation": [
+        "The lecture identifies axillary nerve as the nerve most commonly injured in shoulder dislocation.",
+        "Axillary nerve injury can cause deltoid weakness/atrophy, loss of shoulder contour, and sensory loss over the shoulder cap.",
+        "The PBL reports numbness over the lateral forearm and biceps weakness after reduction; these findings do not match the classic isolated axillary nerve pattern in the lecture and should not be labelled as axillary nerve injury without qualification.",
+        "The PBL radiograph describes a Hill-Sachs lesion and anterior humeral head position relative to the glenoid."
+      ],
+      "case_source": {
+        "file": "PBL 1: A Painful Shoulder",
+        "pages": [
+          3
+        ]
+      }
+    },
+    {
+      "case": "Farhan",
+      "case_role": "Complementary PBL case",
+      "clinical_pattern": "Fall from height with clavicular pain, prominence/deformity at middle–lateral third junction, lower hanging arm, medial rotation, and X-ray-confirmed midshaft fracture with depressed lateral portion.",
+      "most_relevant_topic": "Midshaft clavicle fracture",
+      "anatomy_links": [
+        {
+          "topic": "Clavicle functions and fracture site",
+          "source_file": "Applied Anatomy – Shoulder Joint",
+          "pages": [
+            64,
+            65,
+            66,
+            67,
+            68
+          ]
+        },
+        {
+          "topic": "Muscular displacement of fracture fragments",
+          "source_file": "Applied Anatomy – Shoulder Joint",
+          "pages": [
+            66,
+            70
+          ]
+        },
+        {
+          "topic": "Coracoclavicular ligament complex",
+          "source_file": "Applied Anatomy – Shoulder Joint",
+          "pages": [
+            68,
+            72
+          ]
+        },
+        {
+          "topic": "Adjacent neurovascular and pleural structures",
+          "source_file": "Applied Anatomy – Shoulder Joint",
+          "pages": [
+            69,
+            71
+          ]
+        }
+      ],
+      "clinical_correlation": [
+        "The common fracture site in the lecture is the junction of the medial two-thirds and lateral one-third.",
+        "SCM elevates the medial fragment; the lecture describes downward displacement of the lateral fragment from arm weight and muscle pull.",
+        "Subclavian vessels, brachial plexus, and pleura/lung are important adjacent structures."
+      ],
+      "case_source": {
+        "file": "PBL 1: A Painful Shoulder",
+        "pages": [
+          3
+        ]
+      }
     }
   ],
   "lecture_mcqs": [
@@ -227,7 +373,7 @@
       "question": "Which muscle's weakness contributes to SECONDARY impingement?",
       "options": [
         "A. Pectoralis major",
-        "B. Serratus anterior (Correct)",
+        "B. Serratus anterior",
         "C. Latissimus dorsi",
         "D. Teres major"
       ],
@@ -448,7 +594,7 @@
       "options": [
         "A. Shoulder droop",
         "B. Paresthesia in ulnar distribution",
-        "C. Weakness in hand intrinsics (Correct)",
+        "C. Weakness in hand intrinsics",
         "D. Supraclavicular bruising"
       ],
       "correct_answer": "C. Weakness in hand intrinsics",
@@ -1469,171 +1615,512 @@
       ]
     }
   ],
-  "case_mappings": [
-    {
-      "case": "Mazin",
-      "case_role": "Main PBL case",
-      "clinical_pattern": "Progressive shoulder pain in an overhead athlete; painful arc during active abduction, lateral subacromial/greater tuberosity tenderness, painful restricted abduction and external rotation, positive impingement test, night pain.",
-      "most_relevant_topic": "Shoulder impingement / painful arc syndrome",
-      "anatomy_links": [
-        {
-          "topic": "Subacromial space and coracoacromial arch",
-          "source_file": "Applied Anatomy – Shoulder Joint",
-          "pages": [
-            44,
-            45,
-            46
+  "osce_practice": {
+    "section_title": "OSCE Practice",
+    "osce_examination": [
+      {
+        "id": "ULW1-OSCE-01",
+        "type": "osce_examination",
+        "title": "Complete Shoulder Joint Examination",
+        "related_topic": "Shoulder pain – suspected rotator cuff/subacromial impingement",
+        "linked_case": "Ali Hamza – 36-year-old male with right shoulder pain for 4 weeks (Skill Lab, p.10)",
+        "duration_minutes": 8,
+        "candidate_instructions": "You are a medical student in a clinical skills examination. A 36-year-old male presents with right shoulder pain for 4 weeks. Perform a systematic examination of both shoulder joints, including relevant special tests. Summarize your findings at the end.",
+        "patient_scenario": {
+          "name": "Ali Hamza",
+          "age": 36,
+          "sex": "Male",
+          "chief_complaint": "Right shoulder pain",
+          "duration": "4 weeks",
+          "occupation": "House painter for 10 years",
+          "history_summary": "Dull pain, 6/10, worsened over the last 2 weeks; aggravated by overhead activity and lying on the affected side; rest reduces pain.",
+          "associated_features": "No stiffness, swelling, erythema, warmth, fever or rash.",
+          "past_history": "No known medical illness, trauma or surgery.",
+          "family_history": "None reported.",
+          "social_history": "Smoker; does not drink alcohol.",
+          "medications": "None.",
+          "drug_allergy": "None reported.",
+          "source": {
+            "file": "Skill Lab – Shoulder Joint",
+            "page": 10
+          }
+        },
+        "examination_steps": [
+          {
+            "step": 1,
+            "heading": "Introduction and preparation",
+            "actions": [
+              "Greet the patient and introduce yourself.",
+              "Ask how the patient wishes to be addressed.",
+              "Perform hand hygiene before examination.",
+              "Explain the examination and obtain consent.",
+              "Ensure privacy and expose both shoulders adequately."
+            ]
+          },
+          {
+            "step": 2,
+            "heading": "Look – inspection",
+            "actions": [
+              "Inspect both shoulders and compare the sides.",
+              "Inspect from the front, both sides, behind and above.",
+              "Look for discoloration, scars, bony or joint swelling, deformity and asymmetry.",
+              "Assess the position and size of the scapula; note whether it is elevated, depressed or winged.",
+              "Assess the normal rounded shoulder contour and the subacromial region."
+            ]
+          },
+          {
+            "step": 3,
+            "heading": "Feel – palpation",
+            "actions": [
+              "Ask about tenderness before palpation.",
+              "Palpate the sternoclavicular (SC) joint and follow the clavicle laterally.",
+              "Palpate the acromioclavicular (AC) joint and acromion.",
+              "Palpate the coracoid process (approximately 2 cm inferior and medial to the clavicle tip, as described in the Skill Lab).",
+              "Palpate the scapular spine.",
+              "Palpate the biceps tendon in the bicipital groove.",
+              "Extend the shoulder to bring the supraspinatus tendon anterior to the acromion, then palpate it.",
+              "Palpate the supraspinatus, infraspinatus and deltoid areas.",
+              "Comment on temperature, swelling and tenderness."
+            ]
+          },
+          {
+            "step": 4,
+            "heading": "Move – active range of motion",
+            "actions": [
+              "Ask the patient to perform forward flexion.",
+              "Ask the patient to perform extension.",
+              "Ask the patient to abduct and adduct the shoulder.",
+              "Ask the patient to perform internal and external rotation.",
+              "Ask the patient to perform circumduction.",
+              "Observe range, pain, limitation and symmetry; note painful abduction and external rotation."
+            ]
+          },
+          {
+            "step": 5,
+            "heading": "Passive range of motion",
+            "actions": [
+              "Assess passive shoulder range of motion.",
+              "Compare with active movement and the opposite shoulder.",
+              "Record whether passive movement is preserved or restricted."
+            ]
+          },
+          {
+            "step": 6,
+            "heading": "Special tests for impingement and rotator cuff",
+            "tests": [
+              {
+                "name": "Painful Arc Test",
+                "technique": [
+                  "Passively and fully abduct the patient's arm.",
+                  "Ask the patient to lower (adduct) the arm slowly.",
+                  "Observe whether pain occurs during the arc.",
+                  "The Skill Lab additionally describes passively abducting the internally rotated arm to 30°–45°, then asking the patient to continue abduction actively; pain, especially against resistance, suggests impingement."
+                ],
+                "positive_finding": "Pain between 60° and 120° of abduction is the classic painful arc.",
+                "interpretation": "Suggests shoulder impingement in the appropriate clinical context."
+              },
+              {
+                "name": "Neer Impingement Test",
+                "technique": [
+                  "Position the patient sitting and relaxed, with the elbow fully extended.",
+                  "Stabilize the scapula with one hand to prevent scapular rotation.",
+                  "With the other hand, passively elevate/abduct the arm in internal rotation."
+                ],
+                "positive_finding": "Reproduction of the patient's shoulder pain.",
+                "interpretation": "Pain suggests impingement due to narrowing/compression of the subacromial passage; the Skill Lab notes that a negative test is somewhat useful to exclude rotator cuff tendon impingement."
+              },
+              {
+                "name": "Hawkins–Kennedy Test",
+                "technique": [
+                  "Position the patient sitting or standing.",
+                  "Flex the shoulder to 90° and the elbow to 90°.",
+                  "Support the arm to allow relaxation.",
+                  "Internally rotate the arm."
+                ],
+                "positive_finding": "Reproduction of the patient's pain.",
+                "interpretation": "Provokes narrowing in the coracoacromial space and may reproduce pain from pre-existing impingement or rotator cuff tendinitis."
+              },
+              {
+                "name": "Empty Can Test",
+                "technique": [
+                  "Position the arm in 90° abduction with internal rotation (empty-can position).",
+                  "Use the manoeuvre to assess/stress the supraspinatus as described in the supporting lecture."
+                ],
+                "positive_finding": "The existing lecture material identifies the test as a supraspinatus test; it does not provide a full detailed procedural sequence or a specific positive criterion in the extracted content.",
+                "interpretation": "Assesses the supraspinatus; do not treat this as a mandatory Skill Lab checklist item."
+              }
+            ]
+          },
+          {
+            "step": 7,
+            "heading": "Completion and relevant additional assessment",
+            "actions": [
+              "Examine the joint above and the joint below.",
+              "Check the distal pulse (radial pulse is reported normal in the SP scenario).",
+              "Perform a neurological assessment of the limb.",
+              "If dislocation or axillary nerve injury is suspected, specifically assess deltoid function and sensation over the lateral shoulder/shoulder-cap (regimental badge) area.",
+              "Thank the patient and perform hand hygiene after examination."
+            ]
+          }
+        ],
+        "expected_findings": [
+          "No swelling, increased temperature or redness.",
+          "Tenderness at the anterior edge of the acromion.",
+          "Pain and limitation of active abduction and external rotation, without weakness.",
+          "Normal passive range of motion.",
+          "Positive painful arc, Neer and Hawkins tests.",
+          "Normal cervical and elbow examination.",
+          "Normal radial pulse.",
+          "Normal muscle tone and bulk."
+        ],
+        "clinical_interpretation": {
+          "likely_pattern": "Findings are suggestive of rotator cuff/subacromial impingement in the context of repetitive overhead work.",
+          "supporting_features": [
+            "Repeated overhead activity as a house painter.",
+            "Pain aggravated by overhead activity and lying on the affected side.",
+            "Tenderness at the anterior edge of the acromion.",
+            "Painful limitation of active abduction and external rotation with preserved passive movement.",
+            "Positive impingement tests."
+          ],
+          "anatomical_correlation": [
+            "Rotator cuff tendons pass beneath the coracoacromial arch.",
+            "The Skill Lab identifies the supraspinatus tendon as the tendon mainly affected by repetitive compression/rubbing.",
+            "The subacromial space and coracoacromial arch are relevant to the impingement mechanism."
+          ],
+          "source": [
+            {
+              "file": "Skill Lab – Shoulder Joint",
+              "pages": [
+                1,
+                2,
+                5,
+                6,
+                10
+              ]
+            },
+            {
+              "file": "Applied Anatomy – Shoulder Joint",
+              "pages": [
+                44,
+                45,
+                47,
+                50,
+                51
+              ]
+            }
           ]
         },
-        {
-          "topic": "Supraspinatus and rotator cuff",
-          "source_file": "Muscles of Shoulder Region",
-          "pages": [
-            15
+        "university_examiner_checklist": {
+          "total_marks": 10,
+          "items": [
+            {
+              "id": "ULW1-OSCE-01-C01",
+              "section": "Introduction and rapport",
+              "mark": 1,
+              "criteria": [
+                "Greets and introduces self",
+                "Hand hygiene before and after",
+                "Asks preferred form of address",
+                "Explains examination",
+                "Obtains consent and ensures privacy"
+              ]
+            },
+            {
+              "id": "ULW1-OSCE-01-C02",
+              "section": "Look",
+              "mark": 1,
+              "criteria": [
+                "Inspects all around for discoloration, scars, bony/joint swelling or deformity",
+                "Compares contralateral shoulder",
+                "Inspects from front, sides, back and above"
+              ]
+            },
+            {
+              "id": "ULW1-OSCE-01-C03",
+              "section": "Feel",
+              "mark": 2,
+              "criteria": [
+                "Palpates joint surface landmarks",
+                "Palpates supraspinatus, infraspinatus, deltoid and biceps areas",
+                "Comments on temperature, swelling and tenderness"
+              ]
+            },
+            {
+              "id": "ULW1-OSCE-01-C04",
+              "section": "Active movement",
+              "mark": 2,
+              "criteria": [
+                "Forward flexion",
+                "Extension",
+                "Abduction",
+                "Adduction",
+                "Internal rotation",
+                "External rotation",
+                "Circumduction"
+              ]
+            },
+            {
+              "id": "ULW1-OSCE-01-C05",
+              "section": "Passive movement",
+              "mark": 1,
+              "criteria": [
+                "Assesses passive range of motion"
+              ]
+            },
+            {
+              "id": "ULW1-OSCE-01-C06",
+              "section": "Special tests",
+              "mark": 2,
+              "criteria": [
+                "Painful arc",
+                "Neer test" ,
+                "Hawkins_Kennedy test",
+                "Empty Can test"
+              ]
+            },
+            {
+              "id": "ULW1-OSCE-01-C07",
+              "section": "Closure",
+              "mark": 1,
+              "criteria": [
+                "Examines joint above and below",
+                "Checks distal pulse",
+                "Performs neurological assessment",
+                "Thanks the patient"
+              ]
+            }
           ]
         },
-        {
-          "topic": "Serratus anterior and scapular mechanics",
-          "source_file": "Muscles of Shoulder Region",
-          "pages": [
-            4
-          ]
-        },
-        {
-          "topic": "Deltoid and abduction",
-          "source_file": "Muscles of Shoulder Region",
-          "pages": [
-            15
-          ]
-        }
-      ],
-      "clinical_correlation": [
-        "Painful arc is described at 60°–120° in the lecture.",
-        "Supraspinatus tendon and subacromial bursa are compressed beneath the coracoacromial arch.",
-        "The lecture identifies supraspinatus as the most commonly impinged tendon.",
-        "Serratus anterior weakness may contribute to secondary impingement through scapular dyskinesia."
-      ],
-      "case_source": {
-        "file": "PBL 1: A Painful Shoulder",
-        "pages": [
-          1,
-          2
+        "common_mistakes": [
+          "Failing to expose and compare both shoulders.",
+          "Inspecting only from the front and missing posterior scapular position/winging.",
+          "Skipping palpation of the clavicle, AC joint, coracoid, scapular spine or bicipital groove.",
+          "Forgetting to extend the shoulder before palpating the supraspinatus tendon as described in the Skill Lab.",
+          "Omitting circumduction or passive range of motion.",
+          "Calling any pain during abduction a painful arc without noting the 60°–120° range.",
+          "Performing Hawkins–Kennedy with the wrong shoulder/elbow starting angles.",
+          "Failing to stabilize the scapula during Neer test.",
+          "Treating Empty Can as a mandatory Skill Lab checklist item rather than a supplementary test from the Applied Anatomy lecture.",
+          "Forgetting distal pulse and neurological assessment at completion."
+        ],
+        "critical_steps": [
+          "Consent, privacy and appropriate exposure.",
+          "Bilateral inspection and comparison.",
+          "Systematic palpation of the listed landmarks and soft-tissue areas.",
+          "Assessment of active and passive range of motion.",
+          "Correct performance and interpretation of Painful Arc and Neer tests.",
+          "Distal pulse and neurological assessment before completion."
+        ],
+        "related_image_inventory_cases": [
+          "Mazin",
+          "Salim"
         ]
       }
-    },
-    {
-      "case": "Salim",
-      "case_role": "Complementary PBL case",
-      "clinical_pattern": "Traction injury to the arm followed by shoulder pain, loss of rounded contour, depression below acromion, anteriorly palpable humeral head, and radiographic anterior dislocation with Hill-Sachs lesion.",
-      "most_relevant_topic": "Anterior glenohumeral dislocation",
-      "anatomy_links": [
-        {
-          "topic": "IGHL and anterior shoulder stability",
-          "source_file": "Applied Anatomy – Shoulder Joint",
-          "pages": [
-            34,
-            40
-          ]
+    ],
+    "focused_history": [
+      {
+        "id": "ULW1-HIST-01",
+        "type": "focused_history",
+        "title": "Focused History – Shoulder Pain",
+        "linked_osce_id": "ULW1-OSCE-01",
+        "linked_case": "Ali Hamza – 36-year-old male with right shoulder pain for 4 weeks",
+        "candidate_instructions": "Take a focused history from a 36-year-old male presenting with right shoulder pain for 4 weeks. Explore the pain, associated symptoms, functional effect, occupational exposure and relevant background history.",
+        "standardized_patient_profile": {
+          "name": "Ali Hamza",
+          "age": 36,
+          "sex": "Male",
+          "chief_complaint": "Right shoulder pain",
+          "duration": "4 weeks",
+          "pain_details": {
+            "site": "Right shoulder",
+            "onset": "Not specified in the SP sheet beyond the 4-week duration.",
+            "character": "Dull",
+            "radiation": "Not specified in the SP sheet.",
+            "associated_symptoms": "No stiffness, swelling, erythema, warmth, fever or rash.",
+            "course": "Worsened over the last 2 weeks.",
+            "exacerbating_factors": [
+              "Overhead activity",
+              "Lying on the affected side"
+            ],
+            "relieving_factors": [
+              "Rest"
+            ],
+            "severity": "6/10 (moderate)"
+          },
+          "occupational_and_lifestyle": {
+            "occupation": "House painter for 10 years",
+            "smoking": "Smoker",
+            "alcohol": "Does not drink alcohol",
+            "current_emotional_state": "In distress"
+          },
+          "past_medical_history": "None reported",
+          "trauma_or_surgery": "No trauma or surgery",
+          "family_history": "None reported",
+          "medications": "None",
+          "drug_allergy": "No drug allergy reported"
         },
-        {
-          "topic": "Bankart and Hill-Sachs lesions",
-          "source_file": "Applied Anatomy – Shoulder Joint",
-          "pages": [
-            35,
-            38
-          ]
+        "question_sequence": [
+          {
+            "category": "Opening and presenting complaint",
+            "questions": [
+              "Can you tell me what brought you in today?",
+              "Which shoulder is painful?",
+              "How long have you had this pain?"
+            ],
+            "purpose": "Establish the presenting problem, side and duration."
+          },
+          {
+            "category": "Pain analysis – SOCRATES",
+            "questions": [
+              "Where exactly is the pain?",
+              "When did it start?",
+              "Does the pain move or spread anywhere?",
+              "How would you describe the pain?",
+              "How severe is it from 0 to 10?",
+              "Is it getting better, worse or staying the same?",
+              "What makes it worse?",
+              "What makes it better?"
+            ],
+            "purpose": "Characterize shoulder pain and identify the documented pattern. Radiation and exact onset details are not supplied in the SP sheet and must be asked rather than assumed."
+          },
+          {
+            "category": "Associated symptoms",
+            "questions": [
+              "Have you noticed stiffness or difficulty moving the shoulder?",
+              "Have you noticed swelling, redness or warmth?",
+              "Have you had fever or a rash?",
+              "Have you noticed weakness in the arm or difficulty lifting it?",
+              "Have you experienced numbness, tingling or altered sensation?"
+            ],
+            "purpose": "Clarify associated local/systemic symptoms and screen for functional or neurological symptoms. Only the absence of stiffness, swelling, erythema, warmth, fever and rash is pre-specified in this SP case."
+          },
+          {
+            "category": "Functional impact and occupational exposure",
+            "questions": [
+              "Does the pain affect lifting your arm above your head?",
+              "Does it affect your daily activities or work?",
+              "What kind of work do you do?",
+              "Does your work involve repeated overhead movements, such as painting walls?"
+            ],
+            "purpose": "Explore functional limitation and repetitive overhead exposure, which is specifically relevant to the case and the impingement mechanism described in the Skill Lab."
+          },
+          {
+            "category": "Previous shoulder problems and injury",
+            "questions": [
+              "Have you injured this shoulder or had a fall?",
+              "Have you had similar pain before?",
+              "Have you ever had shoulder surgery?"
+            ],
+            "purpose": "Clarify trauma, recurrence and surgery. The SP sheet specifies no trauma or surgery; previous similar episodes are not specified."
+          },
+          {
+            "category": "Relevant medical and medication history",
+            "questions": [
+              "Do you have any medical conditions?",
+              "Are you taking any regular medications?",
+              "Do you have any drug allergies?"
+            ],
+            "purpose": "Complete relevant background history; the SP sheet reports no medical history, medications or drug allergies."
+          },
+          {
+            "category": "Family and social history",
+            "questions": [
+              "Is there any relevant family history?",
+              "Do you smoke?",
+              "Do you drink alcohol?"
+            ],
+            "purpose": "Record the family and social details supplied in the SP sheet."
+          },
+          {
+            "category": "Patient perspective and closing",
+            "questions": [
+              "How has this pain affected you emotionally or at work?",
+              "Is there anything else about the pain that you think is important?"
+            ],
+            "purpose": "Acknowledge the distress noted in the SP sheet and allow the patient to add concerns; no further patient response is pre-scripted."
+          }
+        ],
+        "expected_case_answers": {
+          "site": "Right shoulder",
+          "duration": "4 weeks",
+          "character": "Dull",
+          "severity": "6/10",
+          "course": "Worsening over the last 2 weeks",
+          "aggravating_factors": [
+            "Overhead activity",
+            "Lying on the affected side"
+          ],
+          "relieving_factors": [
+            "Rest"
+          ],
+          "associated_negative_findings": [
+            "No stiffness",
+            "No swelling",
+            "No erythema",
+            "No warmth",
+            "No fever",
+            "No rash"
+          ],
+          "occupation": "House painter for 10 years",
+          "past_history": "None",
+          "trauma_or_surgery": "None",
+          "family_history": "None",
+          "smoking": "Smoker",
+          "alcohol": "Does not drink alcohol",
+          "medications": "None",
+          "drug_allergy": "None reported"
         },
-        {
-          "topic": "Axillary nerve and deltoid",
-          "source_file": "Brachial Plexus",
-          "pages": [
-            28
-          ]
-        },
-        {
-          "topic": "Quadrangular space and its contents",
-          "source_file": "The Axilla",
-          "pages": [
-            14,
-            15 
-          ]
-        },
-        {
-          "topic": "Biceps and musculocutaneous-related clinical finding",
-          "source_file": "PBL 1: A Painful Shoulder",
-          "pages": [
-            3
-          ]
-        }
-      ],
-      "clinical_correlation": [
-        "The lecture identifies axillary nerve as the nerve most commonly injured in shoulder dislocation.",
-        "Axillary nerve injury can cause deltoid weakness/atrophy, loss of shoulder contour, and sensory loss over the shoulder cap.",
-        "The PBL reports numbness over the lateral forearm and biceps weakness after reduction; these findings do not match the classic isolated axillary nerve pattern in the lecture and should not be labelled as axillary nerve injury without qualification.",
-        "The PBL radiograph describes a Hill-Sachs lesion and anterior humeral head position relative to the glenoid."
-      ],
-      "case_source": {
-        "file": "PBL 1: A Painful Shoulder",
-        "pages": [
-          3
+        "clinical_reasoning": [
+          {
+            "finding": "Repetitive overhead work as a house painter",
+            "relevance": "The Skill Lab describes repetitive abduction and rotation during painting/cleaning-type work as a mechanism that may compress and irritate rotator cuff tendons beneath the coracoacromial arch."
+          },
+          {
+            "finding": "Pain aggravated by overhead activity",
+            "relevance": "Consistent with a shoulder impingement pattern, but does not independently establish the diagnosis."
+          },
+          {
+            "finding": "Pain when lying on the affected side",
+            "relevance": "A case feature that should be documented; it is not diagnostic by itself."
+          },
+          {
+            "finding": "No reported stiffness, swelling, erythema, warmth, fever or rash",
+            "relevance": "These are documented negative symptoms in this case. They should be recorded without assuming that they exclude every alternative diagnosis."
+          },
+          {
+            "finding": "Weakness, numbness or tingling if elicited",
+            "relevance": "Would prompt more detailed motor and sensory examination; the SP sheet does not provide positive responses for these symptoms."
+          }
+        ],
+        "history_summary_template": "This is a 36-year-old male house painter with 10 years of occupational exposure, presenting with 4 weeks of dull right shoulder pain, severity 6/10, worsening over the last 2 weeks. The pain is aggravated by overhead activity and lying on the affected side and relieved by rest. He reports no stiffness, swelling, erythema, warmth, fever or rash. He reports no medical history, trauma or surgery, no regular medication and no drug allergy. He is a smoker and does not drink alcohol.",
+        "source_limitations": [
+          "The SP sheet does not specify exact onset circumstances, radiation, previous episodes, sleep disturbance or detailed functional limitations; ask these questions but do not pre-fill answers.",
+          "The SP sheet does not provide responses to weakness, numbness or tingling questions; these must not be recorded as positive or negative without asking.",
+          "The separate 42-year-old diabetic case on Skill Lab page 9 has insufficient standardized-patient history to create a complete scripted history station without inventing responses."
         ]
       }
-    },
-    {
-      "case": "Farhan",
-      "case_role": "Complementary PBL case",
-      "clinical_pattern": "Fall from height with clavicular pain, prominence/deformity at middle–lateral third junction, lower hanging arm, medial rotation, and X-ray-confirmed midshaft fracture with depressed lateral portion.",
-      "most_relevant_topic": "Midshaft clavicle fracture",
-      "anatomy_links": [
-        {
-          "topic": "Clavicle functions and fracture site",
-          "source_file": "Applied Anatomy – Shoulder Joint",
-          "pages": [
-            64,
-            65,
-            66,
-            67,
-            68
-          ]
-        },
-        {
-          "topic": "Muscular displacement of fracture fragments",
-          "source_file": "Applied Anatomy – Shoulder Joint",
-          "pages": [
-            66,
-            70
-          ]
-        },
-        {
-          "topic": "Coracoclavicular ligament complex",
-          "source_file": "Applied Anatomy – Shoulder Joint",
-          "pages": [
-            68,
-            72
-          ]
-        },
-        {
-          "topic": "Adjacent neurovascular and pleural structures",
-          "source_file": "Applied Anatomy – Shoulder Joint",
-          "pages": [
-            69,
-            71
-          ]
-        }
-      ],
-      "clinical_correlation": [
-        "The common fracture site in the lecture is the junction of the medial two-thirds and lateral one-third.",
-        "SCM elevates the medial fragment; the lecture describes downward displacement of the lateral fragment from arm weight and muscle pull.",
-        "Subclavian vessels, brachial plexus, and pleura/lung are important adjacent structures."
-      ],
-      "case_source": {
-        "file": "PBL 1: A Painful Shoulder",
-        "pages": [
-          3
-        ]
-      }
-    }
-  ],
+    ]
+  },
+  "osce_framework": {
+    "type": "generated_osce_framework",
+    "station": "Focused shoulder examination for painful arc / suspected impingement",
+    "source_status": "Generated framework based on examination findings and named tests in the university PBL and Applied Anatomy lecture; the files do not provide a complete OSCE script.",
+    "checklist": [
+      "Introduce the focused shoulder examination and obtain consent (standard OSCE setup; not specified in the anatomy lecture).",
+      "Inspect both shoulders for deformity, scars, and loss of rounded contour; the Mazin PBL reports no deformity/scars.",
+      "Palpate the subacromial area laterally over the greater tuberosity; this is the tenderness site described in Mazin.",
+      "Assess shoulder movements, recording painful/restricted abduction and external rotation; compare with flexion, extension, adduction, and internal rotation.",
+      "Observe for a painful arc during active abduction; the lecture defines the classic painful range as 60°–120°.",
+      "Use the named impingement/supraspinatus tests only if appropriate: Hawkins test and Empty can test are described in the lecture; Empty can position is 90° abduction with internal rotation.",
+      "For suspected dislocation/axillary nerve injury, assess deltoid function and sensation over the shoulder cap, as described in the brachial plexus lecture.",
+      "Summarize the findings and relate them to the likely anatomical structures."
+    ],
+    "limitations": [
+      "The lecture does not provide a full standardized sequence or detailed technique for every shoulder test.",
+      "The PBL mentions an impingement test but does not name the exact test used.",
+      "Reduction techniques for shoulder dislocation are listed as a learning objective in the PBL, but procedural steps are not supplied in the reviewed files."
+    ]
+  },
   "image_inventory": [
     {
       "case": "Salim",
@@ -1692,26 +2179,6 @@
       "site_use": "Case-specific imaging description; do not invent or substitute an unverified radiograph."
     }
   ],
-  "osce_framework": {
-    "type": "generated_osce_framework",
-    "station": "Focused shoulder examination for painful arc / suspected impingement",
-    "source_status": "Generated framework based on examination findings and named tests in the university PBL and Applied Anatomy lecture; the files do not provide a complete OSCE script.",
-    "checklist": [
-      "Introduce the focused shoulder examination and obtain consent (standard OSCE setup; not specified in the anatomy lecture).",
-      "Inspect both shoulders for deformity, scars, and loss of rounded contour; the Mazin PBL reports no deformity/scars.",
-      "Palpate the subacromial area laterally over the greater tuberosity; this is the tenderness site described in Mazin.",
-      "Assess shoulder movements, recording painful/restricted abduction and external rotation; compare with flexion, extension, adduction, and internal rotation.",
-      "Observe for a painful arc during active abduction; the lecture defines the classic painful range as 60°–120°.",
-      "Use the named impingement/supraspinatus tests only if appropriate: Hawkins test and Empty can test are described in the lecture; Empty can position is 90° abduction with internal rotation.",
-      "For suspected dislocation/axillary nerve injury, assess deltoid function and sensation over the shoulder cap, as described in the brachial plexus lecture.",
-      "Summarize the findings and relate them to the likely anatomical structures."
-    ],
-    "limitations": [
-      "The lecture does not provide a full standardized sequence or detailed technique for every shoulder test.",
-      "The PBL mentions an impingement test but does not name the exact test used.",
-      "Reduction techniques for shoulder dislocation are listed as a learning objective in the PBL, but procedural steps are not supplied in the reviewed files."
-    ]
-  },
   "deferred_content": {
     "clinical_case_mcqs": {
       "status": "deferred",
@@ -1728,4 +2195,4 @@
     "No clinical case MCQs have been generated.",
     "The brachial plexus quiz slide's exact PDF page could not be confirmed from readable page extraction; no page number is assigned."
   ]
-} 
+}

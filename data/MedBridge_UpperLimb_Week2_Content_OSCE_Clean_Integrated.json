@@ -1,0 +1,776 @@
+{
+  "project": "MedBridge",
+  "module": "Musculoskeletal System",
+  "region": "Upper Limb",
+  "week": 2,
+  "version": "1.0",
+  "content_status": {
+    "university_material": "Structured from the supplied Unit 3 Skill Lab tutor guide and user-provided examination points.",
+    "lecture_mcqs": "Generated from the supplied clinical and examination content.",
+    "quick_recall": "Generated from the supplied clinical and examination content.",
+    "clinical_case_mcqs": "Deferred until end of unit as requested",
+    "osce": "One integrated upper-limb trauma and neurovascular examination station with interactive examiner checklist.",
+    "final_case_json": "Structured from the supplied standardized-patient scenario.",
+    "osce_practice": "One integrated OSCE examination station and one linked focused-history station."
+  },
+  "source_files": [
+    {
+      "file": "Skill Lab – Unit 3: Shoulder Joint and Radial Nerve Examination (supplied PDF)",
+      "pages": 6
+    },
+    {
+      "file": "User-provided OSCE examination instructions",
+      "pages": null
+    }
+  ],
+  "case_mappings": [
+    {
+      "case": "Nidhal Hassan",
+      "case_role": "Main clinical case",
+      "clinical_pattern": "67-year-old woman with acute upper-arm pain after a fall on an outstretched hand, swelling and ecchymosis, mid-arm tenderness, and radial nerve palsy with wrist and MCP extension weakness and sensory loss over the anatomical snuffbox.",
+      "most_relevant_topic": "Humeral shaft fracture with radial nerve injury",
+      "anatomy_links": [
+        {
+          "topic": "Radial nerve motor function",
+          "source_file": "Skill Lab – Unit 3: Shoulder Joint and Radial Nerve Examination",
+          "pages": [
+            2,
+            5
+          ]
+        },
+        {
+          "topic": "Radial nerve sensory distribution",
+          "source_file": "Skill Lab – Unit 3: Shoulder Joint and Radial Nerve Examination",
+          "pages": [
+            2,
+            5
+          ]
+        },
+        {
+          "topic": "Median and ulnar nerve motor and sensory examination",
+          "source_file": "User-provided OSCE examination instructions",
+          "pages": []
+        },
+        {
+          "topic": "Neurovascular assessment after immobilization",
+          "source_file": "User-provided OSCE examination instructions",
+          "pages": []
+        }
+      ],
+      "clinical_correlation": [
+        "Midshaft humeral fracture → radial nerve injury → wrist drop.",
+        "Surgical neck fracture → axillary nerve injury.",
+        "Supracondylar fracture → possible brachial artery and median/AIN injury."
+      ],
+      "case_source": {
+        "file": "Skill Lab – Unit 3: Shoulder Joint and Radial Nerve Examination",
+        "pages": [
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    }
+  ],
+  "lecture_mcqs": [
+    {
+      "id": "ULW2-LMCQ-01",
+      "type": "lecture_mcq",
+      "section": "Radial Nerve Examination",
+      "source_question_number": "Generated Q1",
+      "question": "Which motor finding is characteristic of radial nerve palsy in the supplied humeral shaft fracture case?",
+      "options": [
+        "A. Inability to oppose the thumb",
+        "B. Inability to extend the wrist and MCP joints",
+        "C. Inability to abduct the fingers",
+        "D. Loss of elbow flexion"
+      ],
+      "correct_answer": "B. Inability to extend the wrist and MCP joints",
+      "answer_basis": "Generated from the supplied Skill Lab case.",
+      "explanation_from_source": "The case describes radial nerve palsy with inability to extend the wrist and MCP joints.",
+      "source": {
+        "file": "Skill Lab – Unit 3: Shoulder Joint and Radial Nerve Examination",
+        "page": 5
+      }
+    },
+    {
+      "id": "ULW2-LMCQ-02",
+      "type": "lecture_mcq",
+      "section": "Radial Nerve Examination",
+      "source_question_number": "Generated Q2",
+      "question": "Which sensory area is specifically reported to have sensory loss in the case?",
+      "options": [
+        "A. Little finger",
+        "B. Anatomical snuffbox",
+        "C. Shoulder cap",
+        "D. Medial forearm"
+      ],
+      "correct_answer": "B. Anatomical snuffbox",
+      "answer_basis": "Generated from the supplied Skill Lab case.",
+      "explanation_from_source": "The case reports sensory loss over the snuffbox.",
+      "source": {
+        "file": "Skill Lab – Unit 3: Shoulder Joint and Radial Nerve Examination",
+        "page": 5
+      }
+    },
+    {
+      "id": "ULW2-LMCQ-03",
+      "type": "lecture_mcq",
+      "section": "Trauma Assessment",
+      "source_question_number": "Generated Q3",
+      "question": "What should be the initial approach when managing a patient with arm trauma?",
+      "options": [
+        "A. Start passive shoulder movements",
+        "B. Manage the fracture immediately",
+        "C. Begin with ABCDE assessment",
+        "D. Test range of motion first"
+      ],
+      "correct_answer": "C. Begin with ABCDE assessment",
+      "answer_basis": "Generated from the tutor instruction in the supplied Skill Lab.",
+      "explanation_from_source": "The tutor instruction states that management does not start by dealing directly with the fracture; ABCDE comes first.",
+      "source": {
+        "file": "Skill Lab – Unit 3: Shoulder Joint and Radial Nerve Examination",
+        "page": 3
+      }
+    },
+    {
+      "id": "ULW2-LMCQ-04",
+      "type": "lecture_mcq",
+      "section": "Trauma Assessment",
+      "source_question_number": "Generated Q4",
+      "question": "Which examination should receive particular attention in the supplied humeral shaft fracture scenario?",
+      "options": [
+        "A. Abdominal examination",
+        "B. Neurovascular bundle examination, especially radial nerve and deep brachial artery",
+        "C. Passive shoulder range of motion",
+        "D. Knee ligament examination"
+      ],
+      "correct_answer": "B. Neurovascular bundle examination, especially radial nerve and deep brachial artery",
+      "answer_basis": "Generated from the tutor instruction in the supplied Skill Lab.",
+      "explanation_from_source": "The tutor specifically emphasizes the neurovascular bundle, particularly the radial nerve and deep brachial artery.",
+      "source": {
+        "file": "Skill Lab – Unit 3: Shoulder Joint and Radial Nerve Examination",
+        "page": 3
+      }
+    },
+    {
+      "id": "ULW2-LMCQ-05",
+      "type": "lecture_mcq",
+      "section": "Clinical Correlations",
+      "source_question_number": "Generated Q5",
+      "question": "A fracture at the surgical neck of the humerus places which nerve at risk?",
+      "options": [
+        "A. Radial nerve",
+        "B. Axillary nerve",
+        "C. Ulnar nerve",
+        "D. Median nerve"
+      ],
+      "correct_answer": "B. Axillary nerve",
+      "answer_basis": "Generated from the user-provided clinical correlations.",
+      "explanation_from_source": "Surgical neck fracture → axillary nerve injury.",
+      "source": {
+        "file": "User-provided OSCE examination instructions",
+        "page": null
+      }
+    },
+    {
+      "id": "ULW2-LMCQ-06",
+      "type": "lecture_mcq",
+      "section": "Clinical Correlations",
+      "source_question_number": "Generated Q6",
+      "question": "A supracondylar humeral fracture may injure which structures?",
+      "options": [
+        "A. Axillary nerve only",
+        "B. Brachial artery and median/AIN nerve",
+        "C. Radial nerve only",
+        "D. Deep brachial artery only"
+      ],
+      "correct_answer": "B. Brachial artery and median/AIN nerve",
+      "answer_basis": "Generated from the user-provided clinical correlations.",
+      "explanation_from_source": "Supracondylar fracture → possible brachial artery and median/AIN injury.",
+      "source": {
+        "file": "User-provided OSCE examination instructions",
+        "page": null
+      }
+    },
+    {
+      "id": "ULW2-LMCQ-07",
+      "type": "lecture_mcq",
+      "section": "Median Nerve Examination",
+      "source_question_number": "Generated Q7",
+      "question": "Asking the patient to make an OK sign primarily assesses which function?",
+      "options": [
+        "A. Ulnar nerve motor function",
+        "B. Median nerve anterior interosseous motor function",
+        "C. Radial nerve sensory function",
+        "D. Axillary nerve motor function"
+      ],
+      "correct_answer": "B. Median nerve anterior interosseous motor function",
+      "answer_basis": "Generated from the user-provided OSCE examination instructions.",
+      "explanation_from_source": "The supplied examination instructions include the OK sign as part of median nerve motor assessment.",
+      "source": {
+        "file": "User-provided OSCE examination instructions",
+        "page": null
+      }
+    },
+    {
+      "id": "ULW2-LMCQ-08",
+      "type": "lecture_mcq",
+      "section": "Ulnar Nerve Examination",
+      "source_question_number": "Generated Q8",
+      "question": "Which action is used in the supplied instructions to assess ulnar nerve motor function?",
+      "options": [
+        "A. Wrist extension",
+        "B. Finger abduction and adduction",
+        "C. Thumb opposition only",
+        "D. Elbow extension"
+      ],
+      "correct_answer": "B. Finger abduction and adduction",
+      "answer_basis": "Generated from the user-provided OSCE examination instructions.",
+      "explanation_from_source": "The instructions ask the patient to abduct and adduct the fingers.",
+      "source": {
+        "file": "User-provided OSCE examination instructions",
+        "page": null
+      }
+    }
+  ],
+  "lecture_short_questions": [
+    {
+      "id": "ULW2-SQ-01",
+      "type": "lecture_short_question",
+      "question": "Which muscles/actions and sensory area are assessed during radial nerve examination in the supplied Skill Lab?",
+      "options": null,
+      "answer": "Brachioradialis and triceps strength, wrist and finger extension, sensation over the dorsum of the hand, and triceps tendon jerk.",
+      "source": {
+        "file": "Skill Lab – Unit 3: Shoulder Joint and Radial Nerve Examination",
+        "page": 2
+      },
+      "status": "Answer summarized from the examination points in the supplied Skill Lab."
+    }
+  ],
+  "quick_recall": [
+    {
+      "id": "ULW2-QR-01",
+      "type": "generated_quick_recall",
+      "category": "Nerve → Motor function",
+      "question": "Which movements are weakened in the radial nerve palsy described in the case?",
+      "answer": "Wrist and MCP joint extension.",
+      "source_basis": "Skill Lab case scenario.",
+      "source": {
+        "file": "Skill Lab – Unit 3: Shoulder Joint and Radial Nerve Examination",
+        "pages": [
+          5
+        ]
+      },
+      "tags": [
+        "radial nerve",
+        "wrist drop"
+      ]
+    },
+    {
+      "id": "ULW2-QR-02",
+      "type": "generated_quick_recall",
+      "category": "Nerve → Sensory distribution",
+      "question": "Where was sensory loss reported in the case?",
+      "answer": "Over the anatomical snuffbox.",
+      "source_basis": "Skill Lab case scenario.",
+      "source": {
+        "file": "Skill Lab – Unit 3: Shoulder Joint and Radial Nerve Examination",
+        "pages": [
+          5
+        ]
+      },
+      "tags": [
+        "radial nerve",
+        "sensation"
+      ]
+    },
+    {
+      "id": "ULW2-QR-03",
+      "type": "generated_quick_recall",
+      "category": "Radial nerve examination",
+      "question": "Which muscles are specifically mentioned for motor testing in the radial nerve examination?",
+      "answer": "Brachioradialis and triceps, in addition to wrist and finger extensors.",
+      "source_basis": "Skill Lab examination sequence.",
+      "source": {
+        "file": "Skill Lab – Unit 3: Shoulder Joint and Radial Nerve Examination",
+        "pages": [
+          2
+        ]
+      },
+      "tags": [
+        "brachioradialis",
+        "triceps",
+        "extension"
+      ]
+    },
+    {
+      "id": "ULW2-QR-04",
+      "type": "generated_quick_recall",
+      "category": "Radial nerve examination",
+      "question": "Which reflex is checked in the supplied radial nerve examination?",
+      "answer": "Triceps tendon jerk.",
+      "source_basis": "Skill Lab examination sequence.",
+      "source": {
+        "file": "Skill Lab – Unit 3: Shoulder Joint and Radial Nerve Examination",
+        "pages": [
+          2
+        ]
+      },
+      "tags": [
+        "radial nerve",
+        "triceps reflex"
+      ]
+    },
+    {
+      "id": "ULW2-QR-05",
+      "type": "generated_quick_recall",
+      "category": "Median nerve examination",
+      "question": "Which simple hand sign is requested to assess median/AIN motor function?",
+      "answer": "The OK sign.",
+      "source_basis": "User-provided examination instructions.",
+      "source": {
+        "file": "User-provided OSCE examination instructions",
+        "pages": []
+      },
+      "tags": [
+        "median nerve",
+        "AIN",
+        "OK sign"
+      ]
+    },
+    {
+      "id": "ULW2-QR-06",
+      "type": "generated_quick_recall",
+      "category": "Ulnar nerve examination",
+      "question": "Which movements assess ulnar motor function in the supplied instructions?",
+      "answer": "Finger abduction and adduction.",
+      "source_basis": "User-provided examination instructions.",
+      "source": {
+        "file": "User-provided OSCE examination instructions",
+        "pages": []
+      },
+      "tags": [
+        "ulnar nerve",
+        "interossei"
+      ]
+    },
+    {
+      "id": "ULW2-QR-07",
+      "type": "generated_quick_recall",
+      "category": "Clinical correlation",
+      "question": "Midshaft humeral fracture is classically associated with injury to which nerve?",
+      "answer": "Radial nerve.",
+      "source_basis": "User-provided clinical correlations.",
+      "source": {
+        "file": "User-provided OSCE examination instructions",
+        "pages": []
+      },
+      "tags": [
+        "humerus",
+        "radial nerve"
+      ]
+    },
+    {
+      "id": "ULW2-QR-08",
+      "type": "generated_quick_recall",
+      "category": "Clinical correlation",
+      "question": "Surgical neck fracture places which nerve at risk?",
+      "answer": "Axillary nerve.",
+      "source_basis": "User-provided clinical correlations.",
+      "source": {
+        "file": "User-provided OSCE examination instructions",
+        "pages": []
+      },
+      "tags": [
+        "surgical neck",
+        "axillary nerve"
+      ]
+    },
+    {
+      "id": "ULW2-QR-09",
+      "type": "generated_quick_recall",
+      "category": "Clinical correlation",
+      "question": "Which structures may be injured in supracondylar humeral fracture?",
+      "answer": "Brachial artery and median/AIN nerve.",
+      "source_basis": "User-provided clinical correlations.",
+      "source": {
+        "file": "User-provided OSCE examination instructions",
+        "pages": []
+      },
+      "tags": [
+        "supracondylar",
+        "brachial artery",
+        "median nerve"
+      ]
+    },
+    {
+      "id": "ULW2-QR-10",
+      "type": "generated_quick_recall",
+      "category": "Trauma assessment",
+      "question": "What is the first management framework in a patient with arm trauma?",
+      "answer": "ABCDE assessment.",
+      "source_basis": "Skill Lab tutor instruction.",
+      "source": {
+        "file": "Skill Lab – Unit 3: Shoulder Joint and Radial Nerve Examination",
+        "pages": [
+          3
+        ]
+      },
+      "tags": [
+        "trauma",
+        "ABCDE"
+      ]
+    }
+  ],
+  "osce_practice": {
+    "section_title": "Week 2 OSCE Practice",
+    "osce_examination": [
+      {
+        "id": "ULW2-OSCE-01",
+        "type": "osce_examination",
+        "title": "Upper-Limb Neurovascular Examination After Humeral Fracture",
+        "related_topic": "Arm trauma, radial nerve examination, and distal neurovascular assessment",
+        "linked_case": "Nidhal Hassan",
+        "duration_minutes": 8,
+        "candidate_instructions": "Assess the upper-limb neurovascular status of a patient with a suspected humeral fracture. Explain the examination, compare both limbs, and document the findings.",
+        "patient_scenario": "A 67-year-old woman presents with severe upper-arm pain and swelling after falling on an outstretched hand. The case describes mid-arm tenderness and radial nerve palsy.",
+        "examination_steps": [
+          {
+            "step": 1,
+            "heading": "Preparation and initial trauma assessment",
+            "actions": [
+              "Introduce yourself, confirm the patient's identity, explain the examination and obtain consent.",
+              "Perform hand hygiene and ensure appropriate exposure and privacy.",
+              "In a trauma patient, begin with the ABCDE approach before focusing on the fracture.",
+              "Avoid passive movement in this acute injury scenario."
+            ]
+          },
+          {
+            "step": 2,
+            "heading": "Inspection",
+            "actions": [
+              "Inspect the affected upper limb for swelling, bruising/ecchymosis, deformity and skin colour changes.",
+              "Observe the position in which the patient holds the arm.",
+              "Compare with the unaffected limb."
+            ]
+          },
+          {
+            "step": 3,
+            "heading": "Vascular assessment",
+            "actions": [
+              "Assess hand colour and temperature.",
+              "Assess capillary refill.",
+              "Palpate the brachial and radial pulses and compare with the unaffected side.",
+              "Pay particular attention to the neurovascular bundle, including the deep brachial artery in a humeral shaft injury."
+            ]
+          },
+          {
+            "step": 4,
+            "heading": "Radial nerve assessment",
+            "actions": [
+              "Test elbow flexion strength through brachioradialis function.",
+              "Test triceps strength and elbow extension.",
+              "Ask the patient to extend the wrist.",
+              "Ask the patient to extend the fingers and MCP joints.",
+              "Assess sensation over the dorsum of the hand, including the anatomical snuffbox area.",
+              "Check the triceps tendon jerk."
+            ]
+          },
+          {
+            "step": 5,
+            "heading": "Median nerve assessment",
+            "actions": [
+              "Ask the patient to make an OK sign.",
+              "Assess relevant median nerve motor function.",
+              "Test sensation in the median nerve sensory distribution."
+            ]
+          },
+          {
+            "step": 6,
+            "heading": "Ulnar nerve assessment",
+            "actions": [
+              "Ask the patient to abduct and adduct the fingers.",
+              "Test sensation over the ulnar side of the hand."
+            ]
+          },
+          {
+            "step": 7,
+            "heading": "Comparison, documentation and reassessment",
+            "actions": [
+              "Compare motor, sensory and vascular findings with the unaffected limb.",
+              "Document the findings clearly, including any deficit and the time of assessment.",
+              "Repeat the neurovascular assessment after immobilization."
+            ]
+          }
+        ],
+        "expected_findings": [
+          "The case reports swelling and extensive ecchymosis of the upper arm with mid-arm tenderness.",
+          "Brachial and radial pulses are reported normal in the case.",
+          "Radial nerve palsy is described by inability to extend the wrist and MCP joints.",
+          "Sensory loss is reported over the anatomical snuffbox.",
+          "Median and ulnar nerve examinations are reported normal in the case."
+        ],
+        "clinical_interpretation": {
+          "likely_pattern": "Humeral shaft fracture associated with radial nerve palsy.",
+          "supporting_features": [
+            "Mid-arm tenderness and swelling after a fall.",
+            "Wrist and MCP extension weakness.",
+            "Sensory loss over the anatomical snuffbox."
+          ],
+          "anatomical_correlation": [
+            "Midshaft humeral fracture → radial nerve injury → wrist drop.",
+            "Surgical neck fracture → axillary nerve injury.",
+            "Supracondylar fracture → possible brachial artery and median/AIN injury."
+          ],
+          "source": [
+            {
+              "file": "Skill Lab – Unit 3: Shoulder Joint and Radial Nerve Examination",
+              "pages": [
+                2,
+                3,
+                5
+              ]
+            },
+            {
+              "file": "User-provided OSCE examination instructions",
+              "pages": []
+            }
+          ]
+        },
+        "university_examiner_checklist": {
+          "total_marks": 10,
+          "items": [
+            {
+              "id": "ULW2-OSCE-01-C01",
+              "section": "Preparation and trauma approach",
+              "mark": 1,
+              "criteria": [
+                "Introduces self, explains examination and obtains consent",
+                "Performs hand hygiene and considers privacy",
+                "Starts with ABCDE in trauma"
+              ]
+            },
+            {
+              "id": "ULW2-OSCE-01-C02",
+              "section": "Inspection",
+              "mark": 1,
+              "criteria": [
+                "Inspects swelling, bruising, deformity and skin colour",
+                "Compares with the unaffected limb"
+              ]
+            },
+            {
+              "id": "ULW2-OSCE-01-C03",
+              "section": "Vascular assessment",
+              "mark": 2,
+              "criteria": [
+                "Checks colour and temperature",
+                "Checks capillary refill",
+                "Palpates brachial and radial pulses",
+                "Considers deep brachial artery in humeral shaft injury"
+              ]
+            },
+            {
+              "id": "ULW2-OSCE-01-C04",
+              "section": "Radial nerve",
+              "mark": 2,
+              "criteria": [
+                "Tests brachioradialis and triceps function",
+                "Tests wrist and finger/MCP extension",
+                "Tests dorsal hand/snuffbox sensation",
+                "Checks triceps tendon jerk"
+              ]
+            },
+            {
+              "id": "ULW2-OSCE-01-C05",
+              "section": "Median and ulnar nerves",
+              "mark": 2,
+              "criteria": [
+                "Requests OK sign and assesses median motor function",
+                "Tests median sensory function",
+                "Tests finger abduction and adduction",
+                "Tests ulnar-side hand sensation"
+              ]
+            },
+            {
+              "id": "ULW2-OSCE-01-C06",
+              "section": "Completion",
+              "mark": 2,
+              "criteria": [
+                "Compares findings with unaffected limb",
+                "Documents neurovascular findings",
+                "Repeats neurovascular assessment after immobilization"
+              ]
+            }
+          ]
+        },
+        "common_mistakes": [
+          "Starting with the fracture rather than the ABCDE trauma approach.",
+          "Performing passive movement in the acute injury scenario.",
+          "Failing to assess both vascular and neurological status.",
+          "Omitting the median or ulnar nerve examination.",
+          "Failing to compare with the unaffected limb.",
+          "Failing to document findings or repeat the neurovascular assessment after immobilization."
+        ],
+        "critical_steps": [
+          "ABCDE assessment before focused fracture management.",
+          "Assessment of brachial/radial pulses and distal perfusion.",
+          "Focused radial nerve motor, sensory and reflex examination.",
+          "Median and ulnar nerve assessment.",
+          "Documentation and repeat neurovascular assessment after immobilization."
+        ],
+        "related_image_inventory_cases": [
+          "Nidhal Hassan"
+        ]
+      }
+    ],
+    "focused_history": [
+      {
+        "id": "ULW2-HIST-01",
+        "type": "focused_history",
+        "title": "Focused History – Acute Upper-Arm Injury",
+        "linked_osce_id": "ULW2-OSCE-01",
+        "linked_case": "Nidhal Hassan",
+        "candidate_instructions": "Take a focused history from a patient presenting with acute upper-arm pain following a fall.",
+        "standardized_patient_profile": {
+          "name": "Nidhal Hassan",
+          "age": 67,
+          "sex": "Female",
+          "occupation": "Retired teacher",
+          "presenting_complaint": "Upper-arm pain for 3 hours after falling on an outstretched hand."
+        },
+        "question_sequence": [
+          {
+            "category": "Presenting complaint and onset",
+            "questions": [
+              "Where is the pain?",
+              "When did it start?",
+              "What happened immediately before the pain started?"
+            ],
+            "purpose": "Establish the site, duration and mechanism of injury."
+          },
+          {
+            "category": "Pain assessment",
+            "questions": [
+              "How would you describe the pain?",
+              "How severe is it from 0 to 10?",
+              "Is it constant or intermittent?",
+              "Is it getting better or worse?",
+              "What makes it worse or better?"
+            ],
+            "purpose": "Characterize the acute pain."
+          },
+          {
+            "category": "Associated symptoms and trauma",
+            "questions": [
+              "Have you noticed swelling or bruising?",
+              "Did you lose consciousness?",
+              "Do you have numbness, tingling or weakness in the hand?",
+              "Can you move your wrist and fingers normally?"
+            ],
+            "purpose": "Identify associated injury features and possible neurovascular symptoms."
+          },
+          {
+            "category": "Relevant medical history",
+            "questions": [
+              "Do you have any medical conditions?",
+              "What regular medications do you take?",
+              "Do you have any drug allergies?"
+            ],
+            "purpose": "Establish comorbidities, medication use and allergies relevant to acute trauma care."
+          },
+          {
+            "category": "Family and social history",
+            "questions": [
+              "Is there any relevant family history?",
+              "Do you smoke?",
+              "Do you drink alcohol?"
+            ],
+            "purpose": "Record the supplied family and social history."
+          }
+        ],
+        "expected_case_answers": {
+          "name": "Nidhal Hassan",
+          "age": "67 years",
+          "sex": "Female",
+          "duration": "3 hours",
+          "mechanism": "Fall on an outstretched hand while walking in the garden",
+          "pain_character": "Sharp",
+          "severity": "9/10",
+          "course": "Progressive",
+          "aggravating_factors": [
+            "Movement"
+          ],
+          "associated_symptoms": [
+            "Swelling",
+            "Bluish discoloration/ecchymosis of the upper arm"
+          ],
+          "loss_of_consciousness": "No",
+          "occupation": "Retired teacher",
+          "past_medical_history": [
+            "Hypertension for 10 years",
+            "Ischemic heart disease for 3 years"
+          ],
+          "family_history": "Sister with multiple myeloma",
+          "smoking": "Does not smoke",
+          "alcohol": "Does not drink alcohol",
+          "medications": [
+            "Oral antihypertensive",
+            "Antiplatelet",
+            "Lipid-lowering agent"
+          ],
+          "drug_allergy": "No known drug allergy"
+        },
+        "clinical_reasoning": [
+          {
+            "finding": "Fall on an outstretched hand",
+            "relevance": "Mechanism of injury supplied in the standardized-patient scenario."
+          },
+          {
+            "finding": "Upper-arm swelling, ecchymosis and mid-arm tenderness",
+            "relevance": "Findings described in the physical examination section of the case."
+          },
+          {
+            "finding": "Inability to extend the wrist and MCP joints with sensory loss over the snuffbox",
+            "relevance": "The case identifies these findings as radial nerve palsy."
+          },
+          {
+            "finding": "Hypertension and ischemic heart disease with antiplatelet use",
+            "relevance": "Relevant background when considering acute management and analgesic prescribing."
+          }
+        ],
+        "history_summary_template": "Nidhal Hassan is a 67-year-old woman presenting with 3 hours of sharp, severe (9/10), progressive upper-arm pain after falling on an outstretched hand while walking in the garden. The pain is aggravated by movement and is associated with upper-arm swelling and bluish discoloration. She reports no loss of consciousness. Her medical history includes hypertension for 10 years and ischemic heart disease for 3 years. She takes oral antihypertensive, antiplatelet and lipid-lowering medication, has no reported drug allergy, does not smoke or drink alcohol, and has a sister with multiple myeloma.",
+        "source_limitations": [
+          "The standardized-patient sheet gives left arm pain in the presenting complaint but describes right-sided swelling and examination findings; the station therefore refers to the affected upper arm without assigning a side.",
+          "The source asks the student to prescribe an analgesic but does not specify a preferred drug or dose.",
+          "Responses to questions about hand numbness/tingling are not provided in the standardized-patient sheet and should be elicited rather than assumed."
+        ]
+      }
+    ]
+  },
+  "osce_framework": {
+    "type": "generated_osce_framework",
+    "station": "Upper-limb neurovascular examination after humeral fracture",
+    "source_status": "Integrated from the supplied Skill Lab examination sequence and user-provided examination points.",
+    "checklist": [
+      "ABCDE trauma assessment.",
+      "Inspect the affected arm and compare with the unaffected limb.",
+      "Assess distal perfusion and brachial/radial pulses.",
+      "Assess radial nerve motor, sensory and reflex function.",
+      "Assess median nerve motor and sensory function, including the OK sign.",
+      "Assess ulnar nerve motor and sensory function.",
+      "Document findings and repeat neurovascular assessment after immobilization."
+    ],
+    "limitations": [
+      "The supplied Skill Lab states that passive movement is contraindicated in this acute trauma scenario.",
+      "The source does not provide a specific analgesic prescription or dose."
+    ]
+  },
+  "image_inventory": [],
+  "deferred_content": {
+    "clinical_case_mcqs": []
+  },
+  "quality_notes": []
+}
